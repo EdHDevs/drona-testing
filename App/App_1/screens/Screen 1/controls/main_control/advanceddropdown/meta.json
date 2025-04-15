@@ -70,17 +70,17 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 8,
-        "h": 8,
+        "w": 24,
+        "h": 9,
         "x": 0,
-        "y": 17
+        "y": 16
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
-        "w": 8,
-        "h": 8,
+        "w": 24,
+        "h": 9,
         "x": 0,
-        "y": 17
+        "y": 16
     },
     "disabled": false,
     "enable_ui_input": true,
