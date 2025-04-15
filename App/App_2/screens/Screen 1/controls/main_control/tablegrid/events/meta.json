@@ -1,0 +1,68 @@
+{
+    "row_select": {
+        "events": [
+            "click"
+        ],
+        "selector": "[eventname = 'row_select']"
+    },
+    "add_click": {
+        "events": [
+            "click"
+        ],
+        "selector": "[eventname = 'add_click']"
+    },
+    "update_click": {
+        "events": [
+            "click"
+        ],
+        "selector": "[eventname = 'update_click']"
+    },
+    "delete_click": {
+        "events": [
+            "click"
+        ],
+        "selector": "[eventname = 'delete_click']"
+    },
+    "refresh_click": {
+        "events": [
+            "click"
+        ],
+        "selector": "[eventname = 'refresh_click']"
+    },
+    "save_changes": {
+        "events": [
+            "click"
+        ],
+        "selector": "[eventname = 'save_changes']"
+    },
+    "action1_click": {
+        "events": [
+            "click"
+        ],
+        "selector": "[eventname = 'action1_click']"
+    },
+    "action2_click": {
+        "events": [
+            "click"
+        ],
+        "selector": "[eventname = 'action2_click']"
+    },
+    "action3_click": {
+        "events": [
+            "click"
+        ],
+        "selector": "[eventname = 'action3_click']"
+    },
+    "action4_click": {
+        "events": [
+            "click"
+        ],
+        "selector": "[eventname = 'action4_click']"
+    },
+    "action5_click": {
+        "events": [
+            "click"
+        ],
+        "selector": "[eventname = 'action5_click']"
+    }
+}
