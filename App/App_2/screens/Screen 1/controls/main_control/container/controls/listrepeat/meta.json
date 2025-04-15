@@ -46,7 +46,7 @@
     "data_type": "list",
     "defaultCursor": "",
     "delete_confirmation": false,
-    "desktopSectionHeight": 15,
+    "desktopSectionHeight": 22,
     "dfmv_selected": "default",
     "dhq_config": {
         "iterable": false,
@@ -82,15 +82,15 @@
     "dhqEvtConverted": true,
     "dhqGrid": {
         "w": 24,
-        "h": 58,
+        "h": 88,
         "x": 0,
-        "y": 30
+        "y": 0
     },
     "dhqGridDesktop": {
         "w": 24,
-        "h": 58,
+        "h": 88,
         "x": 0,
-        "y": 30
+        "y": 0
     },
     "dhqMGridChanged": false,
     "disabled": false,
@@ -168,7 +168,7 @@
     "label_text_alignment": "left",
     "label_text_color": "var(--DHQ-primary-font-color)",
     "max_Repetition": 0,
-    "mobileSectionHeight": 15,
+    "mobileSectionHeight": 22,
     "offset": 0,
     "padding": {
         "left": {
