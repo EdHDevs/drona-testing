@@ -1,8 +1,0 @@
-{
-    "on_user_input": {
-        "events": [
-            "on_user_input"
-        ],
-        "selector": ""
-    }
-}
