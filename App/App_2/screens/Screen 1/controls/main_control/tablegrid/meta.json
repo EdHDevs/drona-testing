@@ -61,14 +61,14 @@
     "ctrl_id": "",
     "cursorKey": "",
     "custom_column_widths": [
-        77,
-        145,
-        182,
-        241,
+        76,
         143,
-        123,
-        136,
-        83
+        180,
+        238,
+        141,
+        121,
+        134,
+        82
     ],
     "custom_column_widths_mapping": {},
     "custom_label_save_btn": "Save Changes",
@@ -136,15 +136,15 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 22,
-        "h": 47,
+        "w": 9,
+        "h": 87,
         "x": 0,
         "y": 0
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
-        "w": 22,
-        "h": 47,
+        "w": 9,
+        "h": 87,
         "x": 0,
         "y": 0
     },
@@ -696,7 +696,7 @@
     "required": false,
     "row_even_color": "var(--DHQ-neutral-bg-color)",
     "row_odd_color": "var(--DHQ-neutral-bg-color)",
-    "rowsVisible": 7,
+    "rowsVisible": 15,
     "sb_mode": "JS",
     "search_show": true,
     "searchPlaceholder": "Search",
