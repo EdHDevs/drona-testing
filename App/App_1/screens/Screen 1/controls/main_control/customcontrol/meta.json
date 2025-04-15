@@ -37,17 +37,17 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 16,
-        "h": 63,
-        "x": 1,
-        "y": 23
+        "w": 24,
+        "h": 66,
+        "x": 0,
+        "y": 24
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
-        "w": 16,
-        "h": 63,
-        "x": 1,
-        "y": 24
+        "w": 24,
+        "h": 66,
+        "x": 0,
+        "y": 25
     },
     "disabled": false,
     "eventMapping": {},
@@ -81,6 +81,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
+    "gridDesktopOrigin": null,
     "hidden": false,
     "input_control_height": "2.5rem",
     "input_font_color": "var(--DHQ-primary-font-color)",
