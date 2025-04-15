@@ -1,0 +1,8 @@
+{
+    "Button_Clicked": {
+        "events": [
+            "click"
+        ],
+        "selector": "[eventname = 'Button Clicked']"
+    }
+}
