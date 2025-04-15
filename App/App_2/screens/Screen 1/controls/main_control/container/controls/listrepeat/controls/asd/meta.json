@@ -32,16 +32,16 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 26,
-        "h": 15,
-        "x": 0,
-        "y": 0
+        "w": 20,
+        "h": 9,
+        "x": 3,
+        "y": 6
     },
     "dhqGridDesktop": {
-        "w": 26,
-        "h": 15,
-        "x": 0,
-        "y": 0
+        "w": 20,
+        "h": 9,
+        "x": 3,
+        "y": 6
     },
     "dhqMGridChanged": false,
     "disabled": false,
