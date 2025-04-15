@@ -80,15 +80,15 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 8,
-        "h": 40,
+        "w": 15,
+        "h": 87,
         "x": 9,
         "y": 0
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
-        "w": 8,
-        "h": 40,
+        "w": 15,
+        "h": 87,
         "x": 9,
         "y": 0
     },
