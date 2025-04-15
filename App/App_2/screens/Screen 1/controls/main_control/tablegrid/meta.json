@@ -137,14 +137,14 @@
     "dhqEvtConverted": true,
     "dhqGrid": {
         "w": 9,
-        "h": 87,
+        "h": 99,
         "x": 0,
         "y": 0
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 9,
-        "h": 87,
+        "h": 99,
         "x": 0,
         "y": 0
     },
@@ -696,7 +696,7 @@
     "required": false,
     "row_even_color": "var(--DHQ-neutral-bg-color)",
     "row_odd_color": "var(--DHQ-neutral-bg-color)",
-    "rowsVisible": 15,
+    "rowsVisible": 17,
     "sb_mode": "JS",
     "search_show": true,
     "searchPlaceholder": "Search",
