@@ -759,7 +759,7 @@
     "table_data_font_weight": "var(--DHQ-bold)",
     "table_data_text_color": "var(--DHQ-primary-font-color)",
     "table_data_textAlign": "left",
-    "table_header_bgcolor": "var(--DHQ-control-header-bg)",
+    "table_header_bgcolor": "var(--DHQ-colorpalet-three)",
     "table_header_font_size": "var(--DHQ-small-font)",
     "table_header_font_size_unit": "",
     "table_header_font_weight": "var(--DHQ-bold)",
