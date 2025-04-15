@@ -32,16 +32,16 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 20,
+        "w": 7,
         "h": 9,
-        "x": 3,
-        "y": 6
+        "x": 11,
+        "y": 24
     },
     "dhqGridDesktop": {
-        "w": 20,
+        "w": 7,
         "h": 9,
-        "x": 3,
-        "y": 6
+        "x": 11,
+        "y": 24
     },
     "dhqMGridChanged": false,
     "disabled": false,
@@ -96,7 +96,7 @@
     "label_position": "top",
     "label_text_alignment": "left",
     "label_text_color": "var(--DHQ-primary-font-color)",
-    "parent_id": "list_repeat_c221RLfR7Mf1XkiaCPaEw",
+    "parent_id": "",
     "required": false,
     "show_description": false,
     "show_dfm": false,
