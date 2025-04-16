@@ -1,10 +1,10 @@
 {
   "PackageWithNewControls": true,
-  "releaseNotes": "a",
-  "usedFieldsName": "",
+  "releaseNotes": "query",
+  "usedFieldsName": "Header",
   "metadata": {},
   "env": "prod",
-  "newVersion": "0.0.1",
+  "newVersion": "0.0.2",
   "pluginId": "15",
   "subCatList": "",
   "multistepAuthUsedInAppList": [],
@@ -139,6 +139,11 @@
       "custom_font_list": []
     }
   },
-  "filesUsedInControlJSON": [],
+  "filesUsedInControlJSON": [
+    {
+      "sourceURL": "/static/css/vendor/theme.css",
+      "destinationFolder": "css/vendors/theme.css"
+    }
+  ],
   "git_branch_id": "1"
 }
