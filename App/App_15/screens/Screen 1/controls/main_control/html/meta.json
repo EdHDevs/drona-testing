@@ -47,15 +47,15 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 6,
-        "h": 8,
+        "w": 18,
+        "h": 15,
         "x": 2,
-        "y": 97
+        "y": 98
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
-        "w": 6,
-        "h": 8,
+        "w": 18,
+        "h": 15,
         "x": 2,
         "y": 98
     },
