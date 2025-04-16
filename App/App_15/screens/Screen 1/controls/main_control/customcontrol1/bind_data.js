@@ -1,5 +1,5 @@
 {
-    "text": "static text in bind data",
+    "text": "static texssst in bind data",
     "data": [
         {
             "uid": 1,
