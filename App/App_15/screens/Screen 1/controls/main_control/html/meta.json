@@ -57,7 +57,7 @@
         "w": 18,
         "h": 15,
         "x": 2,
-        "y": 98
+        "y": 133
     },
     "disabled": false,
     "display_label": "HTML",
@@ -94,6 +94,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
+    "gridDesktopOrigin": null,
     "hidden": false,
     "input_control_height": "2.5rem",
     "input_font_color": "var(--DHQ-primary-font-color)",
