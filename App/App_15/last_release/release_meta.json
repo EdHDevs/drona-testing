@@ -1,10 +1,10 @@
 {
   "PackageWithNewControls": true,
-  "releaseNotes": "query",
-  "usedFieldsName": "Header",
+  "releaseNotes": "new",
+  "usedFieldsName": "dhq_hrbreadcrumb,Header,dhq_json_viewer,dhq_grouped_menu,Separator,dhq_collapsible_menu",
   "metadata": {},
   "env": "prod",
-  "newVersion": "0.0.2",
+  "newVersion": "0.0.3",
   "pluginId": "15",
   "subCatList": "",
   "multistepAuthUsedInAppList": [],
@@ -140,6 +140,62 @@
     }
   },
   "filesUsedInControlJSON": [
+    {
+      "sourceURL": "/static/css/vendor/codemirror_lib/foldgutter.min.css",
+      "destinationFolder": "css/vendors/codemirror_lib/foldgutter.min.css"
+    },
+    {
+      "sourceURL": "/static/css/vendor/codemirror_lib/lint.min.css",
+      "destinationFolder": "css/vendors/codemirror_lib/lint.min.css"
+    },
+    {
+      "sourceURL": "/static/css/vendor/codemirror_lib/codemirror.min.css",
+      "destinationFolder": "css/vendors/codemirror_lib/codemirror.min.css"
+    },
+    {
+      "sourceURL": "/static/js/vendor/codemirror_lib/foldgutter.min.js",
+      "destinationFolder": "js/vendors/codemirror_lib/foldgutter.min.js"
+    },
+    {
+      "sourceURL": "/static/js/vendor/codemirror_lib/foldcode.min.js",
+      "destinationFolder": "js/vendors/codemirror_lib/foldcode.min.js"
+    },
+    {
+      "sourceURL": "/static/js/vendor/codemirror_lib/brace-fold.min.js",
+      "destinationFolder": "js/vendors/codemirror_lib/brace-fold.min.js"
+    },
+    {
+      "sourceURL": "/static/js/vendor/codemirror_lib/matchbrackets.min.js",
+      "destinationFolder": "js/vendors/codemirror_lib/matchbrackets.min.js"
+    },
+    {
+      "sourceURL": "/static/js/vendor/codemirror_lib/lint.min.js",
+      "destinationFolder": "js/vendors/codemirror_lib/lint.min.js"
+    },
+    {
+      "sourceURL": "/static/js/vendor/codemirror_lib/jsonlint.min.js",
+      "destinationFolder": "js/vendors/codemirror_lib/jsonlint.min.js"
+    },
+    {
+      "sourceURL": "/static/js/vendor/codemirror_lib/json-lint.min.js",
+      "destinationFolder": "js/vendors/codemirror_lib/json-lint.min.js"
+    },
+    {
+      "sourceURL": "/static/js/vendor/codemirror_lib/javascript.min.js",
+      "destinationFolder": "js/vendors/codemirror_lib/javascript.min.js"
+    },
+    {
+      "sourceURL": "/static/js/vendor/codemirror_lib/closebrackets.min.js",
+      "destinationFolder": "js/vendors/codemirror_lib/closebrackets.min.js"
+    },
+    {
+      "sourceURL": "/static/js/vendor/codemirror_lib/autorefresh.min.js",
+      "destinationFolder": "js/vendors/codemirror_lib/autorefresh.min.js"
+    },
+    {
+      "sourceURL": "/static/js/vendor/codemirror_lib/codemirror.min.js",
+      "destinationFolder": "js/vendors/codemirror_lib/codemirror.min.js"
+    },
     {
       "sourceURL": "/static/css/vendor/theme.css",
       "destinationFolder": "css/vendors/theme.css"
