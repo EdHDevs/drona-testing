@@ -8,7 +8,15 @@
     "cid": "c590RFMqSWT7WbcW1B1Og",
     "class_name": "test",
     "ctrl_id": "",
-    "currentData": 0,
+    "currentData": {
+        "text": "static text in bind data",
+        "data": [
+            {
+                "uid": 1,
+                "name": "John"
+            }
+        ]
+    },
     "custom_actions": [],
     "data_submission_enabled": true,
     "data_type": "string",
@@ -37,14 +45,14 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 16,
+        "w": 19,
         "h": 35,
         "x": 2,
         "y": 62
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
-        "w": 16,
+        "w": 19,
         "h": 35,
         "x": 2,
         "y": 62
@@ -117,7 +125,7 @@
     "show_tooltip": false,
     "sid": "sc590RFMqSWT7WbcW1B1Og",
     "tabIndex": "",
-    "textarea_data": "<div id=\"antd-button-root\"></div>\n\n<script type=\"text/javascript\">\n  function waitUntilReady(callback) {\n    const interval = setInterval(() => {\n      const isReady = window.React && window.ReactDOM && window.antd;\n\n      console.log('[CHECK] React:', !!window.React, 'ReactDOM:', !!window.ReactDOM, 'antd:', !!window.antd);\n\n      if (isReady) {\n        clearInterval(interval);\n        console.log('[READY] All libraries loaded');\n        callback();\n      }\n    }, 200);\n\n    setTimeout(() => {\n      console.error('[ERROR] Required libraries not loaded after 5s');\n    }, 5000);\n  }\n\n  waitUntilReady(() => {\n    try {\n      const { createElement } = React;\n      const { render } = ReactDOM;\n      const { Button } = antd;\n\n      const App = () =>\n        createElement(\n          'div',\n          { style: { padding: '20px' } },\n          createElement(\n            Button,\n            {\n              type: 'primary',\n              onClick: () => console.log('✅ AntD Button Clicked')\n            },\n            'Click Me'\n          )\n        );\n\n      render(createElement(App), document.getElementById('antd-button-root'));\n    } catch (err) {\n      console.error('[RENDER ERROR]', err);\n    }\n  });\n</script>",
+    "textarea_data": "<html>\n  <head>\n    <link\n      rel=\"stylesheet\"\n      href=\"https://unpkg.com/antd@4.24.13/dist/antd.min.css\"\n    />\n    <style>\n      input[type=\"text\"] {\n        width: 100%;\n        border: 2px solid #aaa;\n        border-radius: 4px;\n        margin: 8px 1px;\n        outline: none;\n        padding: 8px;\n        box-sizing: border-box;\n        transition: 0.3s;\n      }\n\n      input[type=\"text\"]:focus {\n        border-color: dodgerBlue;\n        box-shadow: 0 0 8px 0 dodgerBlue;\n      }\n    </style>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n\n    <!-- React, ReactDOM, Babel, AntD -->\n    <script src=\"https://unpkg.com/react@17/umd/react.development.js\" crossorigin></script>\n    <script src=\"https://unpkg.com/react-dom@17/umd/react-dom.development.js\" crossorigin></script>\n    <script src=\"https://unpkg.com/@babel/standalone/babel.min.js\"></script>\n    <script src=\"https://unpkg.com/antd@4.24.13/dist/antd.min.js\"></script>\n\n    <script type=\"text/babel\">\n      const { useState, useEffect } = React;\n      const { Button } = antd;\n\n      const App = () => {\n        const [inputValue, setInputValue] = useState('');\n\n        const callback = function (payload) {\n          if (payload.type === \"setValue\") {\n            setInputValue(payload.value);\n          }\n          if (payload.type === \"getValue\") {\n            CI.returnValue(inputValue);\n          }\n          if (payload.type === \"onReload\") {\n            setInputValue(payload.value.formulaData);\n          }\n          if (payload.type === \"runValidation\") {\n            if (inputValue.includes('@')) {\n              CI.returnValidationResult(false);\n            } else {\n              CI.returnValidationResult(true);\n            }\n          }\n        };\n\n        CI.init(callback);\n\n        const handleInputChange = (e) => {\n          let value = e.target.value;\n          setInputValue(value);\n        };\n\n        useEffect(() => {\n          let errorMessages = [];\n          if (inputValue.includes('@')) {\n            errorMessages.push(\"Does not accept special character!\");\n          }\n\n          if (errorMessages.length > 0) {\n            CI.showError(errorMessages);\n          } else {\n            CI.clearError();\n            CI.triggerChange();\n            CI.triggerAction(\"on_change\");\n          }\n        }, [inputValue]);\n\n        const handleClick = () => {\n          console.log(\"✅ AntD Button clicked!\");\n          CI.triggerAction(\"on_click\");\n        };\n\n        return (\n          <div>\n            <h1>Input</h1>\n            <input\n              type=\"text\"\n              placeholder=\"Your name\"\n              value={inputValue}\n              onChange={handleInputChange}\n            />\n            <div style={{ marginTop: \"16px\" }}>\n              <Button type=\"primary\" onClick={handleClick}>\n                Submit\n              </Button>\n            </div>\n          </div>\n        );\n      };\n\n      ReactDOM.render(<App />, document.getElementById(\"root\"));\n    </script>\n  </body>\n</html>",
     "tip_description": "",
     "tooltip": "",
     "type": "input",
