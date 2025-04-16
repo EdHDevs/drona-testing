@@ -10,7 +10,7 @@
     "open_from": "right",
     "tray_outside_click": true,
     "enable_overflow_popup": false,
-    "page_nav_url": "screen-2",
+    "page_nav_url": "page2",
     "page_name": "Screen 2",
     "open_on_web": true,
     "menu_sticky_width": "30",
