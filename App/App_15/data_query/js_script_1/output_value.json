@@ -1,0 +1,11 @@
+{
+    "rawInput": "6478062302",
+    "numberOnly": "6478062302",
+    "national": "(647) 806-2302",
+    "international": "+1 647-806-2302",
+    "e164": "+16478062302",
+    "rfc3966": "tel:+1-647-806-2302",
+    "countryCode": 1,
+    "numberType": 2,
+    "isValid": true
+}
