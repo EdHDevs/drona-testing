@@ -34,6 +34,8 @@
             "dhq_alert",
             "Button1",
             "Button1",
+            "text",
+            "text",
             "text"
         ],
         "currentTableMap": {},
@@ -44,6 +46,16 @@
                 "alias": "textinput",
                 "id": "text_c98RKH8BpsPRtf7o9r7e",
                 "name": "Text Input"
+            },
+            {
+                "alias": "textinput1",
+                "id": "text_c145RIXQIT9sOyPOUGzEW",
+                "name": "Text Input"
+            },
+            {
+                "alias": "textinput2",
+                "id": "text_c159RvewXtoGfxtoeH2WJ",
+                "name": "Text Input"
             }
         ],
         "actionFlowParams": {},
@@ -53,6 +65,14 @@
         "controlNameIDMapping": {
             "textinput": {
                 "rf": "textinput",
+                "isNewField": false
+            },
+            "textinput1": {
+                "rf": "textinput1",
+                "isNewField": false
+            },
+            "textinput2": {
+                "rf": "textinput2",
                 "isNewField": false
             }
         },
