@@ -29,17 +29,35 @@
     "dhqEvtConverted": true,
     "id": "c5R2P2GJqAXF8qJkUtw",
     "formAppData": {
-        "adjustedHeightCtrlListForForms": [],
+        "adjustedHeightCtrlListForForms": [
+            "Header",
+            "dhq_alert",
+            "Button1",
+            "Button1",
+            "text"
+        ],
         "currentTableMap": {},
         "columnMappingWithControls": {},
         "nameKeywordMapping": [],
-        "nameKeywordMappingScratch": [],
+        "nameKeywordMappingScratch": [
+            {
+                "alias": "textinput",
+                "id": "text_c98RKH8BpsPRtf7o9r7e",
+                "name": "Text Input"
+            }
+        ],
         "actionFlowParams": {},
         "catSchemeInfo": {},
         "columnDatatypeObj": {},
-        "currentActiveGenerateMode": "Connector",
-        "controlNameIDMapping": {},
-        "containerRF": "grid_panel_c29R2arOOYOUNH7UGnNx"
+        "currentActiveGenerateMode": "Scratch",
+        "controlNameIDMapping": {
+            "textinput": {
+                "rf": "textinput",
+                "isNewField": false
+            }
+        },
+        "containerRF": "grid_panel_c77R1XyY83E05XVAJrGO",
+        "submitRF": "Button1_c94Rjpz48QPRQQpcIMUg"
     },
     "orderIndex": 0
 }
