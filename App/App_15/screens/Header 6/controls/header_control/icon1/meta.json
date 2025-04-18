@@ -7,7 +7,7 @@
     "border_color": "var(--DHQ-colorpalet-one)",
     "border_radius": "var(--DHQ-border-radius)",
     "border_radius_unit": "",
-    "border_size": "1",
+    "border_size": "0",
     "border_size_unit": "rem",
     "caching": false,
     "cid": "c433RzCElp0qKf9c2Qcjd",
@@ -66,16 +66,16 @@
     "dhqEvtConverted": true,
     "dhqGrid": {
         "w": 1,
-        "h": 4,
+        "h": 3,
         "x": 14,
-        "y": 0
+        "y": 1
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 1,
-        "h": 4,
+        "h": 3,
         "x": 14,
-        "y": 0
+        "y": 1
     },
     "disabled": false,
     "field_available_in_database_editor": false,
