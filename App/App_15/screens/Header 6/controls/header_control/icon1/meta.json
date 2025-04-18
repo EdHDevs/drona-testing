@@ -3,7 +3,7 @@
     "__dhq_formula_Dtype": "string",
     "__LiveData_Dtype": "string",
     "allow_options_addition_in_editor": true,
-    "background_color": "var(--DHQ-secondary-bg-color)",
+    "background_color": "var(--DHQ-colorpalet-one)",
     "border_color": "var(--DHQ-colorpalet-one)",
     "border_radius": "var(--DHQ-border-radius)",
     "border_radius_unit": "",
