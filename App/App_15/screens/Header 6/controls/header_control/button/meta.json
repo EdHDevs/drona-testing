@@ -115,7 +115,7 @@
         "concated_msgs": []
     },
     "formbuilder_theme": "var(--DHQ-border-color)",
-    "grid_dynamic_height": true,
+    "grid_dynamic_height": false,
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
