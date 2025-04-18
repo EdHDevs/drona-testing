@@ -726,7 +726,7 @@
     "show_dfm": true,
     "show_download": false,
     "show_filters": false,
-    "show_images": true,
+    "show_images": false,
     "show_keyValue": false,
     "show_new_property": true,
     "show_quickFilters": false,
