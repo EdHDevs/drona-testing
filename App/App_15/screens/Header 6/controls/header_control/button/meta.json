@@ -192,6 +192,6 @@
     "tooltip": "",
     "type": "non_input",
     "workflow_icon": "fas fa-arrow-right",
-    "wrap_text": true,
+    "wrap_text": false,
     "wrapper_content_alignment": "flex-start"
 }
