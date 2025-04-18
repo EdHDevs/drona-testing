@@ -65,13 +65,13 @@
         "w": 1,
         "h": 4,
         "x": 1,
-        "y": 3
+        "y": 2
     },
     "dhqGridDesktop": {
         "w": 1,
         "h": 4,
         "x": 1,
-        "y": 3
+        "y": 2
     },
     "dhqMGridChanged": false,
     "disabled": false,
