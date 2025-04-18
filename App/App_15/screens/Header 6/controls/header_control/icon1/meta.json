@@ -52,8 +52,8 @@
     "dhq_external_css": {
         "addCode": true,
         "data": {
-            "code": "  background: #f3f5f9 !important; /* Matches light grey from screenshot */\n  border: 1px solid #f3f5f9 !important;\n  border-radius: 8px !important;\n  height: 2.5rem;\n  display: flex;\n  align-items: center;\n  padding: 0 0.5rem;\n  width: 100%;",
-            "compiledCode": ".c433RzCElp0qKf9c2Qcjd,.sc433RzCElp0qKf9c2Qcjd {  background: #f3f5f9 !important;  /* Matches light grey from screenshot */  border: 1px solid #f3f5f9 !important;  border-radius: 8px !important;  height: 2.5rem;  display: flex;  align-items: center;  padding: 0 0.5rem;  width: 100%;}"
+            "code": " ",
+            "compiledCode": ""
         }
     },
     "dhq_nsf_replaced": false,
