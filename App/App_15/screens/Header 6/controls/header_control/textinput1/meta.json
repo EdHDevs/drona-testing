@@ -66,9 +66,9 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 17,
+        "w": 19,
         "h": 5,
-        "x": 4,
+        "x": 2,
         "y": 0
     },
     "dhqGridChanged": false,
@@ -96,7 +96,7 @@
     "field_key_name": "text_c1069RUeAlUtJ7DeOworF2",
     "field_options": {
         "header_config": {
-            "gridMobileMaxHeight": 50
+            "gridMobileMaxHeight": 100
         }
     },
     "field_responsive": true,
@@ -126,6 +126,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
+    "gridMobileOrigin": null,
     "helperFuncForIcon": true,
     "hidden": false,
     "input_control_height": "2.5rem",
