@@ -609,7 +609,7 @@
     "helperFuncForIcon": true,
     "hidden": false,
     "hiddenColumnList": [],
-    "hide_vertical_lines": false,
+    "hide_vertical_lines": true,
     "hideTextOnAction1": false,
     "hideTextOnAction2": false,
     "hideTextOnAction3": false,
