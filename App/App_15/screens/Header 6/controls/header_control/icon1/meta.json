@@ -65,17 +65,17 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 2,
-        "h": 5,
+        "w": 1,
+        "h": 4,
         "x": 14,
-        "y": 0
+        "y": 1
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
-        "w": 2,
-        "h": 5,
+        "w": 1,
+        "h": 4,
         "x": 14,
-        "y": 0
+        "y": 1
     },
     "disabled": false,
     "field_available_in_database_editor": false,
