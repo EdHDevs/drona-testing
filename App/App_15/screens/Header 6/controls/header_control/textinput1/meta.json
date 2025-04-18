@@ -68,14 +68,14 @@
     "dhqGrid": {
         "w": 10,
         "h": 5,
-        "x": 12,
+        "x": 10,
         "y": 1
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 10,
         "h": 5,
-        "x": 12,
+        "x": 10,
         "y": 1
     },
     "disabled": false,
@@ -120,7 +120,7 @@
             "Value should be {{text_min_length}} to {{text_max_length}} characters long."
         ]
     },
-    "formbuilder_theme": "var(--DHQ-colorpalet-six)",
+    "formbuilder_theme": "var(--DHQ-colorpalet-one)",
     "grid_dynamic_height": true,
     "grid_maintain_space": false,
     "grid_max_height": "",
