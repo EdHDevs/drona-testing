@@ -6,7 +6,7 @@
     "border_color": "var(--DHQ-border-color)",
     "border_radius": "var(--DHQ-border-radius)",
     "border_radius_unit": "",
-    "border_size": 0,
+    "border_size": "1",
     "border_size_unit": "rem",
     "caching": false,
     "cid": "c433RzCElp0qKf9c2Qcjd",
