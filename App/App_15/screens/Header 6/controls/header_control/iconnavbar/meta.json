@@ -70,7 +70,7 @@
         "w": 14,
         "h": 5,
         "x": 1,
-        "y": 0
+        "y": 18
     },
     "disabled": false,
     "dropdown_item_bg_color": "var(--DHQ-header-bg-color)",
@@ -114,6 +114,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
+    "gridDesktopOrigin": null,
     "hidden": false,
     "image_border_rad": 1,
     "image_border_rad_unit": "rem",

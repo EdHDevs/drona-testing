@@ -1,0 +1,20 @@
+{
+    "value_change": {
+        "events": [
+            "value_change"
+        ],
+        "selector": ""
+    },
+    "enter_press": {
+        "events": [
+            "enter_press"
+        ],
+        "selector": ""
+    },
+    "focus_out": {
+        "events": [
+            "focus_out"
+        ],
+        "selector": ""
+    }
+}
