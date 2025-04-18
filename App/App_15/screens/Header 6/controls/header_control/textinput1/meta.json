@@ -73,7 +73,7 @@
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
-        "w": 17,
+        "w": 19,
         "h": 5,
         "x": 2,
         "y": 0
@@ -96,7 +96,7 @@
     "field_key_name": "text_c1069RUeAlUtJ7DeOworF2",
     "field_options": {
         "header_config": {
-            "gridMobileMaxHeight": 100
+            "gridMobileMaxHeight": 50
         }
     },
     "field_responsive": true,
