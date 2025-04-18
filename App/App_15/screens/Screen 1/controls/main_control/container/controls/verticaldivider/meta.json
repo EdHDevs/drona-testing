@@ -45,7 +45,7 @@
     "dhqGrid": {
         "w": 1,
         "h": 5,
-        "x": 4,
+        "x": 7,
         "y": 8
     },
     "dhqGridDesktop": {
@@ -54,7 +54,7 @@
         "x": 4,
         "y": 8
     },
-    "dhqMGridChanged": false,
+    "dhqMGridChanged": true,
     "disabled": false,
     "field_available_in_database_editor": false,
     "field_composition_type": "single",
