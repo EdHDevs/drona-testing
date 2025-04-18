@@ -112,15 +112,15 @@
     "dhqGrid": {
         "w": 22,
         "h": 79,
-        "x": 2,
-        "y": 10
+        "x": 1,
+        "y": 7
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 22,
         "h": 79,
-        "x": 2,
-        "y": 10
+        "x": 1,
+        "y": 7
     },
     "disabled": false,
     "field_available_in_database_editor": false,
