@@ -120,7 +120,7 @@
             "Value should be {{text_min_length}} to {{text_max_length}} characters long."
         ]
     },
-    "formbuilder_theme": "var(--DHQ-border-color)",
+    "formbuilder_theme": "var(--DHQ-colorpalet-six)",
     "grid_dynamic_height": true,
     "grid_maintain_space": false,
     "grid_max_height": "",
