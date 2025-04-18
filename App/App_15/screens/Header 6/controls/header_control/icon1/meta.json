@@ -52,8 +52,8 @@
     "dhq_external_css": {
         "addCode": true,
         "data": {
-            "code": ".c1069RUeAlUtJ7DeOworF2 {\n  background-color: #E2FFEF !important;  /* Matches navbar background */\n  border-radius: 8px;\n  padding: 0.25rem 0.5rem;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n/* Style the actual icon */\n.c1069RUeAlUtJ7DeOworF2 {\n  color: #26404e !important;  /* Matches navbar icon/text color */\n  font-size: 16px;\n}\n",
-            "compiledCode": ".c433RzCElp0qKf9c2Qcjd,.sc433RzCElp0qKf9c2Qcjd {  /* Style the actual icon */}.c433RzCElp0qKf9c2Qcjd .c1069RUeAlUtJ7DeOworF2,.sc433RzCElp0qKf9c2Qcjd .c1069RUeAlUtJ7DeOworF2 {  background-color: #E2FFEF !important;  /* Matches navbar background */  border-radius: 8px;  padding: 0.25rem 0.5rem;  display: flex;  align-items: center;  justify-content: center;}.c433RzCElp0qKf9c2Qcjd .c1069RUeAlUtJ7DeOworF2,.sc433RzCElp0qKf9c2Qcjd .c1069RUeAlUtJ7DeOworF2 {  color: #26404e !important;  /* Matches navbar icon/text color */  font-size: 16px;}"
+            "code": "padding-top: 10px",
+            "compiledCode": ".c433RzCElp0qKf9c2Qcjd,.sc433RzCElp0qKf9c2Qcjd {  padding-top: 10px;}"
         }
     },
     "dhq_nsf_replaced": false,
