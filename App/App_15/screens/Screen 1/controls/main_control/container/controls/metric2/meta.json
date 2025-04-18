@@ -88,14 +88,14 @@
     "dhqGrid": {
         "w": 4,
         "h": 9,
-        "x": 0,
-        "y": 97
+        "x": 5,
+        "y": 4
     },
     "dhqGridDesktop": {
         "w": 4,
         "h": 9,
-        "x": 0,
-        "y": 97
+        "x": 5,
+        "y": 6
     },
     "dhqMGridChanged": false,
     "disabled": false,
@@ -181,6 +181,7 @@
     "label_text_alignment": "left",
     "label_text_color": "var(--DHQ-primary-font-color)",
     "line_clamp": 2,
+    "parent_id": "grid_panel_c1427RafAKGVeeoiCJv6Tf",
     "required": false,
     "sb_mode": {
         "value": "JS",

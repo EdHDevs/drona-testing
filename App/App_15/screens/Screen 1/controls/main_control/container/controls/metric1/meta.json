@@ -95,7 +95,7 @@
         "w": 4,
         "h": 9,
         "x": 5,
-        "y": 6
+        "y": 15
     },
     "dhqMGridChanged": false,
     "disabled": false,
@@ -153,6 +153,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
+    "gridDesktopOrigin": null,
     "hidden": false,
     "info_pos": "bottom",
     "input_control_height": "2.5rem",
