@@ -50,15 +50,15 @@
     "dhqGrid": {
         "w": 11,
         "h": 5,
-        "x": 0,
-        "y": 10
+        "x": 2,
+        "y": 91
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 11,
         "h": 5,
-        "x": 0,
-        "y": 10
+        "x": 2,
+        "y": 91
     },
     "disabled": false,
     "field_available_in_database_editor": false,
@@ -95,7 +95,8 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
-    "gridDesktopOrigin": null,
+    "gridDesktopOrigin": 92,
+    "gridMobileOrigin": null,
     "header_font_color": "var(--DHQ-primary-font-color)",
     "header_font_weight": "var(--DHQ-bold)",
     "header_text_alignment": "left",

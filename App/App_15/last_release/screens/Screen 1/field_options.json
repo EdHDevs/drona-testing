@@ -18,8 +18,8 @@
     "left_page_secondary_header_icon": "icon-user",
     "left_page_secondary_header_icon_color": "var(--DHQ-header-font-color)",
     "left_page_secondary_header_nrtp": false,
-    "page_header_visibility": true,
-    "is_classic_header": true,
+    "page_header_visibility": false,
+    "is_classic_header": false,
     "right_page_header_navigation_type": "no_action",
     "right_page_header_navigation_value": "",
     "right_page_header_click_navigation_transition": "1",
@@ -47,13 +47,14 @@
     "page_footer_left_right_padding_unit": "rem",
     "header_config": {
         "ctrl_sv": 1.25,
-        "ctrl_su": "rem"
+        "ctrl_su": "rem",
+        "gridDesktopMaxHeight": "3.125rem"
     },
     "main_config": {
         "ctrl_sv": 1.25,
         "ctrl_su": "rem",
-        "gridMobileMaxHeight": 1250,
-        "gridDesktopMaxHeight": "78.125rem"
+        "gridMobileMaxHeight": "97.500rem",
+        "gridDesktopMaxHeight": "97.500rem"
     },
     "footer_config": {
         "ctrl_sv": 1.25,
@@ -72,7 +73,7 @@
     "popup_type": "normal",
     "popup_slide_up_min_height": "50",
     "popup_closable": false,
-    "page_background_color": "var(--DHQ-primary-bg-color)",
+    "page_background_color": "#f5f7fa",
     "page_text_color": "#444444",
     "header_background_color": "var(--DHQ-header-bg-color)",
     "header_dark_theme_enabled": false,

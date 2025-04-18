@@ -1,10 +1,10 @@
 {
   "PackageWithNewControls": true,
-  "releaseNotes": "new",
-  "usedFieldsName": "dhq_hrbreadcrumb,Header,dhq_json_viewer,dhq_grouped_menu,Separator,dhq_collapsible_menu",
+  "releaseNotes": "a",
+  "usedFieldsName": "grid_panel,dhq_icon,Header,dhq_metric,dhq_vertical_divider,list,dhq_grouped_menu,Separator,dhq_collapsible_menu,text",
   "metadata": {},
   "env": "prod",
-  "newVersion": "0.0.3",
+  "newVersion": "0.0.4",
   "pluginId": "15",
   "subCatList": "",
   "multistepAuthUsedInAppList": [],
@@ -141,6 +141,10 @@
   },
   "filesUsedInControlJSON": [
     {
+      "sourceURL": "/static/js/vendor/SideshowAllFile/pagedown.min.js",
+      "destinationFolder": "js/vendors/pagedown.min.js"
+    },
+    {
       "sourceURL": "/static/css/vendor/codemirror_lib/foldgutter.min.css",
       "destinationFolder": "css/vendors/codemirror_lib/foldgutter.min.css"
     },
@@ -177,24 +181,52 @@
       "destinationFolder": "js/vendors/codemirror_lib/jsonlint.min.js"
     },
     {
-      "sourceURL": "/static/js/vendor/codemirror_lib/json-lint.min.js",
-      "destinationFolder": "js/vendors/codemirror_lib/json-lint.min.js"
-    },
-    {
-      "sourceURL": "/static/js/vendor/codemirror_lib/javascript.min.js",
-      "destinationFolder": "js/vendors/codemirror_lib/javascript.min.js"
-    },
-    {
       "sourceURL": "/static/js/vendor/codemirror_lib/closebrackets.min.js",
       "destinationFolder": "js/vendors/codemirror_lib/closebrackets.min.js"
     },
     {
-      "sourceURL": "/static/js/vendor/codemirror_lib/autorefresh.min.js",
-      "destinationFolder": "js/vendors/codemirror_lib/autorefresh.min.js"
-    },
-    {
       "sourceURL": "/static/js/vendor/codemirror_lib/codemirror.min.js",
       "destinationFolder": "js/vendors/codemirror_lib/codemirror.min.js"
+    },
+    {
+      "sourceURL": "/static/css/vendor/jquery.json-viewer.min.css",
+      "destinationFolder": "css/vendors/jquery.json-viewer.min.css"
+    },
+    {
+      "sourceURL": "/static/js/vendor/jquery.json-viewer.min.js",
+      "destinationFolder": "js/vendors/jquery.json-viewer.min.js"
+    },
+    {
+      "sourceURL": "/static/css/vendor/clusterize.css",
+      "destinationFolder": "css/vendors/clusterize.css"
+    },
+    {
+      "sourceURL": "/static/js/vendor/clusterize.min.js",
+      "destinationFolder": "js/vendors/clusterize.min.js"
+    },
+    {
+      "sourceURL": "/static/js/xlsx.js",
+      "destinationFolder": "js/vendors/xlsx.js"
+    },
+    {
+      "sourceURL": "/static/css/vendor/esri-leaflet-geocoder.css",
+      "destinationFolder": "css/vendors/esri-leaflet-geocoder.css"
+    },
+    {
+      "sourceURL": "/static/css/vendor/leaflet.css",
+      "destinationFolder": "css/vendors/leaflet.css"
+    },
+    {
+      "sourceURL": "/static/js/vendor/esri-leaflet-geocoder.js",
+      "destinationFolder": "js/vendors/esri-leaflet-geocoder.js"
+    },
+    {
+      "sourceURL": "/static/js/vendor/esri-leaflet.js",
+      "destinationFolder": "js/vendors/esri-leaflet.js"
+    },
+    {
+      "sourceURL": "/static/js/vendor/leaflet.js",
+      "destinationFolder": "js/vendors/leaflet.js"
     },
     {
       "sourceURL": "/static/css/vendor/theme.css",
