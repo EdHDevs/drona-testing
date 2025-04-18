@@ -55,16 +55,16 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 2,
+        "w": 1,
         "h": 5,
-        "x": 22,
+        "x": 23,
         "y": 0
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
-        "w": 2,
+        "w": 1,
         "h": 5,
-        "x": 22,
+        "x": 23,
         "y": 0
     },
     "disable_card_background_color": "var(--DHQ-border-color)",
@@ -183,7 +183,7 @@
     "suffix_icon": "fas fa-arrow-circle-left",
     "tabIndex": "",
     "tip_description": "",
-    "title_font_size": "var(--DHQ-medium-font)",
+    "title_font_size": "var(--DHQ-H1)",
     "title_font_size_unit": "",
     "title_font_weight": "var(--DHQ-bold)",
     "title_text_alignment": "center",
