@@ -120,7 +120,7 @@
     "grid_max_height": "",
     "grid_max_height_unit": "px",
     "hidden": false,
-    "icon_visible": true,
+    "icon_visible": false,
     "input_control_height": "2.5rem",
     "input_font_color": "var(--DHQ-primary-font-color)",
     "input_font_size": "var(--DHQ-normal-font)",
