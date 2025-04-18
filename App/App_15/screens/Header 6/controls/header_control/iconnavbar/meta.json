@@ -61,13 +61,13 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 6,
+        "w": 7,
         "h": 5,
         "x": 1,
         "y": 1
     },
     "dhqGridDesktop": {
-        "w": 6,
+        "w": 7,
         "h": 5,
         "x": 1,
         "y": 1
@@ -93,7 +93,7 @@
     "field_key_name": "dhq_nav_bar_c457R2ikhN3Bqcwa8TMG3",
     "field_options": {
         "header_config": {
-            "gridMobileMaxHeight": 50
+            "gridMobileMaxHeight": 60
         }
     },
     "field_responsive": false,
