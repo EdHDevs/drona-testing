@@ -1,10 +1,10 @@
 {
   "PackageWithNewControls": true,
-  "releaseNotes": "a",
-  "usedFieldsName": "grid_panel,dhq_icon,Header,dhq_metric,dhq_vertical_divider,list,dhq_grouped_menu,Separator,dhq_collapsible_menu,text",
+  "releaseNotes": "tes",
+  "usedFieldsName": "grid_panel,Header,dhq_icon,dhq_metric,dhq_vertical_divider,list,dhq_grouped_menu,Separator,dhq_collapsible_menu,text",
   "metadata": {},
   "env": "prod",
-  "newVersion": "0.0.4",
+  "newVersion": "0.0.5",
   "pluginId": "15",
   "subCatList": "",
   "multistepAuthUsedInAppList": [],
