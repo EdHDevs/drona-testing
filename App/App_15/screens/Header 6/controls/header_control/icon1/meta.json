@@ -1,6 +1,7 @@
 {
     "__dhq_default_formula_Dtype": "string",
     "__dhq_formula_Dtype": "string",
+    "__LiveData_Dtype": "string",
     "allow_options_addition_in_editor": true,
     "background_color": "var(--DHQ-secondary-bg-color)",
     "border_color": "var(--DHQ-colorpalet-one)",
@@ -49,7 +50,7 @@
     "dhq_default_data_process": "",
     "dhq_default_formula": "",
     "dhq_external_css": {
-        "addCode": false,
+        "addCode": true,
         "data": {}
     },
     "dhq_nsf_replaced": false,
