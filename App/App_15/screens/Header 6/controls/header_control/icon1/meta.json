@@ -62,14 +62,14 @@
     "dhqEvtConverted": true,
     "dhqGrid": {
         "w": 1,
-        "h": 5,
+        "h": 4,
         "x": 14,
         "y": 0
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 1,
-        "h": 5,
+        "h": 4,
         "x": 14,
         "y": 0
     },
