@@ -68,14 +68,14 @@
         "w": 1,
         "h": 4,
         "x": 14,
-        "y": 1
+        "y": 0
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 1,
         "h": 4,
         "x": 14,
-        "y": 1
+        "y": 0
     },
     "disabled": false,
     "field_available_in_database_editor": false,
