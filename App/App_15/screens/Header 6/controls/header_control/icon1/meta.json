@@ -51,7 +51,10 @@
     "dhq_default_formula": "",
     "dhq_external_css": {
         "addCode": true,
-        "data": {}
+        "data": {
+            "code": ".c1069RUeAlUtJ7DeOworF2, .suficondisplay {\n  background-color: #E2FFEF !important;  /* Matches navbar background */\n  border-radius: 8px;\n  padding: 0.25rem 0.5rem;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n/* Style the actual icon */\n.c1069RUeAlUtJ7DeOworF2, .suficondisplay, i.icon-magnifier {\n  color: #26404e !important;  /* Matches navbar icon/text color */\n  font-size: 16px;\n}\n",
+            "compiledCode": ".c433RzCElp0qKf9c2Qcjd,.sc433RzCElp0qKf9c2Qcjd {  /* Style the actual icon */}.c433RzCElp0qKf9c2Qcjd .c1069RUeAlUtJ7DeOworF2,.sc433RzCElp0qKf9c2Qcjd .c1069RUeAlUtJ7DeOworF2,.c433RzCElp0qKf9c2Qcjd .suficondisplay,.sc433RzCElp0qKf9c2Qcjd .suficondisplay {  background-color: #E2FFEF !important;  /* Matches navbar background */  border-radius: 8px;  padding: 0.25rem 0.5rem;  display: flex;  align-items: center;  justify-content: center;}.c433RzCElp0qKf9c2Qcjd .c1069RUeAlUtJ7DeOworF2,.sc433RzCElp0qKf9c2Qcjd .c1069RUeAlUtJ7DeOworF2,.c433RzCElp0qKf9c2Qcjd .suficondisplay,.sc433RzCElp0qKf9c2Qcjd .suficondisplay,.c433RzCElp0qKf9c2Qcjd i.icon-magnifier,.sc433RzCElp0qKf9c2Qcjd i.icon-magnifier {  color: #26404e !important;  /* Matches navbar icon/text color */  font-size: 16px;}"
+        }
     },
     "dhq_nsf_replaced": false,
     "dhq_olddt_map": {},
@@ -63,14 +66,14 @@
     "dhqEvtConverted": true,
     "dhqGrid": {
         "w": 1,
-        "h": 4,
+        "h": 5,
         "x": 14,
         "y": 0
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 1,
-        "h": 4,
+        "h": 5,
         "x": 14,
         "y": 0
     },
