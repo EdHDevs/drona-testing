@@ -66,14 +66,14 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 8,
+        "w": 10,
         "h": 5,
         "x": 7,
         "y": 1
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
-        "w": 8,
+        "w": 10,
         "h": 5,
         "x": 7,
         "y": 1
@@ -95,7 +95,7 @@
     "field_key_name": "text_c1069RUeAlUtJ7DeOworF2",
     "field_options": {
         "header_config": {
-            "gridMobileMaxHeight": 80
+            "gridMobileMaxHeight": 60
         }
     },
     "field_responsive": true,
