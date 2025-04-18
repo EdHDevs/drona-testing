@@ -49,7 +49,7 @@
         "ctrl_sv": "1.25",
         "ctrl_su": "rem",
         "gridMobileMaxHeight": 110,
-        "gridDesktopMaxHeight": "6.875rem"
+        "gridDesktopMaxHeight": "3.125rem"
     },
     "main_config": {
         "ctrl_sv": "1.25",
