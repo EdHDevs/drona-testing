@@ -722,7 +722,7 @@
     "show_database": false,
     "show_delete": false,
     "show_description": false,
-    "show_detailedView": false,
+    "show_detailedView": true,
     "show_dfm": true,
     "show_download": false,
     "show_filters": false,
