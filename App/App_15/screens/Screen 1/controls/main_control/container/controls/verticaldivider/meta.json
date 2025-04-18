@@ -44,15 +44,15 @@
     "dhqEvtConverted": true,
     "dhqGrid": {
         "w": 1,
-        "h": 8,
+        "h": 6,
         "x": 4,
-        "y": 6
+        "y": 8
     },
     "dhqGridDesktop": {
         "w": 1,
-        "h": 8,
+        "h": 6,
         "x": 4,
-        "y": 6
+        "y": 8
     },
     "dhqMGridChanged": false,
     "disabled": false,
