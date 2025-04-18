@@ -1,6 +1,7 @@
 {
     "__dhq_default_formula_Dtype": "string",
     "__dhq_formula_Dtype": "string",
+    "__LiveData_Dtype": "string",
     "allow_options_addition_in_editor": true,
     "background_color": "var(--DHQ-secondary-bg-color)",
     "border_color": "var(--DHQ-border-color)",
@@ -117,7 +118,7 @@
     "icon_font_size": "var(--DHQ-medium-font)",
     "icon_font_size_unit": "",
     "icon_hor_align": "center",
-    "icon_value": "icon-user",
+    "icon_value": "icon-notebook",
     "icon_ver_align": "center",
     "input_control_height": "2.5rem",
     "input_font_color": "var(--DHQ-primary-font-color)",
