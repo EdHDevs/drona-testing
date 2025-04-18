@@ -87,15 +87,15 @@
     "dhqEvtConverted": true,
     "dhqGrid": {
         "w": 4,
-        "h": 13,
-        "x": 3,
-        "y": 34
+        "h": 9,
+        "x": 0,
+        "y": 6
     },
     "dhqGridDesktop": {
         "w": 4,
-        "h": 13,
-        "x": 3,
-        "y": 34
+        "h": 9,
+        "x": 0,
+        "y": 6
     },
     "dhqMGridChanged": false,
     "disabled": false,
@@ -192,7 +192,7 @@
     "show_new_property": true,
     "show_tooltip": false,
     "sid": "sc2578RkqoBmIDvn6K7r5Pa",
-    "space_between": 0.25,
+    "space_between": "2",
     "space_between_unit": "rem",
     "tabIndex": "",
     "text_head_font_size": 56,
