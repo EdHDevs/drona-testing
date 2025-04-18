@@ -73,7 +73,7 @@
     "popup_type": "normal",
     "popup_slide_up_min_height": "50",
     "popup_closable": false,
-    "page_background_color": "var(--DHQ-primary-bg-color)",
+    "page_background_color": "#d3f3ff",
     "page_text_color": "#444444",
     "header_background_color": "var(--DHQ-header-bg-color)",
     "header_dark_theme_enabled": false,
