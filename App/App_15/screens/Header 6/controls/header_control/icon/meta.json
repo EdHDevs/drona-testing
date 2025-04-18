@@ -121,7 +121,7 @@
     "icon_font_color": "#6e6e6e",
     "icon_font_size": "var(--DHQ-line-height)",
     "icon_font_size_unit": "",
-    "icon_hor_align": "left",
+    "icon_hor_align": "center",
     "icon_value": "icon-menu",
     "icon_ver_align": "center",
     "input_control_height": "2.5rem",
