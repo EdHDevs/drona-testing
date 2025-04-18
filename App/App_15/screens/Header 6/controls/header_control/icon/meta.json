@@ -62,14 +62,14 @@
     "dhqEvtConverted": true,
     "dhqGrid": {
         "w": 2,
-        "h": 4,
+        "h": 3,
         "x": 0,
         "y": 1
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 2,
-        "h": 4,
+        "h": 3,
         "x": 0,
         "y": 1
     },
@@ -87,7 +87,11 @@
     "field_editable_in_database_editor": false,
     "field_fullview": false,
     "field_key_name": "dhq_icon_c644RnLZsFOLcDJVkWfUD",
-    "field_options": {},
+    "field_options": {
+        "header_config": {
+            "gridMobileMaxHeight": 50
+        }
+    },
     "field_responsive": false,
     "field_type": "dhq_icon",
     "field_values_addition_enabled_in_database_editor": true,
@@ -113,7 +117,7 @@
     "hover_icon_font_color": "var(--DHQ-primary-font-color)",
     "hover_icon_font_size": "var(--DHQ-medium-font)",
     "hover_icon_font_size_unit": "",
-    "icon_font_color": "var(--DHQ-primary-font-color)",
+    "icon_font_color": "#8c8c8c",
     "icon_font_size": "var(--DHQ-medium-font)",
     "icon_font_size_unit": "",
     "icon_hor_align": "center",
