@@ -121,7 +121,7 @@
     "separator_height": 1.25,
     "separator_line": "",
     "separator_Size_unit": "rem",
-    "separator_Text": "BREAK",
+    "separator_Text": "",
     "separator_Text_color": "var(--DHQ-border-color)",
     "show_description": false,
     "show_dfm": false,
