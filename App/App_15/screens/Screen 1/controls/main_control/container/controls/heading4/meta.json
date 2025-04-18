@@ -51,13 +51,13 @@
         "w": 8,
         "h": 4,
         "x": 1,
-        "y": 4
+        "y": 1
     },
     "dhqGridDesktop": {
         "w": 8,
         "h": 4,
         "x": 1,
-        "y": 4
+        "y": 1
     },
     "dhqMGridChanged": false,
     "disabled": false,
@@ -68,7 +68,7 @@
     "field_data_model_binding_formula": "",
     "field_data_model_binding_manual_query": "DATABUILDER()",
     "field_data_model_binding_manual_query_with_id": "DATABUILDER()",
-    "field_data_model_binding_type": "",
+    "field_data_model_binding_type": "manual_query",
     "field_database_editor_data_format": "single_line_text",
     "field_datatypes": [],
     "field_display_key_name": "heading4",
