@@ -9,7 +9,7 @@
     "button_type": "no_action",
     "button_value": "",
     "caching": false,
-    "card_background_color": "var(--DHQ-primary-color)",
+    "card_background_color": "var(--DHQ-colorpalet-one)",
     "card_border_radius": "var(--DHQ-border-radius)",
     "card_border_radius_unit": "",
     "card_theme": "filled-theme",
