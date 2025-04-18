@@ -61,16 +61,16 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 14,
+        "w": 8,
         "h": 5,
         "x": 1,
-        "y": 0
+        "y": 1
     },
     "dhqGridDesktop": {
-        "w": 14,
+        "w": 8,
         "h": 5,
         "x": 1,
-        "y": 18
+        "y": 1
     },
     "disabled": false,
     "dropdown_item_bg_color": "var(--DHQ-header-bg-color)",
