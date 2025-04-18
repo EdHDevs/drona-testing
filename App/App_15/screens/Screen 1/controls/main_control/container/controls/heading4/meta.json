@@ -48,9 +48,9 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 19,
+        "w": 20,
         "h": 4,
-        "x": 4,
+        "x": 3,
         "y": 2
     },
     "dhqGridDesktop": {
@@ -97,7 +97,7 @@
     "grid_max_height_unit": "px",
     "header_font_color": "var(--DHQ-primary-font-color)",
     "header_font_weight": "var(--DHQ-bold)",
-    "header_text_alignment": "left",
+    "header_text_alignment": "center",
     "heading_text": "",
     "hidden": false,
     "input_control_height": "2.5rem",
