@@ -43,14 +43,14 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 2,
-        "h": 9,
+        "w": 1,
+        "h": 8,
         "x": 4,
         "y": 6
     },
     "dhqGridDesktop": {
-        "w": 2,
-        "h": 9,
+        "w": 1,
+        "h": 8,
         "x": 4,
         "y": 6
     },
@@ -88,6 +88,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
+    "gridDesktopOrigin": null,
     "height": 12.5,
     "height_unit": "rem",
     "hidden": false,
