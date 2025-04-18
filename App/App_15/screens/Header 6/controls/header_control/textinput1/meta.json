@@ -120,7 +120,7 @@
             "Value should be {{text_min_length}} to {{text_max_length}} characters long."
         ]
     },
-    "formbuilder_theme": "#f9f9f9",
+    "formbuilder_theme": "#ffffff",
     "grid_dynamic_height": true,
     "grid_maintain_space": false,
     "grid_max_height": "",
