@@ -4,9 +4,7 @@
     "created_at": 1744918204278,
     "datatype": "string",
     "defaultValue": "",
-    "dhq_req_stats": {
-        "status": "resolved"
-    },
+    "dhq_req_stats": {},
     "dhq_set_value_via_action": false,
     "display_name": "data_1",
     "evaluate_on_dependency_change": "everytime",
