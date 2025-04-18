@@ -62,15 +62,15 @@
     "dhqEvtConverted": true,
     "dhqGrid": {
         "w": 14,
-        "h": 4,
+        "h": 5,
         "x": 1,
-        "y": 1
+        "y": 0
     },
     "dhqGridDesktop": {
         "w": 14,
-        "h": 4,
+        "h": 5,
         "x": 1,
-        "y": 1
+        "y": 0
     },
     "disabled": false,
     "dropdown_item_bg_color": "var(--DHQ-header-bg-color)",
@@ -91,7 +91,11 @@
     "field_editable_in_database_editor": false,
     "field_fullview": false,
     "field_key_name": "dhq_nav_bar_c457R2ikhN3Bqcwa8TMG3",
-    "field_options": {},
+    "field_options": {
+        "header_config": {
+            "gridMobileMaxHeight": 50
+        }
+    },
     "field_responsive": false,
     "field_type": "dhq_nav_bar",
     "field_values_addition_enabled_in_database_editor": true,
