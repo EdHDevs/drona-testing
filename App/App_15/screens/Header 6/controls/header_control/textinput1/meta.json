@@ -162,7 +162,7 @@
     "placeholder_text": "Write here...",
     "placeholder_url": "https://example.com",
     "post_color": "var(--DHQ-primary-font-color)",
-    "post_font_size": "var(--DHQ-normal-font)",
+    "post_font_size": "var(--DHQ-medium-font)",
     "post_font_size_unit": "",
     "post_font_weight": "var(--DHQ-normal-weight)",
     "post_textbg_color": "var(--DHQ-control-hover-bg)",
