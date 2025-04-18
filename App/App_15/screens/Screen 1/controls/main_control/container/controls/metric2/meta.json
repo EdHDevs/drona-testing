@@ -86,10 +86,10 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 4,
+        "w": 9,
         "h": 9,
-        "x": 5,
-        "y": 4
+        "x": 6,
+        "y": 6
     },
     "dhqGridDesktop": {
         "w": 4,
@@ -97,7 +97,7 @@
         "x": 5,
         "y": 6
     },
-    "dhqMGridChanged": false,
+    "dhqMGridChanged": true,
     "disabled": false,
     "field_available_in_database_editor": false,
     "field_composition_type": "composite",
@@ -153,6 +153,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
+    "gridMobileOrigin": null,
     "hidden": false,
     "info_pos": "bottom",
     "input_control_height": "2.5rem",
