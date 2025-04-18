@@ -1,6 +1,7 @@
 {
     "__dhq_default_formula_Dtype": "string",
     "__dhq_formula_Dtype": "string",
+    "__LiveData_Dtype": "string",
     "allow_options_addition_in_editor": true,
     "border_type": "solid",
     "caching": false,
@@ -43,15 +44,15 @@
     "dhqEvtConverted": true,
     "dhqGrid": {
         "w": 2,
-        "h": 8,
+        "h": 9,
         "x": 4,
-        "y": 7
+        "y": 6
     },
     "dhqGridDesktop": {
         "w": 2,
-        "h": 8,
+        "h": 9,
         "x": 4,
-        "y": 7
+        "y": 6
     },
     "dhqMGridChanged": false,
     "disabled": false,
