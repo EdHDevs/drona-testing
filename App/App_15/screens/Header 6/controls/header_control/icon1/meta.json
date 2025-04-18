@@ -117,7 +117,7 @@
     "grid_max_height": "",
     "grid_max_height_unit": "px",
     "hidden": false,
-    "hover_background_color": "var(--DHQ-secondary-bg-color)",
+    "hover_background_color": "var(--DHQ-colorpalet-one)",
     "hover_icon_font_color": "var(--DHQ-primary-bg-color)",
     "hover_icon_font_size": "var(--DHQ-medium-font)",
     "hover_icon_font_size_unit": "",
