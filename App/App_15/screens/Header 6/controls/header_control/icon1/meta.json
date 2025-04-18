@@ -114,7 +114,7 @@
     "hover_icon_font_size": "var(--DHQ-medium-font)",
     "hover_icon_font_size_unit": "",
     "icon_font_color": "var(--DHQ-primary-font-color)",
-    "icon_font_size": "var(--DHQ-medium-font)",
+    "icon_font_size": "var(--DHQ-large-font)",
     "icon_font_size_unit": "",
     "icon_hor_align": "center",
     "icon_value": "fas fa-plus-circle",
