@@ -2,37 +2,17 @@
     "__dhq_default_formula_Dtype": "string",
     "__dhq_formula_Dtype": "string",
     "allow_options_addition_in_editor": true,
-    "border": {
-        "style": "none",
-        "size": {
-            "value": 0,
-            "unit": "px"
-        },
-        "color": "var(--DHQ-border-color)"
-    },
-    "bradius": {
-        "tl": {
-            "value": "var(--DHQ-border-radius)",
-            "unit": ""
-        },
-        "tr": {
-            "value": "var(--DHQ-border-radius)",
-            "unit": ""
-        },
-        "br": {
-            "value": "var(--DHQ-border-radius)",
-            "unit": ""
-        },
-        "bl": {
-            "value": "var(--DHQ-border-radius)",
-            "unit": ""
-        }
-    },
-    "button_type": "no_action",
+    "background_color": "var(--DHQ-secondary-bg-color)",
+    "border_color": "var(--DHQ-border-color)",
+    "border_radius": "var(--DHQ-border-radius)",
+    "border_radius_unit": "",
+    "border_size": 0,
+    "border_size_unit": "rem",
     "caching": false,
-    "cid": "c447RHiALQKRFLT6h0bT9",
+    "cid": "c644RnLZsFOLcDJVkWfUD",
     "class_name": "test",
-    "control_name": "image",
+    "container_height": 2.5,
+    "container_height_unit": "rem",
     "ctrl_id": "",
     "data_submission_enabled": true,
     "data_type": "string",
@@ -44,13 +24,25 @@
             "show_new_property"
         ],
         "update_to_theme_varaibles": [
+            "border_size_unit",
+            "border_size",
+            "container_height_unit",
+            "container_height",
+            "hover_background_color",
+            "background_color",
+            "border_color",
+            "border_radius",
+            "border_radius_unit",
+            "hover_icon_font_color",
+            "hover_icon_font_size_unit",
+            "hover_icon_font_size",
+            "icon_font_color",
+            "icon_font_size",
+            "icon_font_size_unit",
             "label_font_size",
             "label_font_size_unit",
             "label_font_weight",
-            "label_text_color",
-            "border.color",
-            "Image_max_height",
-            "Image_max_height_unit"
+            "label_text_color"
         ]
     },
     "dhq_data_process": "",
@@ -69,16 +61,17 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 4,
+        "w": 2,
         "h": 4,
         "x": 0,
-        "y": 1
+        "y": 0
     },
+    "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 2,
         "h": 4,
         "x": 0,
-        "y": 1
+        "y": 0
     },
     "disabled": false,
     "field_available_in_database_editor": false,
@@ -90,17 +83,19 @@
     "field_data_model_binding_manual_query_with_id": "",
     "field_data_model_binding_type": "",
     "field_database_editor_data_format": "single_line_text",
-    "field_display_key_name": "image_box",
+    "field_display_key_name": "icon",
     "field_editable_in_database_editor": false,
     "field_fullview": false,
-    "field_key_name": "Image_Box_c447RHiALQKRFLT6h0bT9",
+    "field_key_name": "dhq_icon_c644RnLZsFOLcDJVkWfUD",
     "field_options": {},
     "field_responsive": false,
-    "field_type": "Image_Box",
+    "field_type": "dhq_icon",
     "field_values_addition_enabled_in_database_editor": true,
     "field_values_source": "",
     "for_localization": {
-        "static_msgs": [],
+        "static_msgs": [
+            "This field is mandatory"
+        ],
         "dynamic_msgs_keys": [
             "label",
             "tooltip",
@@ -109,25 +104,21 @@
         "concated_msgs": []
     },
     "formbuilder_theme": "#bbbbbb",
-    "full_width": false,
     "grid_dynamic_height": true,
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
     "hidden": false,
-    "image_box_action": "no_action",
-    "image_box_action_value": "",
-    "image_box_fill": "contain",
-    "image_box_image_alignment": "center",
-    "image_caching": true,
-    "Image_max_height": "31.25",
-    "Image_max_height_unit": "rem",
-    "Image_max_width": "100",
-    "Image_max_width_unit": "%",
-    "Image_opacity": "1",
-    "Image_overlay": "transparent",
-    "Image_width": "100",
-    "Image_width_unit": "%",
+    "hover_background_color": "var(--DHQ-secondary-bg-color)",
+    "hover_icon_font_color": "var(--DHQ-primary-font-color)",
+    "hover_icon_font_size": "var(--DHQ-medium-font)",
+    "hover_icon_font_size_unit": "",
+    "icon_font_color": "var(--DHQ-primary-font-color)",
+    "icon_font_size": "var(--DHQ-medium-font)",
+    "icon_font_size_unit": "",
+    "icon_hor_align": "center",
+    "icon_value": "icon-user",
+    "icon_ver_align": "center",
     "input_control_height": "2.5rem",
     "input_font_color": "var(--DHQ-primary-font-color)",
     "input_font_size": "var(--DHQ-normal-font)",
@@ -136,12 +127,13 @@
     "input_placeholder_text_color": "#aaaaaa",
     "input_placeholder_text_size": "var(--DHQ-small-font)",
     "is_master_control": false,
-    "is_navigation_control": true,
     "is_outlet_control": false,
     "is_repeat_outlet_control": false,
     "is_variable": false,
     "isDhqGridCtrl": true,
-    "label": "",
+    "isDhqHideOnDesktop": false,
+    "isDhqHideOnMobile": false,
+    "label": "Icon",
     "label_font_size": "var(--DHQ-control-title)",
     "label_font_size_unit": "",
     "label_font_weight": "var(--DHQ-bold)",
@@ -152,34 +144,16 @@
     "label_position": "top",
     "label_text_alignment": "left",
     "label_text_color": "var(--DHQ-primary-font-color)",
-    "magnify": false,
-    "marginPaddingValue": {
-        "margin": {
-            "top": "0",
-            "bottom": "0",
-            "right": "0",
-            "left": "0"
-        },
-        "padding": {
-            "top": "0",
-            "bottom": "0",
-            "right": "0",
-            "left": "0"
-        }
-    },
-    "navigate_to": "",
-    "navigation_transition": "",
     "parent_id": "",
     "required": false,
     "show_description": false,
     "show_dfm": false,
     "show_new_property": true,
     "show_tooltip": false,
-    "sid": "sc447RHiALQKRFLT6h0bT9",
+    "sid": "sc644RnLZsFOLcDJVkWfUD",
     "tabIndex": "",
     "tip_description": "",
     "tooltip": "",
-    "type": "non_input",
-    "URL_link": "https://dronamobilepublic.s3.amazonaws.com/DRONA5_Team2050/content/app/images/public/Group%2036378_KGpMt.svg",
+    "type": "non-input",
     "wrapper_content_alignment": "flex-start"
 }
