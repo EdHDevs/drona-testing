@@ -1,8 +1,0 @@
-{
-    "button_click": {
-        "events": [
-            "click"
-        ],
-        "selector": ".header_body"
-    }
-}
