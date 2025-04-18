@@ -164,7 +164,7 @@
     "post_color": "var(--DHQ-primary-font-color)",
     "post_font_size": "var(--DHQ-large-font)",
     "post_font_size_unit": "",
-    "post_font_weight": "var(--DHQ-bold)",
+    "post_font_weight": "var(--DHQ-x-bold)",
     "post_textbg_color": "var(--DHQ-control-hover-bg)",
     "pref_color": "var(--DHQ-primary-font-color)",
     "pref_font_size": "var(--DHQ-normal-font)",
