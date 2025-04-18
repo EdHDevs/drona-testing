@@ -52,8 +52,8 @@
     "dhq_external_css": {
         "addCode": true,
         "data": {
-            "code": "padding-top: 10px;\nmarging-bottom: 20px",
-            "compiledCode": ".c433RzCElp0qKf9c2Qcjd,.sc433RzCElp0qKf9c2Qcjd {  padding-top: 10px;  marging-bottom: 20px;}"
+            "code": "  background: #f3f5f9 !important; /* Matches light grey from screenshot */\n  border: 1px solid #f3f5f9 !important;\n  border-radius: 8px !important;\n  height: 2.5rem;\n  display: flex;\n  align-items: center;\n  padding: 0 0.5rem;\n  width: 100%;",
+            "compiledCode": ".c433RzCElp0qKf9c2Qcjd,.sc433RzCElp0qKf9c2Qcjd {  background: #f3f5f9 !important;  /* Matches light grey from screenshot */  border: 1px solid #f3f5f9 !important;  border-radius: 8px !important;  height: 2.5rem;  display: flex;  align-items: center;  padding: 0 0.5rem;  width: 100%;}"
         }
     },
     "dhq_nsf_replaced": false,
@@ -65,15 +65,15 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 1,
-        "h": 4,
+        "w": 2,
+        "h": 5,
         "x": 14,
         "y": 0
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
-        "w": 1,
-        "h": 4,
+        "w": 2,
+        "h": 5,
         "x": 14,
         "y": 0
     },
