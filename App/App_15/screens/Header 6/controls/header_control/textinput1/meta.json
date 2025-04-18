@@ -51,7 +51,10 @@
     "dhq_default_formula": "",
     "dhq_external_css": {
         "addCode": true,
-        "data": {}
+        "data": {
+            "code": " padding: 10px;\n  background-color: #f3f5f9; /* matching the background in your image */\n  border-radius: 8px; /* optional: gives it a soft rounded look */\n}\n\n.c1069RUeAlUtJ7DeOworF2 .wrapper, \n.sc1069RUeAlUtJ7DeOworF2 .wrapper {\n  color: #26404e;\n  background-color: transparent; /* keep inner wrapper background transparent */\n  font-size: 14px;",
+            "compiledCode": ".c1069RUeAlUtJ7DeOworF2,.sc1069RUeAlUtJ7DeOworF2 {  padding: 10px;  background-color: #f3f5f9;  /* matching the background in your image */  border-radius: 8px;  /* optional: gives it a soft rounded look */}.c1069RUeAlUtJ7DeOworF2 .wrapper,.sc1069RUeAlUtJ7DeOworF2 .wrapper {  color: #26404e;  background-color: transparent;  /* keep inner wrapper background transparent */  font-size: 14px;}"
+        }
     },
     "dhq_nsf_replaced": false,
     "dhq_olddt_map": {},
