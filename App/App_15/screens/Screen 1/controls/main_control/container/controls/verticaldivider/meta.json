@@ -130,7 +130,7 @@
     "tip_description": "",
     "tooltip": "",
     "type": "input",
-    "width": 1,
+    "width": "0",
     "width_unit": "px",
     "wrapper_content_alignment": "flex-start"
 }
