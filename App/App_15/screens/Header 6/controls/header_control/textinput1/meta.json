@@ -165,7 +165,7 @@
     "placeholder_text": "Write here...",
     "placeholder_url": "https://example.com",
     "post_color": "#6a6a6a",
-    "post_font_size": "var(--DHQ-large-font)",
+    "post_font_size": "var(--DHQ-H2)",
     "post_font_size_unit": "",
     "post_font_weight": "var(--DHQ-x-bold)",
     "post_textbg_color": "var(--DHQ-control-hover-bg)",
