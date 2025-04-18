@@ -52,8 +52,8 @@
     "dhq_external_css": {
         "addCode": true,
         "data": {
-            "code": "padding-top: 10px",
-            "compiledCode": ".c433RzCElp0qKf9c2Qcjd,.sc433RzCElp0qKf9c2Qcjd {  padding-top: 10px;}"
+            "code": "padding-top: 10px;\nmarging-bottom: 20px",
+            "compiledCode": ".c433RzCElp0qKf9c2Qcjd,.sc433RzCElp0qKf9c2Qcjd {  padding-top: 10px;  marging-bottom: 20px;}"
         }
     },
     "dhq_nsf_replaced": false,
