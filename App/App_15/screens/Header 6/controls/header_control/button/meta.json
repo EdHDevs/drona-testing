@@ -55,9 +55,9 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 5,
+        "w": 4,
         "h": 5,
-        "x": 19,
+        "x": 20,
         "y": 0
     },
     "dhqGridChanged": false,
