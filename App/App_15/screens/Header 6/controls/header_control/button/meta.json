@@ -57,14 +57,14 @@
     "dhqGrid": {
         "w": 2,
         "h": 5,
-        "x": 19,
+        "x": 22,
         "y": 0
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 2,
         "h": 5,
-        "x": 19,
+        "x": 22,
         "y": 0
     },
     "disable_card_background_color": "var(--DHQ-border-color)",
