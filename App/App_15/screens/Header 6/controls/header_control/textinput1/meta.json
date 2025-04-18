@@ -68,7 +68,7 @@
     "dhqGrid": {
         "w": 17,
         "h": 5,
-        "x": 2,
+        "x": 4,
         "y": 0
     },
     "dhqGridChanged": false,
@@ -78,6 +78,7 @@
         "x": 2,
         "y": 0
     },
+    "dhqMGridChanged": true,
     "disabled": false,
     "field_available_in_database_editor": true,
     "field_composition_type": "single",

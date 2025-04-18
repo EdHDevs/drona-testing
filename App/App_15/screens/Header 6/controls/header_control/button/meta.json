@@ -58,7 +58,7 @@
         "w": 4,
         "h": 5,
         "x": 20,
-        "y": 0
+        "y": 5
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
@@ -120,6 +120,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
+    "gridMobileOrigin": null,
     "hidden": false,
     "icon_visible": false,
     "input_control_height": "2.5rem",
