@@ -68,14 +68,14 @@
     "dhqGrid": {
         "w": 10,
         "h": 5,
-        "x": 7,
+        "x": 8,
         "y": 1
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 10,
         "h": 5,
-        "x": 7,
+        "x": 8,
         "y": 1
     },
     "disabled": false,
