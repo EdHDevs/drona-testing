@@ -1,0 +1,192 @@
+{
+    "__dhq_default_formula_Dtype": "string",
+    "__dhq_formula_Dtype": "string",
+    "__dhq_keywords_mapping_Dtype": "object",
+    "__LiveData_Dtype": "string",
+    "accessible_description": "",
+    "allow_options_addition_in_editor": true,
+    "button_label": "",
+    "button_type": "no_action",
+    "button_value": "",
+    "caching": false,
+    "card_background_color": "var(--DHQ-primary-color)",
+    "card_border_radius": "var(--DHQ-border-radius)",
+    "card_border_radius_unit": "",
+    "card_theme": "filled-theme",
+    "cid": "c1129R5EeiowRS3Z6t0BRd",
+    "class_name": "test",
+    "ctrl_id": "",
+    "data_submission_enabled": true,
+    "data_type": "string",
+    "dfmv_selected": "default",
+    "dhq_config": {
+        "strict_update": [
+            "for_localization",
+            "dhq_config",
+            "show_new_property"
+        ],
+        "update_to_theme_varaibles": [
+            "card_border_radius",
+            "title_font_weight",
+            "title_text_color",
+            "card_background_color",
+            "disable_card_background_color",
+            "title_font_size",
+            "label_font_size",
+            "label_font_size_unit",
+            "label_font_weight",
+            "label_text_color",
+            "formbuilder_theme"
+        ]
+    },
+    "dhq_data_process": "",
+    "dhq_default_data_process": "",
+    "dhq_default_formula": "",
+    "dhq_external_css": {
+        "addCode": false,
+        "data": {}
+    },
+    "dhq_nsf_replaced": false,
+    "dhq_olddt_map": {},
+    "dhq_req_stats": {
+        "status": ""
+    },
+    "dhq_submit_condition": "always",
+    "dhq_tfd": true,
+    "dhqEvtConverted": true,
+    "dhqGrid": {
+        "w": 4,
+        "h": 5,
+        "x": 19,
+        "y": 0
+    },
+    "dhqGridChanged": false,
+    "dhqGridDesktop": {
+        "w": 4,
+        "h": 5,
+        "x": 19,
+        "y": 0
+    },
+    "disable_card_background_color": "var(--DHQ-border-color)",
+    "disable_title_text_color": "var(--DHQ-neutral-font-color)",
+    "disabled": false,
+    "display_label": "Text",
+    "event_items": {
+        "button_click": {
+            "click": [
+                {
+                    "formula_with_id": "",
+                    "formula_with_name": ""
+                }
+            ]
+        }
+    },
+    "field_available_in_database_editor": false,
+    "field_composition_type": "single",
+    "field_config": {},
+    "field_data_model": "",
+    "field_data_model_binding_formula": "",
+    "field_data_model_binding_manual_query": "DATABUILDER()",
+    "field_data_model_binding_manual_query_with_id": "DATABUILDER()",
+    "field_data_model_binding_type": "manual_query",
+    "field_database_editor_data_format": "single_line_text",
+    "field_datatypes": [],
+    "field_display_key_name": "button3",
+    "field_editable_in_database_editor": true,
+    "field_fullview": false,
+    "field_key_name": "Button1_c1129R5EeiowRS3Z6t0BRd",
+    "field_options": {},
+    "field_responsive": false,
+    "field_type": "Button1",
+    "field_values_addition_enabled_in_database_editor": true,
+    "field_values_source": "",
+    "for_localization": {
+        "static_msgs": [],
+        "dynamic_msgs_keys": [
+            "label",
+            "button_label",
+            "tooltip",
+            "tip_description"
+        ],
+        "concated_msgs": []
+    },
+    "formbuilder_theme": "var(--DHQ-border-color)",
+    "grid_dynamic_height": true,
+    "grid_maintain_space": false,
+    "grid_max_height": "",
+    "grid_max_height_unit": "px",
+    "hidden": false,
+    "icon_visible": true,
+    "input_control_height": "2.5rem",
+    "input_font_color": "var(--DHQ-primary-font-color)",
+    "input_font_size": "var(--DHQ-normal-font)",
+    "input_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_text_color": "#aaaaaa",
+    "input_placeholder_text_size": "var(--DHQ-small-font)",
+    "is_button": true,
+    "is_master_control": false,
+    "is_navigation_control": true,
+    "is_outlet_control": false,
+    "is_repeat_outlet_control": false,
+    "is_variable": false,
+    "isDhqGridCtrl": true,
+    "isDhqHideOnDesktop": false,
+    "isDhqHideOnMobile": false,
+    "label": "Button",
+    "label_font_size": "var(--DHQ-control-title)",
+    "label_font_size_unit": "",
+    "label_font_weight": "var(--DHQ-bold)",
+    "label_font_weight_class": "font-weight-normal",
+    "label_hidden": true,
+    "label_left_width": "33",
+    "label_left_width_unit": "%",
+    "label_position": "top",
+    "label_text_alignment": "left",
+    "label_text_color": "var(--DHQ-primary-font-color)",
+    "mailto_body": "Hi",
+    "mailto_subject": "subject",
+    "mailto_to": "name@domain.com",
+    "navigate_to": "",
+    "navigation_enabled": false,
+    "navigation_transition": "",
+    "parent_id": "",
+    "prefix_icon": "fas fa-arrow-circle-right",
+    "required": false,
+    "sb_mode": "JS",
+    "show_description": false,
+    "show_dfm": false,
+    "show_new_property": true,
+    "show_prefix_icon": false,
+    "show_suffix_icon": false,
+    "show_tooltip": false,
+    "sid": "sc1129R5EeiowRS3Z6t0BRd",
+    "side_to_display": "right",
+    "state_dropdown": "enable",
+    "statesObj": {
+        "Button": {
+            "Enable": {
+                "className": "enable",
+                "selector": "control-button"
+            },
+            "Disable": {
+                "className": "disable",
+                "selector": "control-button"
+            }
+        }
+    },
+    "submit_from_pages": 6,
+    "suffix_icon": "fas fa-arrow-circle-left",
+    "tabIndex": "",
+    "tip_description": "",
+    "title_font_size": "var(--DHQ-medium-font)",
+    "title_font_size_unit": "",
+    "title_font_weight": "var(--DHQ-bold)",
+    "title_text_alignment": "center",
+    "title_text_color": "var(--DHQ-neutral-font-color)",
+    "tooltip": "",
+    "type": "non_input",
+    "workflow_icon": "fas fa-arrow-right",
+    "wrap_text": true,
+    "wrapper_content_alignment": "flex-start"
+}
