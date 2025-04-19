@@ -126,7 +126,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
-    "gridMobileOrigin": null,
+    "gridMobileOrigin": 5,
     "helperFuncForIcon": true,
     "hidden": false,
     "input_control_height": "2.5rem",

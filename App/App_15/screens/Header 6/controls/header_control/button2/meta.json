@@ -55,9 +55,9 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 1,
+        "w": 4,
         "h": 5,
-        "x": 20,
+        "x": 19,
         "y": 0
     },
     "dhqGridChanged": false,
@@ -67,6 +67,7 @@
         "x": 20,
         "y": 0
     },
+    "dhqMGridChanged": true,
     "disable_card_background_color": "var(--DHQ-border-color)",
     "disable_title_text_color": "var(--DHQ-neutral-font-color)",
     "disabled": false,
