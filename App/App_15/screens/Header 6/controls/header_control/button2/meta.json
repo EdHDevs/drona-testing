@@ -57,14 +57,14 @@
     "dhqGrid": {
         "w": 1,
         "h": 5,
-        "x": 23,
+        "x": 22,
         "y": 0
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 1,
         "h": 5,
-        "x": 23,
+        "x": 22,
         "y": 0
     },
     "disable_card_background_color": "var(--DHQ-border-color)",
@@ -120,7 +120,7 @@
     "grid_max_height": "",
     "grid_max_height_unit": "px",
     "hidden": false,
-    "icon_visible": true,
+    "icon_visible": false,
     "input_control_height": "2.5rem",
     "input_font_color": "var(--DHQ-primary-font-color)",
     "input_font_size": "var(--DHQ-normal-font)",
