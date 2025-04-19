@@ -31,7 +31,7 @@
         }
     },
     "ctrl_id": "",
-    "data_font_size": "var(--DHQ-H4)",
+    "data_font_size": "var(--DHQ-large-font)",
     "data_font_size_unit": "",
     "data_font_weight": "var(--DHQ-bold)",
     "data_submission_enabled": true,
