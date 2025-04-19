@@ -183,7 +183,7 @@
     "suffix_icon": "fas fa-arrow-circle-left",
     "tabIndex": "",
     "tip_description": "",
-    "title_font_size": "var(--DHQ-medium-font)",
+    "title_font_size": "var(--DHQ-H3)",
     "title_font_size_unit": "",
     "title_font_weight": "var(--DHQ-bold)",
     "title_text_alignment": "center",
