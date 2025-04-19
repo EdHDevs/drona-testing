@@ -57,7 +57,7 @@
     "dhqGrid": {
         "w": 3,
         "h": 5,
-        "x": 20,
+        "x": 19,
         "y": 0
     },
     "dhqGridChanged": false,
