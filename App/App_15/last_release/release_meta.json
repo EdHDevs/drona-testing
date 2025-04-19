@@ -1,10 +1,10 @@
 {
   "PackageWithNewControls": true,
-  "releaseNotes": "git",
+  "releaseNotes": "ad",
   "usedFieldsName": "grid_panel,Header,dhq_icon,dhq_metric,dhq_vertical_divider,list,dhq_grouped_menu,Separator,dhq_collapsible_menu,text",
   "metadata": {},
   "env": "prod",
-  "newVersion": "1.0.10",
+  "newVersion": "1.0.11",
   "pluginId": "15",
   "subCatList": "",
   "multistepAuthUsedInAppList": [],
@@ -70,7 +70,7 @@
       "--DHQ-border-size": "1px",
       "--DHQ-border-radius": "0.25rem",
       "--DHQ-box-shadow": "rgba(0, 0, 0, 0.16) 0px 1px 4px",
-      "--DHQ-package-loader": "http://13.59.45.9/static/images/Console/loader.svg",
+      "--DHQ-package-loader": "https://dev.vitasya.cloud/static/images/Console/loader.svg",
       "--DHQ-font-family": "Montserrat",
       "custom_font_list": []
     },
@@ -134,7 +134,7 @@
       "--DHQ-border-size": "1px",
       "--DHQ-border-radius": "0.25rem",
       "--DHQ-box-shadow": "rgba(0, 0, 0, 0.16) 0px 1px 4px",
-      "--DHQ-package-loader": "http://13.59.45.9/static/images/Console/loader.svg",
+      "--DHQ-package-loader": "https://dev.vitasya.cloud/static/images/Console/loader.svg",
       "--DHQ-font-family": "Montserrat",
       "custom_font_list": []
     }
