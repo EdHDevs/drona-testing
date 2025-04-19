@@ -195,7 +195,7 @@
     "space_between": ".36",
     "space_between_unit": "rem",
     "tabIndex": "",
-    "text_head_font_size": "var(--DHQ-large-font)",
+    "text_head_font_size": "var(--DHQ-H2)",
     "text_head_font_size_unit": "",
     "text_head_font_weight": "var(--DHQ-x-bold)",
     "text_head_text_alignment": "left",
