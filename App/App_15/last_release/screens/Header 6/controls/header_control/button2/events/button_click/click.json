@@ -1,0 +1,14 @@
+{
+    "event_name": "button_click",
+    "selector": ".control-button",
+    "event_type": "click",
+    "actionflow_id": "af_Button1_c1094Rw7W02irKIVwTPbzE_button_click_click",
+    "next_actions": [
+        "end_action_flow"
+    ],
+    "prev_actions": [],
+    "actions": [],
+    "category": "",
+    "interval": "",
+    "action_label": ""
+}

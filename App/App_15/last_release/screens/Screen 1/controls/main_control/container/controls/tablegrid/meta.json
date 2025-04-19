@@ -139,7 +139,7 @@
         "w": 24,
         "h": 60,
         "x": 0,
-        "y": 15
+        "y": 73
     },
     "dhqGridDesktop": {
         "w": 24,
@@ -602,6 +602,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
+    "gridMobileOrigin": null,
     "group_data": false,
     "groupBy": "",
     "has_unique_identifier": false,
@@ -696,7 +697,7 @@
     "required": false,
     "row_even_color": "var(--DHQ-neutral-bg-color)",
     "row_odd_color": "var(--DHQ-neutral-bg-color)",
-    "rowsVisible": 10,
+    "rowsVisible": 14,
     "sb_mode": "JS",
     "search_show": false,
     "searchPlaceholder": "Search",

@@ -31,7 +31,7 @@
         }
     },
     "ctrl_id": "",
-    "data_font_size": "var(--DHQ-small-font)",
+    "data_font_size": "var(--DHQ-large-font)",
     "data_font_size_unit": "",
     "data_font_weight": "var(--DHQ-bold)",
     "data_submission_enabled": true,
@@ -86,9 +86,9 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 9,
-        "h": 9,
-        "x": 13,
+        "w": 11,
+        "h": 11,
+        "x": 12,
         "y": 6
     },
     "dhqGridDesktop": {
@@ -153,7 +153,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
-    "gridMobileOrigin": null,
+    "gridMobileOrigin": 20,
     "hidden": false,
     "info_pos": "bottom",
     "input_control_height": "2.5rem",

@@ -31,7 +31,7 @@
         }
     },
     "ctrl_id": "",
-    "data_font_size": "var(--DHQ-small-font)",
+    "data_font_size": "var(--DHQ-control-title)",
     "data_font_size_unit": "",
     "data_font_weight": "var(--DHQ-bold)",
     "data_submission_enabled": true,
@@ -86,8 +86,8 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 9,
-        "h": 9,
+        "w": 12,
+        "h": 12,
         "x": 0,
         "y": 6
     },
