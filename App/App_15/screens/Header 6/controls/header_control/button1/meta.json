@@ -43,7 +43,7 @@
     "dhq_default_data_process": "",
     "dhq_default_formula": "",
     "dhq_external_css": {
-        "addCode": false,
+        "addCode": true,
         "data": {}
     },
     "dhq_nsf_replaced": false,
