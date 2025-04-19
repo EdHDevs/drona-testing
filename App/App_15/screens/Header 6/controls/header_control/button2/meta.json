@@ -55,16 +55,16 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 4,
+        "w": 1,
         "h": 5,
-        "x": 19,
+        "x": 23,
         "y": 0
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
-        "w": 4,
+        "w": 1,
         "h": 5,
-        "x": 19,
+        "x": 23,
         "y": 0
     },
     "disable_card_background_color": "var(--DHQ-border-color)",
@@ -95,7 +95,11 @@
     "field_editable_in_database_editor": true,
     "field_fullview": false,
     "field_key_name": "Button1_c1094Rw7W02irKIVwTPbzE",
-    "field_options": {},
+    "field_options": {
+        "header_config": {
+            "gridMobileMaxHeight": 50
+        }
+    },
     "field_responsive": false,
     "field_type": "Button1",
     "field_values_addition_enabled_in_database_editor": true,
