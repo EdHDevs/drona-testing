@@ -697,7 +697,7 @@
     "required": false,
     "row_even_color": "var(--DHQ-neutral-bg-color)",
     "row_odd_color": "var(--DHQ-neutral-bg-color)",
-    "rowsVisible": 10,
+    "rowsVisible": 14,
     "sb_mode": "JS",
     "search_show": false,
     "searchPlaceholder": "Search",

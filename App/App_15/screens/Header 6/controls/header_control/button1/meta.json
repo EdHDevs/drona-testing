@@ -44,7 +44,10 @@
     "dhq_default_formula": "",
     "dhq_external_css": {
         "addCode": true,
-        "data": {}
+        "data": {
+            "code": " word-wrap: break-word;\n  overflow-wrap: break-word;\n  white-space: normal;\n  font-size: 1rem;\n  line-height: 1.5;\n}\n\n@media (max-width: 768px) {\n  .responsive-text {\n    font-size: 0.9rem;\n    line-height: 1.4;\n  }\n}\n\n@media (max-width: 480px) {\n  .responsive-text {\n    font-size: 0.85rem;\n    line-height: 1.3;\n  }",
+            "compiledCode": ".c976RcnAtTt6A23h4kwqs,.sc976RcnAtTt6A23h4kwqs {  word-wrap: break-word;  overflow-wrap: break-word;  white-space: normal;  font-size: 1rem;  line-height: 1.5;}@media (max-width: 768px) {  .responsive-text {    font-size: 0.9rem;    line-height: 1.4;  }}@media (max-width: 480px) {  .responsive-text {    font-size: 0.85rem;    line-height: 1.3;  }}"
+        }
     },
     "dhq_nsf_replaced": false,
     "dhq_olddt_map": {},
@@ -65,7 +68,7 @@
         "w": 4,
         "h": 5,
         "x": 18,
-        "y": 0
+        "y": 10
     },
     "disable_card_background_color": "var(--DHQ-border-color)",
     "disable_title_text_color": "var(--DHQ-neutral-font-color)",
@@ -115,6 +118,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
+    "gridDesktopOrigin": null,
     "hidden": false,
     "icon_visible": true,
     "input_control_height": "2.5rem",
