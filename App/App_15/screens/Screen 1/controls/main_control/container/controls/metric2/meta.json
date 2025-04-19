@@ -89,7 +89,7 @@
         "w": 9,
         "h": 9,
         "x": 13,
-        "y": 6
+        "y": 26
     },
     "dhqGridDesktop": {
         "w": 4,
@@ -153,7 +153,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
-    "gridMobileOrigin": null,
+    "gridMobileOrigin": 20,
     "hidden": false,
     "info_pos": "bottom",
     "input_control_height": "2.5rem",
