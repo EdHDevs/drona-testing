@@ -1,0 +1,12 @@
+{
+    "screen": {
+        "events": [
+            "routing",
+            "open",
+            "close",
+            "reset"
+        ],
+        "selector": "",
+        "type": "custom"
+    }
+}
