@@ -258,7 +258,7 @@
     "show_dfm": false,
     "show_new_property": true,
     "Show_Progress": true,
-    "Show_tag": true,
+    "Show_tag": false,
     "show_tooltip": false,
     "sid": "sc825R65x9Bwycaymc2YYb",
     "statesObj": {
