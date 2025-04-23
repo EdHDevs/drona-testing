@@ -112,7 +112,7 @@
         "options": [
             {
                 "action_type": "",
-                "menu_item_text": "Event",
+                "menu_item_text": "Dashboard",
                 "group_text": "DISCOVER",
                 "nav_icon": "icon-event",
                 "navigation_transition": "2",
