@@ -6,7 +6,7 @@
     "allow_options_addition_in_editor": true,
     "caching": false,
     "card_bg_color": "var(--DHQ-neutral-bg-color)",
-    "card_border_color": "var(--DHQ-colorpalet-four)",
+    "card_border_color": "var(--DHQ-colorpalet-one)",
     "card_border_radius": "36",
     "card_border_radius_unit": "",
     "center_font_color": "var(--DHQ-primary-font-color)",
