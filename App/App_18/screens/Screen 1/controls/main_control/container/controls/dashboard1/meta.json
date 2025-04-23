@@ -278,7 +278,7 @@
         }
     },
     "tabIndex": "",
-    "tag_block_border_radius": "0.5",
+    "tag_block_border_radius": "1",
     "tag_block_border_radius_unit": "rem",
     "tag_block_font_size": "var(--DHQ-small-font)",
     "tag_block_font_size_unit": "",
