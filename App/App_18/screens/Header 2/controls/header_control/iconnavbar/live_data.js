@@ -1,9 +1,11 @@
 [
     {
-        "label": "Audience",
-        "value": "Audience",
+        "label": "Dashboard",
+        "value": "Dashboard",
         "icon": "fas fa-users",
-        "isActive": "true"
+        "isActive": false,
+        "description": "",
+        "image": ""
     },
     {
         "label": "Schedules",
