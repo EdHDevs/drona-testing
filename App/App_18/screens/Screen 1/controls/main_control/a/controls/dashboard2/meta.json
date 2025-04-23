@@ -73,8 +73,8 @@
     "dhq_external_css": {
         "addCode": true,
         "data": {
-            "code": "  .tag_head_block {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n  }\n\n  .increament_icon {\n    margin-left: 20px;\n  }",
-            "compiledCode": ".c142RTMNeySu9A3fvFItE .tag_head_block,.sc142RTMNeySu9A3fvFItE .tag_head_block {  display: flex;  justify-content: space-between;  align-items: center;}.c142RTMNeySu9A3fvFItE .increament_icon,.sc142RTMNeySu9A3fvFItE .increament_icon {  margin-left: 20px;}"
+            "code": "  .tag_head_block {\n    display: flex;\n    flex-wrap: nowrap;              /* prevent wrapping */\n    justify-content: space-between;\n    align-items: center;\n    padding-right: 5px;\n    overflow: hidden;               /* optional: prevents overflow scroll */\n  }\n\n  .tag_text {\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;       /* optional: adds \"...\" if text too long */\n  }\n\n  .increament_icon {\n    margin-left: auto;\n    flex-shrink: 0;                 /* prevent icon from shrinking */\n  }",
+            "compiledCode": ".c142RTMNeySu9A3fvFItE .tag_head_block,.sc142RTMNeySu9A3fvFItE .tag_head_block {  display: flex;  flex-wrap: nowrap;  /* prevent wrapping */  justify-content: space-between;  align-items: center;  padding-right: 5px;  overflow: hidden;  /* optional: prevents overflow scroll */}.c142RTMNeySu9A3fvFItE .tag_text,.sc142RTMNeySu9A3fvFItE .tag_text {  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  /* optional: adds \"...\" if text too long */}.c142RTMNeySu9A3fvFItE .increament_icon,.sc142RTMNeySu9A3fvFItE .increament_icon {  margin-left: auto;  flex-shrink: 0;  /* prevent icon from shrinking */}"
         }
     },
     "dhq_nsf_replaced": false,
