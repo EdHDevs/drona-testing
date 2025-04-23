@@ -47,7 +47,7 @@
             "color": "var(--theme-color-stable)"
         }
     },
-    "box_shadow": true,
+    "box_shadow": false,
     "bradius": {
         "tl": {
             "value": 5,
@@ -159,7 +159,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
-    "header_allowed": false,
+    "header_allowed": true,
     "header_background": "var(--DHQ-primary-color)",
     "hidden": false,
     "horizontal": "flex-start",
@@ -188,7 +188,7 @@
     "label_font_size_unit": "",
     "label_font_weight": "var(--DHQ-bold)",
     "label_font_weight_class": "font-weight-normal",
-    "label_hidden": true,
+    "label_hidden": false,
     "label_left_width": "33",
     "label_left_width_unit": "%",
     "label_position": "top",
