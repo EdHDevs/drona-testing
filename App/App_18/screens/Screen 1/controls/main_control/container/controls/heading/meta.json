@@ -48,7 +48,7 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 8,
+        "w": 22,
         "h": 4,
         "x": 1,
         "y": 2
@@ -59,7 +59,7 @@
         "x": 1,
         "y": 2
     },
-    "dhqMGridChanged": false,
+    "dhqMGridChanged": true,
     "disabled": false,
     "field_available_in_database_editor": false,
     "field_composition_type": "single",
