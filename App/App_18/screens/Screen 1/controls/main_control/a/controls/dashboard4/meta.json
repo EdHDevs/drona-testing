@@ -247,7 +247,7 @@
     "positive_tag_bg_color": "var(--DHQ-success-color)",
     "positive_tag_font_color": "var(--DHQ-neutral-font-color)",
     "positive_tag_icon_color": "var(--DHQ-neutral-font-color)",
-    "progress_bar_height": "1",
+    "progress_bar_height": "0.75",
     "progress_bar_height_unit": "rem",
     "required": false,
     "sb_mode": {
