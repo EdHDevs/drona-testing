@@ -1,0 +1,38 @@
+{
+    "selection_change": {
+        "events": [
+            "click"
+        ],
+        "selector": ".menu .card"
+    },
+    "action1_click": {
+        "events": [
+            "click"
+        ],
+        "selector": ".action-button.action1"
+    },
+    "action2_click": {
+        "events": [
+            "click"
+        ],
+        "selector": ".action-button.action2"
+    },
+    "action3_click": {
+        "events": [
+            "click"
+        ],
+        "selector": ".action-button.action3"
+    },
+    "action4_click": {
+        "events": [
+            "click"
+        ],
+        "selector": ".action-button.action4"
+    },
+    "action5_click": {
+        "events": [
+            "click"
+        ],
+        "selector": ".action-button.action5"
+    }
+}
