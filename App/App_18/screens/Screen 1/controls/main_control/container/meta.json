@@ -118,9 +118,9 @@
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 24,
-        "h": 68,
+        "h": 71,
         "x": 0,
-        "y": 4
+        "y": 1
     },
     "dhqMGridChanged": true,
     "disabled": false,
