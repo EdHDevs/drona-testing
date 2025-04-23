@@ -4,9 +4,7 @@
     "created_at": 1745424285608,
     "datatype": "composite_list",
     "defaultValue": "",
-    "dhq_req_stats": {
-        "status": "resolved"
-    },
+    "dhq_req_stats": {},
     "dhq_set_value_via_action": false,
     "display_name": "GetPreSignedUrl",
     "evaluate_on_dependency_change": "everytime",
