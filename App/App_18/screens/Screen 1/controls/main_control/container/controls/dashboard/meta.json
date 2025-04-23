@@ -7,7 +7,7 @@
     "caching": false,
     "card_bg_color": "var(--DHQ-neutral-bg-color)",
     "card_border_color": "var(--DHQ-border-color)",
-    "card_border_radius": "",
+    "card_border_radius": "20",
     "card_border_radius_unit": "",
     "center_font_color": "var(--DHQ-primary-font-color)",
     "center_font_size": "var(--DHQ-H4)",
