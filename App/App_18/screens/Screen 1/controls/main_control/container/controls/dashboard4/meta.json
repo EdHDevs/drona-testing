@@ -86,9 +86,9 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 5,
+        "w": 22,
         "h": 18,
-        "x": 16,
+        "x": 1,
         "y": 22
     },
     "dhqGridDesktop": {
@@ -97,7 +97,7 @@
         "x": 16,
         "y": 6
     },
-    "dhqMGridChanged": false,
+    "dhqMGridChanged": true,
     "disabled": false,
     "empty_bar_color": "var(--DHQ-border-color)",
     "event_items": {
