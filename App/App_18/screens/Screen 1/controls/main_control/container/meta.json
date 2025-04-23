@@ -120,7 +120,7 @@
         "w": 24,
         "h": 68,
         "x": 0,
-        "y": 0
+        "y": 4
     },
     "dhqMGridChanged": true,
     "disabled": false,
@@ -169,7 +169,7 @@
     "image_box_fill": "cover",
     "image_box_image_alignment": "center",
     "image_caching": true,
-    "Image_opacity": "1",
+    "Image_opacity": "0",
     "input_control_height": "2.5rem",
     "input_font_color": "var(--DHQ-primary-font-color)",
     "input_font_size": "var(--DHQ-normal-font)",
