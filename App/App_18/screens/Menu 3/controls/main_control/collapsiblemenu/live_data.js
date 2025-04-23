@@ -59,9 +59,15 @@
         }
     },
     {
-        "label": "Apply",
+        "label": "Analytics",
         "value": "apply",
-        "icon": "icon-cursor"
+        "icon": "icon-cursor",
+        "active": false,
+        "image": "",
+        "tag": {
+            "color": "#26bc6a",
+            "value": ""
+        }
     },
     {
         "label": "Explore",
