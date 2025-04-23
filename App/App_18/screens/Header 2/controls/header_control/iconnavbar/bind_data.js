@@ -16,7 +16,7 @@
         "isActive": false
     },
     {
-        "label": "Income",
+        "label": "Audience Manager",
         "icon": "fas fa-wallet",
         "options": [
             {
@@ -38,7 +38,11 @@
                 "value": "Payouts",
                 "description": ""
             }
-        ]
+        ],
+        "value": "Audience Manager",
+        "description": "",
+        "image": "",
+        "isActive": false
     },
     {
         "label": "Posts",
