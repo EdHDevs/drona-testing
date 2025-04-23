@@ -10,7 +10,7 @@
     "card_border_radius": "var(--DHQ-border-radius)",
     "card_border_radius_unit": "",
     "center_font_color": "var(--DHQ-primary-font-color)",
-    "center_font_size": "var(--DHQ-H4)",
+    "center_font_size": "var(--DHQ-line-height)",
     "center_font_size_unit": "",
     "center_font_weight": 800,
     "center_text_alignment": "flex-start",
