@@ -7,7 +7,7 @@
     "active_menu_font_size": "var(--DHQ-large-font)",
     "active_menu_font_size_unit": "",
     "active_menu_font_weight": "var(--DHQ-x-bold)",
-    "active_menu_text_color": "var(--DHQ-primary-color)",
+    "active_menu_text_color": "var(--DHQ-neutral-font-color)",
     "allow_options_addition_in_editor": true,
     "arrow_type": "up_down",
     "caching": false,
