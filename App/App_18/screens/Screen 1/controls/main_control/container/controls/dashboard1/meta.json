@@ -86,10 +86,10 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 22,
+        "w": 23,
         "h": 16,
         "x": 1,
-        "y": 23
+        "y": 6
     },
     "dhqGridDesktop": {
         "w": 7,
