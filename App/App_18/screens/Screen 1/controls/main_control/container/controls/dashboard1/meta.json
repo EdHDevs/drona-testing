@@ -252,8 +252,8 @@
         "footer_text": "JS",
         "percentage": "JS"
     },
-    "show_border": false,
-    "show_box_shadow": true,
+    "show_border": true,
+    "show_box_shadow": false,
     "show_description": false,
     "show_dfm": false,
     "show_new_property": true,
