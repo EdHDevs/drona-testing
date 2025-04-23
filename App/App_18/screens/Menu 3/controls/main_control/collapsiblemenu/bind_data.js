@@ -11,12 +11,12 @@
         }
     },
     {
-        "label": "Job",
-        "value": "job",
+        "label": "Campaigns",
+        "value": "campaigns",
         "icon": "icon-briefcase",
         "children": [
             {
-                "label": "Analyst",
+                "label": "Recipients",
                 "children": [
                     {
                         "label": "Data Analyst",
@@ -41,10 +41,22 @@
                         "active": true
                     }
                 ],
-                "value": "analyst",
-                "icon": "icon-graph"
+                "value": "recipients",
+                "icon": "icon-graph",
+                "active": false,
+                "image": "",
+                "tag": {
+                    "color": "#26bc6a",
+                    "value": ""
+                }
             }
-        ]
+        ],
+        "active": false,
+        "image": "",
+        "tag": {
+            "color": "#26bc6a",
+            "value": ""
+        }
     },
     {
         "label": "Apply",
