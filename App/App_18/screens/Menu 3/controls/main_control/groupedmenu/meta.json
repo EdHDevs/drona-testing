@@ -114,7 +114,7 @@
                 "action_type": "",
                 "menu_item_text": "Dashboard",
                 "group_text": "",
-                "nav_icon": "icon-screen-desktop",
+                "nav_icon": "icon-direction",
                 "navigation_transition": "2",
                 "selected": true,
                 "reset_target": false
