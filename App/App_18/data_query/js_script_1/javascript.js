@@ -2,7 +2,7 @@
   try {
     console.log("Starting PDF generation...");
 
-    const url = 'https://www.uscis.gov/sites/default/files/document/forms/i-9.pdf';
+    const url = '{{url}}';
     console.log("Fetching PDF from:", url);
 
     const res = await fetch(url);

@@ -1,1 +1,11 @@
-[]
+[
+    {
+        "alias": "url",
+        "name": "GetPreSignedUrl.preSignedUrl",
+        "id": "variable_R8eZOaSlhICEAwmKL1745424285608.preSignedUrl",
+        "testValue": "false",
+        "testValueType": {
+            "length": 0
+        }
+    }
+]
