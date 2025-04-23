@@ -189,7 +189,7 @@
     "label_font_size_unit": "",
     "label_font_weight": "var(--DHQ-bold)",
     "label_font_weight_class": "font-weight-normal",
-    "label_hidden": false,
+    "label_hidden": true,
     "label_left_width": "33",
     "label_left_width_unit": "%",
     "label_position": "top",
