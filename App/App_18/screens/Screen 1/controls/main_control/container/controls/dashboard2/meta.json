@@ -73,8 +73,8 @@
     "dhq_external_css": {
         "addCode": true,
         "data": {
-            "code": "  .tag_head_block {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n  }\n\n  .increament_icon {\n    margin-left: 20px;\n  }",
-            "compiledCode": ".c142RTMNeySu9A3fvFItE .tag_head_block,.sc142RTMNeySu9A3fvFItE .tag_head_block {  display: flex;  justify-content: space-between;  align-items: center;}.c142RTMNeySu9A3fvFItE .increament_icon,.sc142RTMNeySu9A3fvFItE .increament_icon {  margin-left: 20px;}"
+            "code": "  .tag_head_block {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n  }\n\n  .increament_icon {\n    margin-left: 30px;\n  }",
+            "compiledCode": ".c142RTMNeySu9A3fvFItE .tag_head_block,.sc142RTMNeySu9A3fvFItE .tag_head_block {  display: flex;  justify-content: space-between;  align-items: center;}.c142RTMNeySu9A3fvFItE .increament_icon,.sc142RTMNeySu9A3fvFItE .increament_icon {  margin-left: 30px;}"
         }
     },
     "dhq_nsf_replaced": false,
