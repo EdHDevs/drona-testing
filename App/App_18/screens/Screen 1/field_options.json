@@ -47,7 +47,8 @@
     "page_footer_left_right_padding_unit": "rem",
     "header_config": {
         "ctrl_sv": 1.25,
-        "ctrl_su": "rem"
+        "ctrl_su": "rem",
+        "gridDesktopMaxHeight": "3.846rem"
     },
     "main_config": {
         "ctrl_sv": 1.25,
