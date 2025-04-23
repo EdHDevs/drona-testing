@@ -61,13 +61,13 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 12,
+        "w": 21,
         "h": 4,
-        "x": 12,
+        "x": 2,
         "y": 1
     },
     "dhqGridDesktop": {
-        "w": 14,
+        "w": 21,
         "h": 4,
         "x": 2,
         "y": 1
@@ -91,7 +91,11 @@
     "field_editable_in_database_editor": false,
     "field_fullview": false,
     "field_key_name": "dhq_nav_bar_c54RSsAlLchdHzplNafs",
-    "field_options": {},
+    "field_options": {
+        "header_config": {
+            "gridMobileMaxHeight": 50
+        }
+    },
     "field_responsive": false,
     "field_type": "dhq_nav_bar",
     "field_values_addition_enabled_in_database_editor": true,
