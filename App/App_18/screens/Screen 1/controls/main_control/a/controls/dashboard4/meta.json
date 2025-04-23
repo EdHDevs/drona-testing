@@ -87,13 +87,13 @@
     "dhqEvtConverted": true,
     "dhqGrid": {
         "w": 7,
-        "h": 16,
+        "h": 14,
         "x": 15,
         "y": 6
     },
     "dhqGridDesktop": {
         "w": 7,
-        "h": 16,
+        "h": 14,
         "x": 15,
         "y": 6
     },
@@ -239,7 +239,7 @@
     "normal_tag_bg_color": "var(--DHQ-menu-bg-color)",
     "normal_tag_font_color": "var(--DHQ-neutral-font-color)",
     "normal_tag_icon_color": "var(--DHQ-scrollbar-color)",
-    "padding": 0.375,
+    "padding": "0",
     "padding_unit": "rem",
     "parent_id": "grid_panel_c216RqCSJPcZr07IOpvNW",
     "positive_S_icon": "fas fa-plus",
