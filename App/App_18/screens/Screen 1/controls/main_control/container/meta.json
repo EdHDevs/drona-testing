@@ -228,6 +228,7 @@
     "tip_description": "",
     "tooltip": "",
     "type": "non_input",
+    "unique_name_change": true,
     "URL_link": "",
     "wrapper_content_alignment": "flex-start"
 }
