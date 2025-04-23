@@ -2,7 +2,7 @@
     "event_name": "button_click",
     "selector": "[eventname = 'button_click']",
     "event_type": "click",
-    "actionflow_id": "af_layout_c562RC9Qh4GUtnVqcxg9N_button_click_click",
+    "actionflow_id": "af_column_c691RkDnLYFaPt2FHChRT_button_click_click",
     "next_actions": [
         "end_action_flow"
     ],

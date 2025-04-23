@@ -2,7 +2,7 @@
     "__dhq_default_formula_Dtype": "string",
     "__dhq_formula_Dtype": "string",
     "allow_options_addition_in_editor": true,
-    "bg_color": "transparent",
+    "bg_color": "var(--DHQ-secondary-bg-color)",
     "border": {
         "type": "all",
         "all": {
@@ -66,27 +66,31 @@
         }
     },
     "caching": false,
-    "cid": "c562RC9Qh4GUtnVqcxg9N",
+    "cid": "c691RkDnLYFaPt2FHChRT",
     "class_name": "test",
     "ctrl_id": "",
-    "ctrl_spacing_unit": "rem",
-    "ctrl_spacing_value": "0.625",
+    "ctrl_spacing_unit": "px",
+    "ctrl_spacing_value": 0,
+    "cursor_effect": "auto",
     "data_submission_enabled": true,
     "data_type": "",
     "dfmv_selected": "default",
     "dhq_config": {
+        "is_nested_allowed": true,
+        "layoutMap": {},
         "strict_update": [
             "for_localization",
             "dhq_config",
             "show_new_property"
         ],
         "update_to_theme_varaibles": [
-            "formbuilder_theme",
             "label_font_size",
             "label_font_size_unit",
             "label_font_weight",
             "label_text_color",
-            "bg_color"
+            "bg_color",
+            "ctrl_spacing_value",
+            "ctrl_spacing_unit"
         ]
     },
     "dhq_data_process": "",
@@ -104,9 +108,7 @@
     "dhq_submit_condition": "always",
     "dhq_tfd": true,
     "dhqEvtConverted": true,
-    "direction": "row",
     "disabled": false,
-    "display": "flex",
     "event_items": {
         "button_click": {
             "click": [
@@ -128,31 +130,38 @@
     "field_data_model_binding_type": "",
     "field_database_editor_data_format": "",
     "field_datatypes": [],
-    "field_display_key_name": "layout",
+    "field_display_key_name": "col",
     "field_editable_in_database_editor": false,
     "field_fullview": false,
-    "field_key_name": "layout_c562RC9Qh4GUtnVqcxg9N",
+    "field_key_name": "column_c691RkDnLYFaPt2FHChRT",
     "field_options": {
         "options": []
     },
     "field_responsive": false,
-    "field_type": "layout",
+    "field_type": "column",
     "field_values_addition_enabled_in_database_editor": true,
     "field_values_source": "",
     "for_localization": {
         "static_msgs": [],
         "dynamic_msgs_keys": [
             "label",
-            "tooltip",
             "tip_description"
         ],
         "concated_msgs": []
     },
     "formbuilder_theme": "#bbbbbb",
+    "grid": {
+        "sm": 12,
+        "md": 12,
+        "lg": 12,
+        "xd": 12
+    },
     "grid_dynamic_height": true,
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
+    "height": "auto",
+    "height_unit": " ",
     "hidden": false,
     "horizontal": "flex-start",
     "input_control_height": "2.5rem",
@@ -166,7 +175,7 @@
     "is_outlet_control": true,
     "is_repeat_outlet_control": false,
     "is_variable": false,
-    "label": "Layout",
+    "label": "col",
     "label_font_size": "var(--DHQ-control-title)",
     "label_font_size_unit": "",
     "label_font_weight": "var(--DHQ-bold)",
@@ -200,11 +209,10 @@
     "max_h_unit": " ",
     "max_w": "",
     "max_w_unit": " ",
-    "min_h": "6.25",
-    "min_h_unit": "rem",
+    "min_h": "10",
+    "min_h_unit": "px",
     "min_w": "",
     "min_w_unit": " ",
-    "outline": true,
     "overflow": "visible",
     "padding": {
         "top": {
@@ -230,13 +238,12 @@
     "show_dfm": false,
     "show_new_property": true,
     "show_tooltip": false,
-    "sid": "sc562RC9Qh4GUtnVqcxg9N",
+    "sid": "sc691RkDnLYFaPt2FHChRT",
     "stopPropagation": true,
     "tabIndex": "",
     "tip_description": "",
     "tooltip": "",
     "type": "non_input",
     "vertical": "flex-start",
-    "wrap": "wrap",
     "wrapper_content_alignment": "flex-start"
 }
