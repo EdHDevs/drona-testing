@@ -1,1 +1,1 @@
-{{GetPreSignedUrl.preSignedUrl}}
+{{GetPreSignedUrl}}
