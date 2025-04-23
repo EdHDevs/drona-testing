@@ -8,9 +8,12 @@
         "image": ""
     },
     {
-        "label": "Schedules",
-        "value": "Schedules",
-        "icon": "fas fa-calendar"
+        "label": "Campaigns",
+        "value": "Campaigns",
+        "icon": "fas fa-calendar",
+        "description": "",
+        "image": "",
+        "isActive": false
     },
     {
         "label": "Income",
