@@ -72,7 +72,10 @@
     "dhq_default_formula": "",
     "dhq_external_css": {
         "addCode": true,
-        "data": {}
+        "data": {
+            "code": " .increament_icon {\n    margin-left: 15px;\n  }",
+            "compiledCode": ".c825R65x9Bwycaymc2YYb .increament_icon,.sc825R65x9Bwycaymc2YYb .increament_icon {  margin-left: 15px;}"
+        }
     },
     "dhq_nsf_replaced": false,
     "dhq_olddt_map": {},
