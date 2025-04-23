@@ -82,13 +82,13 @@
         "w": 22,
         "h": 28,
         "x": 1,
-        "y": 41
+        "y": 6
     },
     "dhqGridDesktop": {
         "w": 22,
         "h": 28,
         "x": 1,
-        "y": 41
+        "y": 6
     },
     "disabled": false,
     "enable_ui_input": true,

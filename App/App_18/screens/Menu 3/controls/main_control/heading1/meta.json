@@ -129,6 +129,7 @@
     "line_height_unit": "",
     "parent_id": "",
     "required": false,
+    "sb_mode": "JS",
     "show_description": false,
     "show_dfm": false,
     "show_new_property": true,
