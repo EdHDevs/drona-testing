@@ -3,7 +3,7 @@
     "__dhq_formula_Dtype": "string",
     "__dhq_keywords_mapping_Dtype": "object",
     "__LiveData_Dtype": "string",
-    "active_menu_bg": "var(--DHQ-primary-light-color)",
+    "active_menu_bg": "var(--DHQ-colorpalet-six)",
     "active_menu_font_size": "var(--DHQ-large-font)",
     "active_menu_font_size_unit": "",
     "active_menu_font_weight": "var(--DHQ-x-bold)",
