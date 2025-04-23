@@ -95,7 +95,7 @@
         "w": 5,
         "h": 18,
         "x": 6,
-        "y": 6
+        "y": 24
     },
     "dhqMGridChanged": true,
     "disabled": false,
@@ -195,7 +195,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
-    "gridDesktopOrigin": null,
+    "gridDesktopOrigin": 18,
     "gridMobileOrigin": null,
     "header_font_color": "var(--DHQ-primary-font-color)",
     "header_font_size": "var(--DHQ-normal-font)",
