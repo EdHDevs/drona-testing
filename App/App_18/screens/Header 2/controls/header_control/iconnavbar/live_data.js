@@ -45,9 +45,11 @@
         "isActive": false
     },
     {
-        "label": "Posts",
-        "value": "Posts",
+        "label": "Campaign Planner",
+        "value": "Campaign Planner",
         "icon": "fas fa-image",
-        "image": ""
+        "image": "",
+        "description": "",
+        "isActive": false
     }
 ]
