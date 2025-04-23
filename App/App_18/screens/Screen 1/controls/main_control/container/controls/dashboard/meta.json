@@ -14,7 +14,7 @@
     "center_font_size_unit": "",
     "center_font_weight": 800,
     "center_text_alignment": "flex-start",
-    "cid": "c1504Rl5GOqunk8NewvxD7",
+    "cid": "c1717R9RGS97FsEeTTMd5i",
     "class_name": "test",
     "ctrl_id": "",
     "data_submission_enabled": true,
@@ -83,18 +83,18 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 17,
+        "w": 6,
         "h": 16,
-        "x": 2,
-        "y": 40
+        "x": 1,
+        "y": 24
     },
     "dhqGridDesktop": {
         "w": 6,
         "h": 16,
-        "x": 7,
-        "y": 7
+        "x": 1,
+        "y": 24
     },
-    "dhqMGridChanged": true,
+    "dhqMGridChanged": false,
     "disabled": false,
     "empty_bar_color": "var(--DHQ-border-color)",
     "event_items": {
@@ -160,10 +160,10 @@
             "field_database_editor_data_format": "number"
         }
     ],
-    "field_display_key_name": "dashboard2",
+    "field_display_key_name": "dashboard",
     "field_editable_in_database_editor": true,
     "field_fullview": false,
-    "field_key_name": "dhq_dashboard_c1504Rl5GOqunk8NewvxD7",
+    "field_key_name": "dhq_dashboard_c1717R9RGS97FsEeTTMd5i",
     "field_options": {},
     "field_responsive": false,
     "field_type": "dhq_dashboard",
@@ -259,7 +259,7 @@
     "Show_Progress": true,
     "Show_tag": true,
     "show_tooltip": false,
-    "sid": "sc1504Rl5GOqunk8NewvxD7",
+    "sid": "sc1717R9RGS97FsEeTTMd5i",
     "statesObj": {
         "Tag Block": {
             "positive_state": {
