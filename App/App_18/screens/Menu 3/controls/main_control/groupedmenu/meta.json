@@ -113,7 +113,7 @@
             {
                 "action_type": "",
                 "menu_item_text": "Dashboard",
-                "group_text": "DISCOVER",
+                "group_text": "",
                 "nav_icon": "icon-event",
                 "navigation_transition": "2",
                 "selected": true,
