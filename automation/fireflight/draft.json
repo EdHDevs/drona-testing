@@ -1,0 +1,22 @@
+{
+    "automation": {
+        "_id": "6809554b226facbebd2df8d0",
+        "name": "fireflight",
+        "active": false,
+        "data": {
+            "actions": []
+        },
+        "updated_by": "davidsallusti@me.com",
+        "updated_at": "2025-04-23T21:02:03.469Z",
+        "created_by": "davidsallusti@me.com",
+        "created_at": "2025-04-23T21:02:03.469Z"
+    },
+    "apiDetails": [],
+    "managedList": {
+        "database": [],
+        "fileStorage": []
+    },
+    "onprem_version": "3.6.2-stable",
+    "isAutomationJSON": true,
+    "version": "0.0.2"
+}
