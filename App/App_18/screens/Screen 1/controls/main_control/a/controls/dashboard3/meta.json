@@ -88,13 +88,13 @@
     "dhqGrid": {
         "w": 7,
         "h": 16,
-        "x": 9,
+        "x": 8,
         "y": 6
     },
     "dhqGridDesktop": {
         "w": 7,
         "h": 16,
-        "x": 9,
+        "x": 8,
         "y": 6
     },
     "dhqMGridChanged": false,
