@@ -100,6 +100,6 @@
     "additionalKeywords": {},
     "formatedSchema": {},
     "bindedTo": "variable",
-    "autoTransform": false,
+    "autoTransform": true,
     "cat_type": null
 }
