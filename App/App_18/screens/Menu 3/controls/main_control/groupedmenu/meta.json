@@ -121,8 +121,8 @@
             },
             {
                 "action_type": "",
-                "menu_item_text": "Trends",
-                "group_text": "DISCOVER",
+                "menu_item_text": "Campaigns",
+                "group_text": "",
                 "nav_icon": "icon-rocket",
                 "navigation_transition": "2",
                 "selected": false,
@@ -130,7 +130,7 @@
             },
             {
                 "action_type": "",
-                "menu_item_text": "Song",
+                "menu_item_text": "Rec",
                 "group_text": "COLLECTION",
                 "nav_icon": "icon-music-tone-alt",
                 "navigation_transition": "2",
