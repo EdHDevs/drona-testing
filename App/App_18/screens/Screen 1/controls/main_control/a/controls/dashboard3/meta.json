@@ -86,15 +86,15 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 6,
+        "w": 11,
         "h": 16,
-        "x": 7,
+        "x": 11,
         "y": 6
     },
     "dhqGridDesktop": {
-        "w": 6,
+        "w": 11,
         "h": 16,
-        "x": 7,
+        "x": 11,
         "y": 6
     },
     "dhqMGridChanged": false,
@@ -195,6 +195,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "400",
     "grid_max_height_unit": "px",
+    "gridDesktopOrigin": null,
     "gridMobileOrigin": 17,
     "header_font_color": "var(--DHQ-primary-font-color)",
     "header_font_size": "var(--DHQ-normal-font)",
