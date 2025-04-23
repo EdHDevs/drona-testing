@@ -130,8 +130,8 @@
             },
             {
                 "action_type": "",
-                "menu_item_text": "Rec",
-                "group_text": "COLLECTION",
+                "menu_item_text": "Recipients",
+                "group_text": "",
                 "nav_icon": "icon-music-tone-alt",
                 "navigation_transition": "2",
                 "selected": false,
@@ -139,8 +139,8 @@
             },
             {
                 "action_type": "",
-                "menu_item_text": "Artists",
-                "group_text": "COLLECTION",
+                "menu_item_text": "Analytics",
+                "group_text": "",
                 "nav_icon": "icon-user",
                 "navigation_transition": "2",
                 "selected": false,
@@ -148,8 +148,8 @@
             },
             {
                 "action_type": "",
-                "menu_item_text": "Albums",
-                "group_text": "COLLECTION",
+                "menu_item_text": "History",
+                "group_text": "",
                 "nav_icon": "icon-folder-alt",
                 "navigation_transition": "2",
                 "selected": false,
