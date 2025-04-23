@@ -159,7 +159,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
-    "header_allowed": true,
+    "header_allowed": false,
     "header_background": "var(--DHQ-primary-bg-color)",
     "hidden": false,
     "horizontal": "flex-start",
