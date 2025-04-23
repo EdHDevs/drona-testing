@@ -2,7 +2,7 @@
   try {
     console.log("Starting PDF generation...");
 
-    const url2 = data_1
+    const url2 = '{{data_1}}'
     const res = await fetch(url2);
     if (!res.ok) {
       throw new Error(`Failed to fetch PDF: ${res.statusText}`);
