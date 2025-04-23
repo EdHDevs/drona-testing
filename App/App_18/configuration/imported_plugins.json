@@ -1,5 +1,11 @@
 {
     "css": [],
-    "js": [],
-    "sequence": []
+    "js": [
+        "https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"
+    ],
+    "sequence": [
+        {
+            "fileUrl": "https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"
+        }
+    ]
 }
