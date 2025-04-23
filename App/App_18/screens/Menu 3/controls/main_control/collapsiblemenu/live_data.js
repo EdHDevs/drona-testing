@@ -70,8 +70,8 @@
         }
     },
     {
-        "label": "Explore",
-        "value": "explore",
+        "label": "History",
+        "value": "history",
         "icon": "icon-globe",
         "image": "",
         "children": [
@@ -80,7 +80,12 @@
                 "value": "sevices",
                 "icon": "icon-settings"
             }
-        ]
+        ],
+        "active": false,
+        "tag": {
+            "color": "#26bc6a",
+            "value": ""
+        }
     },
     {
         "label": "User",
