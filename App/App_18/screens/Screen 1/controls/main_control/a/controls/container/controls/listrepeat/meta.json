@@ -1,0 +1,215 @@
+{
+    "__dhq_default_formula_Dtype": "string",
+    "__dhq_formula_Dtype": "string",
+    "add_more_text": "More",
+    "allow_options_addition_in_editor": true,
+    "allow_pagination": false,
+    "bg_color": "var(--DHQ-secondary-bg-color)",
+    "box_cols_config": {
+        "cols_at_320_640": 1,
+        "cols_at_641_768": 1,
+        "cols_at_769_1024": 1,
+        "cols_at_1025": 1
+    },
+    "box_padding": {
+        "left": {
+            "value": 0,
+            "unit": "px"
+        },
+        "right": {
+            "value": 0,
+            "unit": "px"
+        },
+        "top": {
+            "value": 0,
+            "unit": "px"
+        },
+        "bottom": {
+            "value": 0,
+            "unit": "px"
+        }
+    },
+    "caching": false,
+    "card_divider": false,
+    "cid": "c259R1WM5VjHTJmyOxFD8",
+    "class_name": "test",
+    "clones_on_builder": 3,
+    "cols_config": {
+        "cols_at_320_640": 1,
+        "cols_at_641_768": 1,
+        "cols_at_769_1024": 1,
+        "cols_at_1025": 1
+    },
+    "ctrl_id": "",
+    "data": [],
+    "data_submission_enabled": true,
+    "data_type": "list",
+    "defaultCursor": "",
+    "delete_confirmation": false,
+    "desktopSectionHeight": 20,
+    "dfmv_selected": "default",
+    "dhq_config": {
+        "iterable": false,
+        "is_selectable_list": true,
+        "is_single_select": true,
+        "strict_update": [
+            "action_items",
+            "for_localization",
+            "show_new_property"
+        ],
+        "update_to_theme_varaibles": [
+            "label_font_size",
+            "label_font_size_unit",
+            "label_font_weight",
+            "label_text_color",
+            "bg_color"
+        ]
+    },
+    "dhq_data_process": "",
+    "dhq_default_data_process": "",
+    "dhq_default_formula": "",
+    "dhq_external_css": {
+        "addCode": false,
+        "data": {}
+    },
+    "dhq_nsf_replaced": false,
+    "dhq_olddt_map": {},
+    "dhq_req_stats": {
+        "status": ""
+    },
+    "dhq_submit_condition": "always",
+    "dhq_tfd": true,
+    "dhqEvtConverted": true,
+    "dhqGrid": {
+        "w": 18,
+        "h": 20,
+        "x": 2,
+        "y": 1
+    },
+    "dhqGridDesktop": {
+        "w": 18,
+        "h": 20,
+        "x": 2,
+        "y": 1
+    },
+    "dhqMGridChanged": false,
+    "disabled": false,
+    "field_available_in_database_editor": false,
+    "field_client_side_get_data_enabled": true,
+    "field_composition_type": "group_repeat",
+    "field_config": {},
+    "field_data_model": "",
+    "field_data_model_binding_formula": "",
+    "field_data_model_binding_manual_query": "",
+    "field_data_model_binding_manual_query_with_id": "",
+    "field_data_model_binding_type": "",
+    "field_database_editor_data_format": "",
+    "field_datatypes": [],
+    "field_display_key_name": "listrepeat",
+    "field_editable_in_database_editor": false,
+    "field_fullview": false,
+    "field_key_name": "list_repeat_c259R1WM5VjHTJmyOxFD8",
+    "field_options": {
+        "options": []
+    },
+    "field_responsive": false,
+    "field_schema_column_header_names": [],
+    "field_schema_column_id_header_name_mapping": {},
+    "field_type": "list_repeat",
+    "field_values_addition_enabled_in_database_editor": true,
+    "field_values_source": "",
+    "for_localization": {
+        "static_msgs": [
+            "Search"
+        ],
+        "dynamic_msgs_keys": [
+            "label",
+            "tooltip",
+            "tip_description"
+        ],
+        "concated_msgs": []
+    },
+    "formbuilder_theme": "#bbbbbb",
+    "grid_cols_config": {
+        "onPhone": 1,
+        "onDesktop": "4"
+    },
+    "grid_dynamic_height": true,
+    "grid_maintain_space": false,
+    "grid_max_height": "",
+    "grid_max_height_unit": "px",
+    "height_value": 100,
+    "height_value_unit": "%",
+    "hidden": false,
+    "horizontal_scroll": false,
+    "input_control_height": "2.5rem",
+    "input_font_color": "var(--DHQ-primary-font-color)",
+    "input_font_size": "var(--DHQ-normal-font)",
+    "input_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_text_color": "#aaaaaa",
+    "input_placeholder_text_size": "var(--DHQ-small-font)",
+    "is_master_control": true,
+    "is_outlet_control": true,
+    "is_repeat_outlet_control": true,
+    "is_variable": false,
+    "isDhqGridCtrl": true,
+    "isDhqHideOnDesktop": false,
+    "isDhqHideOnMobile": false,
+    "label": "list repeat",
+    "label_font_size": "var(--DHQ-control-title)",
+    "label_font_size_unit": "",
+    "label_font_weight": "var(--DHQ-bold)",
+    "label_font_weight_class": "font-weight-normal",
+    "label_hidden": true,
+    "label_left_width": "33",
+    "label_left_width_unit": "%",
+    "label_position": "top",
+    "label_text_alignment": "left",
+    "label_text_color": "var(--DHQ-primary-font-color)",
+    "max_Repetition": 0,
+    "mobileSectionHeight": 5,
+    "offset": 0,
+    "padding": {
+        "left": {
+            "value": 0,
+            "unit": "px"
+        },
+        "right": {
+            "value": 0,
+            "unit": "px"
+        },
+        "top": {
+            "value": 0,
+            "unit": "px"
+        },
+        "bottom": {
+            "value": 0,
+            "unit": "px"
+        }
+    },
+    "pageLimit": 100,
+    "pager": true,
+    "paginationLocation": "bottom",
+    "paginationType": "limitOffsetBased",
+    "parent_id": "grid_panel_c113RO91yCShzvEKRjY3w",
+    "required": false,
+    "search_show": false,
+    "show_addmore": true,
+    "show_border": false,
+    "show_delete": false,
+    "show_description": false,
+    "show_dfm": false,
+    "show_download": false,
+    "show_listView": false,
+    "show_new_property": true,
+    "show_refresh": false,
+    "show_tooltip": false,
+    "sid": "sc259R1WM5VjHTJmyOxFD8",
+    "slide_arrow": true,
+    "tabIndex": "",
+    "tip_description": "",
+    "tooltip": "",
+    "type": "non_input",
+    "wrapper_content_alignment": "flex-start"
+}
