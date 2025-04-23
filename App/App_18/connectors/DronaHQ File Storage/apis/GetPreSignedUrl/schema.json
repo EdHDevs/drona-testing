@@ -1,0 +1,166 @@
+{
+    "channel_id": 1,
+    "category_id": 6,
+    "sub_category_id": 917,
+    "response": {
+        "success": "true",
+        "ContentType": "application/x-www-form-urlencoded",
+        "content": {
+            "preSignedUrl": "string"
+        },
+        "StatusCode": 200,
+        "Headers": [
+            {
+                "Name": "x-amz-id-2",
+                "Value": "",
+                "Type": 3
+            },
+            {
+                "Name": "x-amz-request-id",
+                "Value": "",
+                "Type": 3
+            },
+            {
+                "Name": "x-amz-version-id",
+                "Value": "",
+                "Type": 3
+            },
+            {
+                "Name": "Accept-Ranges",
+                "Value": "",
+                "Type": 3
+            },
+            {
+                "Name": "Content-Length",
+                "Value": "",
+                "Type": 3
+            },
+            {
+                "Name": "Content-Type",
+                "Value": "application/x-www-form-urlencoded",
+                "Type": 3
+            },
+            {
+                "Name": "Date",
+                "Value": "",
+                "Type": 3
+            },
+            {
+                "Name": "ETag",
+                "Value": "",
+                "Type": 3
+            },
+            {
+                "Name": "Last-Modified",
+                "Value": "",
+                "Type": 3
+            },
+            {
+                "Name": "Server",
+                "Value": "",
+                "Type": 3
+            }
+        ],
+        "StatusDescription": "OK"
+    },
+    "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+            "raw": "https://{bucket}.s3.us-east-1.amazonaws.com/{folder}/{key}",
+            "protocol": "https",
+            "query": [
+                {
+                    "keyName": "expiresIn",
+                    "keyType": "String",
+                    "keyValue": "3600",
+                    "keyDValue": "",
+                    "keyIsDynamic": true,
+                    "keyIsMandatory": false,
+                    "keyIsTooltip": "",
+                    "keyPreselectValues": ""
+                }
+            ],
+            "param": [
+                {
+                    "keyName": "bucket",
+                    "keyType": "String",
+                    "keyValue": "dhq-dump-stage",
+                    "keyDValue": "",
+                    "keyIsDynamic": true,
+                    "keyIsMandatory": false,
+                    "keyIsTooltip": "",
+                    "keyPreselectValues": ""
+                },
+                {
+                    "keyName": "folder",
+                    "keyType": "String",
+                    "keyValue": "folderName",
+                    "keyDValue": "",
+                    "keyIsDynamic": true,
+                    "keyIsMandatory": false,
+                    "keyIsTooltip": "",
+                    "keyPreselectValues": ""
+                },
+                {
+                    "keyName": "key",
+                    "keyType": "String",
+                    "keyValue": "uploadedTextFile1.txt",
+                    "keyDValue": "",
+                    "keyIsDynamic": true,
+                    "keyIsMandatory": false,
+                    "keyIsTooltip": "",
+                    "keyPreselectValues": ""
+                }
+            ]
+        },
+        "account_id": "",
+        "description": ""
+    },
+    "name": "GetPreSignedUrl",
+    "proxy": false,
+    "bindable": false,
+    "preselectfields": [
+        {
+            "field_key": "param.bucket",
+            "field_name": "Bucket",
+            "field_default_value": "",
+            "field_mandatory": true,
+            "field_hidden": false,
+            "helptext": "",
+            "preselect_formula": ""
+        },
+        {
+            "field_key": "param.folder",
+            "field_name": "Folder",
+            "field_default_value": "",
+            "field_mandatory": false,
+            "field_hidden": false,
+            "helptext": "(Optional) Specify the folder your file is placed inside, in your bucket.",
+            "preselect_formula": ""
+        },
+        {
+            "field_key": "param.key",
+            "field_name": "File Name",
+            "field_default_value": "",
+            "field_mandatory": true,
+            "field_hidden": false,
+            "helptext": "Provide the File name/Key name for a file that exists on S3 bucket. You can use a string value like 'fileName.jpg', or extract it from the returned result of an S3 API (Getting it from Contents.Key from the response of the ListObjects action or extracting the file name as a substring from successes.url from the response of the UploadFile action).",
+            "preselect_formula": ""
+        },
+        {
+            "field_key": "query.expiresIn",
+            "field_name": "Time Before Link Expires (in seconds)",
+            "field_default_value": "3600",
+            "field_mandatory": false,
+            "field_hidden": false,
+            "helptext": "(Optional) Default expiry of pre-signed URLs is 3600 seconds",
+            "preselect_formula": ""
+        }
+    ],
+    "preselectvariables": [],
+    "plugin_id": 0,
+    "format_id": "e2ceb26d-a8ee-11ec-8a6a-0242ac120002",
+    "cat_format_id": "0348a8b5-a8ee-11ec-8a6a-0242ac120002",
+    "is_deleted": 0
+}

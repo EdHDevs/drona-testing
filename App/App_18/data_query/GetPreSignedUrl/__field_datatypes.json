@@ -1,0 +1,8 @@
+[
+    {
+        "field": "preSignedUrl",
+        "display_name": "preSignedUrl",
+        "data_type": "string",
+        "field_database_editor_data_format": "single_line_text"
+    }
+]

@@ -1,0 +1,21 @@
+{
+    "cat_id": 6,
+    "catName": "DronaHQ File Storage",
+    "catDesc": "Access your S3 files, upload to your bucket",
+    "catIcon": "/static/images/Console/file-storage-circle.svg",
+    "schemeType": "aws_auth",
+    "cat_created_on": "2023-12-04T11:20:24.000Z",
+    "cat_modify_on": "2024-11-07T08:26:32.000Z",
+    "cat_created_by": "",
+    "isGlobal": true,
+    "isEditable": false,
+    "isCatPublic": true,
+    "isInstalled": false,
+    "isCatEditable": true,
+    "showAddOption": false,
+    "cat_type": "",
+    "format_id": "0348a8b5-a8ee-11ec-8a6a-0242ac120002",
+    "permission": "0010",
+    "multistep_auth_steps": {},
+    "channel_id": "2"
+}

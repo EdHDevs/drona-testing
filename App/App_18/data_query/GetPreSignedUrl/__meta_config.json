@@ -1,0 +1,17 @@
+{
+    "HEADERS": {
+        "access_control_allow_credentials": "true",
+        "access_control_allow_headers": "User-Agent,Keep-Alive,Content-Type",
+        "access_control_allow_methods": "GET, POST, OPTIONS, DELETE, PUT",
+        "access_control_allow_origin": "*, https",
+        "access_control_expose_headers": "failure-message, failure-code, Authorization,Content-Length",
+        "date": "Wed, 23 Apr 2025 16",
+        "failure_code": "",
+        "failure_message": "",
+        "x_powered_by": "Express"
+    },
+    "RESPONSE_CODE": 200,
+    "RESPONSE_MESSAGE": "success",
+    "FAILURE_CODE": "",
+    "FAILURE_MESSAGE": ""
+}

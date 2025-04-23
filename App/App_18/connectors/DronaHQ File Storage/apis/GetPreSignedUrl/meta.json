@@ -1,0 +1,14 @@
+{
+    "sub_cat_id": 917,
+    "sub_catName": "GetPreSignedUrl",
+    "sub_catIcon": "/static/images/Console/file-storage-circle.svg",
+    "sub_cat_created_on": "2021-08-13T15:25:08.000Z",
+    "sub_cat_modify_on": "2024-07-11T05:55:42.000Z",
+    "sub_cat_format_id": "e2ceb26d-a8ee-11ec-8a6a-0242ac120002",
+    "sub_cat_created_by": "",
+    "sub_cat_method": "GET",
+    "sub_cat_is_public": true,
+    "plugin_id": 0,
+    "isSubCatInstalled": false,
+    "isSubCatEditable": true
+}

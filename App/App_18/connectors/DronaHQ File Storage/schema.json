@@ -1,0 +1,12 @@
+{
+    "channel_id": 1,
+    "cat_id": 6,
+    "cat_name": "DronaHQ File Storage",
+    "cat_desc": "Access your S3 files, upload to your bucket",
+    "cat_icon": "/static/images/Console/file-storage-circle.svg",
+    "cat_auth_scheme": "aws_auth",
+    "cat_type": null,
+    "dynamic_variables": null,
+    "format_id": "0348a8b5-a8ee-11ec-8a6a-0242ac120002",
+    "is_deleted": 0
+}

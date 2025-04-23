@@ -1,0 +1,105 @@
+{
+    "api_id": 1,
+    "api_name": "variable_R8eZOaSlhICEAwmKL1745424285608",
+    "cat_id": "__REPLACE_CAT_ID_6___",
+    "cat_name": "__REPLACE_CAT_NAME_6___",
+    "sub_cat_id": "__REPLACE_SUB_CAT_ID_917___",
+    "sub_cat_name": "__REPLACE_SUB_CAT_NAME_917___",
+    "cat_icon_url": "/static/images/Console/file-storage-circle.svg",
+    "method": "get",
+    "query": {
+        "expiresIn": {
+            "keyName": "expiresIn",
+            "spanName": null,
+            "isField": true,
+            "keyType": "text",
+            "keyValue": "3600",
+            "testValue": "3600",
+            "preselect": false,
+            "name": "",
+            "label": "",
+            "isDynamic": false,
+            "editor_type": "JSEditor"
+        }
+    },
+    "param": {
+        "bucket": {
+            "keyName": "bucket",
+            "spanName": null,
+            "isField": true,
+            "keyType": "text",
+            "keyValue": "dms-bucket-2",
+            "testValue": "dms-bucket-2",
+            "preselect": false,
+            "name": "",
+            "label": "",
+            "isDynamic": false,
+            "editor_type": "JSEditor"
+        },
+        "folder": {
+            "keyName": "folder",
+            "spanName": null,
+            "isField": true,
+            "keyType": "text",
+            "keyValue": "",
+            "testValue": "",
+            "preselect": false,
+            "name": "",
+            "isDynamic": false,
+            "editor_type": "JSEditor"
+        },
+        "key": {
+            "keyName": "key",
+            "spanName": null,
+            "isField": true,
+            "keyType": "text",
+            "keyValue": "i-9.pdf",
+            "testValue": "i-9.pdf",
+            "preselect": false,
+            "name": "",
+            "label": "",
+            "isDynamic": false,
+            "editor_type": "JSEditor"
+        }
+    },
+    "header": {},
+    "body": {
+        "mode": "application/x-www-form-urlencoded",
+        "formdata": {},
+        "variables": {}
+    },
+    "auth": {
+        "environment_config": {
+            "env_1": "__REPLACE_ACCOUNT_ID_6___",
+            "env_2": "",
+            "env_3": ""
+        },
+        "type": "aws_auth",
+        "account_id": "__REPLACE_ACCOUNT_ID_6___",
+        "whitelist_ip": false
+    },
+    "triggerOnPageload": false,
+    "execution_editor_type": "JSEditor",
+    "execution_condition_variable_with_name": "",
+    "execution_condition_variable": "",
+    "scheme_type": "aws_auth",
+    "account_id": "__REPLACE_ACCOUNT_ID_6___",
+    "filterObjectMapping": [],
+    "sanitizeResponseFlag": false,
+    "secureResponse": false,
+    "rawResponse": {
+        "preSignedUrl": ""
+    },
+    "processedResp": {
+        "preSignedUrl": ""
+    },
+    "paginationType": "none",
+    "offsetKeyPath": "",
+    "hasMoreKeyPath": "",
+    "misc": {},
+    "additionalKeywords": {},
+    "formatedSchema": {},
+    "bindedTo": "variable",
+    "autoTransform": false,
+    "cat_type": null
+}

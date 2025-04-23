@@ -1,0 +1,29 @@
+{
+    "__dhq_formula_Dtype": "string",
+    "__dhq_keywords_mapping_Dtype": "object",
+    "created_at": 1745424285608,
+    "datatype": "composite_list",
+    "defaultValue": "",
+    "dhq_req_stats": {
+        "status": "resolved"
+    },
+    "dhq_set_value_via_action": false,
+    "display_name": "GetPreSignedUrl",
+    "evaluate_on_dependency_change": "everytime",
+    "field_composition_type": "variable",
+    "field_data_model_binding_manual_query": "BINDAPI([variable_R8eZOaSlhICEAwmKL1745424285608])",
+    "field_data_model_binding_manual_query_with_id": "BINDAPI( [variable_R8eZOaSlhICEAwmKL1745424285608])",
+    "field_data_model_binding_type": "",
+    "formula_binded_to": "ManagedStorage",
+    "interval": {
+        "instance": null,
+        "timeout": null
+    },
+    "is_dql": false,
+    "is_master_variable": true,
+    "name": "variable_R8eZOaSlhICEAwmKL1745424285608",
+    "sanitize_response_keys": false,
+    "sb_mode": "JS",
+    "state": "success",
+    "type": "non-persistent"
+}
