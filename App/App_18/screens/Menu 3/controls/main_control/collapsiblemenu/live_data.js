@@ -16,7 +16,7 @@
         "icon": "icon-briefcase",
         "children": [
             {
-                "label": "Recipients",
+                "label": "Analytics",
                 "children": [
                     {
                         "label": "Data Analyst",
@@ -41,7 +41,7 @@
                         "active": true
                     }
                 ],
-                "value": "recipients",
+                "value": "analytics",
                 "icon": "icon-graph",
                 "active": false,
                 "image": "",
@@ -59,8 +59,8 @@
         }
     },
     {
-        "label": "Analytics",
-        "value": "apply",
+        "label": "Recipients",
+        "value": "recipients",
         "icon": "icon-cursor",
         "active": false,
         "image": "",
