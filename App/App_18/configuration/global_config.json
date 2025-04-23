@@ -51,11 +51,11 @@
             "color": "#6B46E5"
         }
     ],
-    "font_family": "Montserrat",
+    "font_family": "",
     "package_loader": "",
     "default_resolution": "laptop",
     "custom_fonts": [],
     "data_env": "production",
-    "lastSelectedScreen": 1,
+    "lastSelectedScreen": 2,
     "lastSelectedResolution": "laptop"
 }

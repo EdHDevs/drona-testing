@@ -1,0 +1,8 @@
+{
+    "image_click": {
+        "events": [
+            "click"
+        ],
+        "selector": ""
+    }
+}
