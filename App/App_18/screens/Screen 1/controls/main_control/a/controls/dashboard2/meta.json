@@ -73,8 +73,8 @@
     "dhq_external_css": {
         "addCode": true,
         "data": {
-            "code": "\n  .tag_head_block {\n    display: flex;\n    flex-wrap: nowrap;\n    justify-content: flex-start;        /* Align content to the left */\n    align-items: center;\n    padding-right: 5px;\n    min-width: min-content;             /* Minimum width based on content */\n    max-width: 100%;                    /* Never exceed parent */\n    overflow: hidden;\n  }\n\n  .tag_text {\n    flex-grow: 1;\n    min-width: 0;                     /* Allow ellipsis to work */\n    white-space: nowrap;             /* Prevent line wrap */\n    overflow: hidden;\n    text-overflow: ellipsis;         /* Truncate with \"...\" */\n  }\n\n  .increament_icon {\n    flex-shrink: 0;                   /* Do not shrink icon */\n    margin-left: 10px;\n  }\n",
-            "compiledCode": ".c142RTMNeySu9A3fvFItE .tag_head_block,.sc142RTMNeySu9A3fvFItE .tag_head_block {  display: flex;  flex-wrap: nowrap;  justify-content: flex-start;  /* Align content to the left */  align-items: center;  padding-right: 5px;  min-width: min-content;  /* Minimum width based on content */  max-width: 100%;  /* Never exceed parent */  overflow: hidden;}.c142RTMNeySu9A3fvFItE .tag_text,.sc142RTMNeySu9A3fvFItE .tag_text {  flex-grow: 1;  min-width: 0;  /* Allow ellipsis to work */  white-space: nowrap;  /* Prevent line wrap */  overflow: hidden;  text-overflow: ellipsis;  /* Truncate with \"...\" */}.c142RTMNeySu9A3fvFItE .increament_icon,.sc142RTMNeySu9A3fvFItE .increament_icon {  flex-shrink: 0;  /* Do not shrink icon */  margin-left: 10px;}"
+            "code": "  min-width: 180px; /* or any appropriate value */\n  max-width: 100%;\n  display: flex;\n  flex-direction: column;\n\n  .tag_head_block {\n    display: flex;\n    flex-wrap: nowrap;\n    justify-content: flex-start;\n    align-items: center;\n    padding-right: 5px;\n    min-width: 0;\n    max-width: 100%;\n    overflow: hidden;\n  }\n\n  .tag_text {\n    flex-grow: 1;\n    min-width: 0;\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n  }\n\n  .increament_icon {\n    flex-shrink: 0;\n    margin-left: 10px;\n  }",
+            "compiledCode": ".c142RTMNeySu9A3fvFItE,.sc142RTMNeySu9A3fvFItE {  min-width: 180px;  /* or any appropriate value */  max-width: 100%;  display: flex;  flex-direction: column;}.c142RTMNeySu9A3fvFItE .tag_head_block,.sc142RTMNeySu9A3fvFItE .tag_head_block {  display: flex;  flex-wrap: nowrap;  justify-content: flex-start;  align-items: center;  padding-right: 5px;  min-width: 0;  max-width: 100%;  overflow: hidden;}.c142RTMNeySu9A3fvFItE .tag_text,.sc142RTMNeySu9A3fvFItE .tag_text {  flex-grow: 1;  min-width: 0;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;}.c142RTMNeySu9A3fvFItE .increament_icon,.sc142RTMNeySu9A3fvFItE .increament_icon {  flex-shrink: 0;  margin-left: 10px;}"
         }
     },
     "dhq_nsf_replaced": false,
@@ -92,7 +92,7 @@
         "y": 39
     },
     "dhqGridDesktop": {
-        "w": 7,
+        "w": 8,
         "h": 18,
         "x": 1,
         "y": 6
