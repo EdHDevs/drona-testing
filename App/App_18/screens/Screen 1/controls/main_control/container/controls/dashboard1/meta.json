@@ -117,14 +117,14 @@
         "header_text": "DATABUILDER()",
         "title_text": "DATABUILDER()",
         "footer_text": "DATABUILDER()",
-        "tag_text": "DATABUILDER()"
+        "tag_text": ""
     },
     "field_data_model_binding_manual_query_with_id": {
         "percentage": "DATABUILDER()",
         "header_text": "DATABUILDER()",
         "title_text": "DATABUILDER()",
         "footer_text": "DATABUILDER()",
-        "tag_text": "DATABUILDER()"
+        "tag_text": ""
     },
     "field_data_model_binding_type": "manual_query",
     "field_database_editor_data_format": "range",
