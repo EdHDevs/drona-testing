@@ -230,7 +230,7 @@
     "negative_tag_bg_color": "var(--DHQ-error-color)",
     "negative_tag_font_color": "var(--DHQ-neutral-font-color)",
     "negative_tag_icon_color": "var(--DHQ-neutral-font-color)",
-    "normal_S_icon": "fas fa-chevron-up",
+    "normal_S_icon": "icon-paper-plane",
     "normal_S_show_icon": true,
     "normal_tag_bg_color": "var(--DHQ-primary-color)",
     "normal_tag_font_color": "var(--DHQ-neutral-font-color)",
