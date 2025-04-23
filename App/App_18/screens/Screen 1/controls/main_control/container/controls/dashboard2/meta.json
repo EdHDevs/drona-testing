@@ -89,7 +89,7 @@
         "w": 22,
         "h": 16,
         "x": 1,
-        "y": 23
+        "y": 40
     },
     "dhqGridDesktop": {
         "w": 5,
@@ -195,7 +195,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
-    "gridMobileOrigin": null,
+    "gridMobileOrigin": 17,
     "header_font_color": "var(--DHQ-primary-font-color)",
     "header_font_size": "var(--DHQ-normal-font)",
     "header_font_size_unit": "",
