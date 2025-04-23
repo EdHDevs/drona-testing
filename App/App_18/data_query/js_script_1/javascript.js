@@ -2,7 +2,7 @@
   try {
     console.log("Starting PDF generation...");
 
-    const url = '{{url}}'
+    const url = '{{GetPreSignedUrl}}'
     const res = await fetch(url);
     if (!res.ok) {
       throw new Error(`Failed to fetch PDF: ${res.statusText}`);
