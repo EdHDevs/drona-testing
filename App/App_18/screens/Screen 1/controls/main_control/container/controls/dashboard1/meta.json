@@ -92,9 +92,9 @@
         "y": 6
     },
     "dhqGridDesktop": {
-        "w": 7,
+        "w": 6,
         "h": 16,
-        "x": 8,
+        "x": 6,
         "y": 6
     },
     "dhqMGridChanged": true,
