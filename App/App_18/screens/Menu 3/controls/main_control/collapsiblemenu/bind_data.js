@@ -1,9 +1,14 @@
 [
     {
-        "label": "Home",
-        "value": "home",
+        "label": "Dashboard",
+        "value": "Dashboard",
         "icon": "icon-home",
-        "active": true
+        "active": true,
+        "image": "",
+        "tag": {
+            "color": "#26bc6a",
+            "value": ""
+        }
     },
     {
         "label": "Job",
