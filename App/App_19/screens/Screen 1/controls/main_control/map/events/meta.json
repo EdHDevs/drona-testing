@@ -1,0 +1,14 @@
+{
+    "Add_location": {
+        "events": [
+            "click"
+        ],
+        "selector": ""
+    },
+    "value_select": {
+        "events": [
+            "change"
+        ],
+        "selector": ""
+    }
+}
