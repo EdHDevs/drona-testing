@@ -1,10 +1,10 @@
 {
   "PackageWithNewControls": true,
-  "releaseNotes": "ad",
-  "usedFieldsName": "DHQ_location,map,dhq_ad_map,dhq_custom_control",
+  "releaseNotes": "i",
+  "usedFieldsName": "DHQ_location,dhq_custom_control",
   "metadata": {},
   "env": "prod",
-  "newVersion": "0.0.1",
+  "newVersion": "0.0.2",
   "pluginId": "19",
   "subCatList": "",
   "multistepAuthUsedInAppList": [],
@@ -140,34 +140,6 @@
     }
   },
   "filesUsedInControlJSON": [
-    {
-      "sourceURL": "/static/js/vendor/leaflet.draw.js",
-      "destinationFolder": "js/vendors/leaflet.draw.js"
-    },
-    {
-      "sourceURL": "/static/css/vendor/leaflet.draw.css",
-      "destinationFolder": "css/vendors/leaflet.draw.css"
-    },
-    {
-      "sourceURL": "/static/css/vendor/esri-leaflet-geocoder.css",
-      "destinationFolder": "css/vendors/esri-leaflet-geocoder.css"
-    },
-    {
-      "sourceURL": "/static/css/vendor/leaflet.css",
-      "destinationFolder": "css/vendors/leaflet.css"
-    },
-    {
-      "sourceURL": "/static/js/vendor/esri-leaflet-geocoder.js",
-      "destinationFolder": "js/vendors/esri-leaflet-geocoder.js"
-    },
-    {
-      "sourceURL": "/static/js/vendor/esri-leaflet.js",
-      "destinationFolder": "js/vendors/esri-leaflet.js"
-    },
-    {
-      "sourceURL": "/static/js/vendor/leaflet.js",
-      "destinationFolder": "js/vendors/leaflet.js"
-    },
     {
       "sourceURL": "/static/css/vendor/theme.css",
       "destinationFolder": "css/vendors/theme.css"
