@@ -48,16 +48,16 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 6,
-        "h": 8,
-        "x": 7,
-        "y": 29
+        "w": 24,
+        "h": 6,
+        "x": 0,
+        "y": 3
     },
     "dhqGridDesktop": {
-        "w": 6,
-        "h": 8,
-        "x": 7,
-        "y": 29
+        "w": 24,
+        "h": 6,
+        "x": 0,
+        "y": 3
     },
     "dhqMGridChanged": false,
     "disabled": false,
@@ -123,10 +123,10 @@
     "label_text_color": "var(--DHQ-primary-font-color)",
     "letter_spacing": "0",
     "letter_spacing_unit": "px",
-    "line_height": "1.5",
+    "line_height": "0.5",
     "line_height_unit": "rem",
     "paragraph_data": "",
-    "parent_id": "grid_panel_c216RqCSJPcZr07IOpvNW",
+    "parent_id": "grid_panel_c1023RtmqDJiA4ebnkhiwb",
     "required": false,
     "sb_mode": "JS",
     "show_description": false,
