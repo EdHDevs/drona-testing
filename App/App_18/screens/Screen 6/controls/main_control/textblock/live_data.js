@@ -1,1 +1,1 @@
-function GeolocationPosition() { [native code] }
+function Geolocation() { [native code] }

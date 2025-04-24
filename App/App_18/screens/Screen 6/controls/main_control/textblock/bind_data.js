@@ -1,1 +1,1 @@
-{{GeolocationPosition}}
+{{Geolocation}}
