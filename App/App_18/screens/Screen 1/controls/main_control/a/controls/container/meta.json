@@ -119,7 +119,7 @@
         "w": 6,
         "h": 15,
         "x": 0,
-        "y": 22
+        "y": 25
     },
     "dhqMGridChanged": false,
     "disabled": false,
@@ -159,6 +159,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
+    "gridDesktopOrigin": null,
     "header_allowed": false,
     "header_background": "var(--DHQ-primary-color)",
     "hidden": false,
