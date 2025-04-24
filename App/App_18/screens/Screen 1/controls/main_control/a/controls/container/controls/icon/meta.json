@@ -62,15 +62,15 @@
     "dhqEvtConverted": true,
     "dhqGrid": {
         "w": 2,
-        "h": 4,
-        "x": 7,
-        "y": 23
+        "h": 2,
+        "x": 16,
+        "y": 11
     },
     "dhqGridDesktop": {
         "w": 2,
-        "h": 4,
-        "x": 7,
-        "y": 23
+        "h": 2,
+        "x": 16,
+        "y": 11
     },
     "dhqMGridChanged": false,
     "disabled": false,
@@ -144,7 +144,7 @@
     "label_position": "top",
     "label_text_alignment": "left",
     "label_text_color": "var(--DHQ-primary-font-color)",
-    "parent_id": "grid_panel_c216RqCSJPcZr07IOpvNW",
+    "parent_id": "grid_panel_c1023RtmqDJiA4ebnkhiwb",
     "required": false,
     "show_description": false,
     "show_dfm": false,
