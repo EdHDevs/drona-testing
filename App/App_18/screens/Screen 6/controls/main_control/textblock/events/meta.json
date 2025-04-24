@@ -1,0 +1,14 @@
+{
+    "value_change": {
+        "events": [
+            "value_change"
+        ],
+        "selector": ""
+    },
+    "focus_out": {
+        "events": [
+            "focus_out"
+        ],
+        "selector": ""
+    }
+}
