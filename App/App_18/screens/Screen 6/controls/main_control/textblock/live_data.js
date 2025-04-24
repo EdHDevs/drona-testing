@@ -1,0 +1,1 @@
+function GeolocationPosition() { [native code] }
