@@ -38,16 +38,16 @@
     "dhqEvtConverted": true,
     "dhqGrid": {
         "w": 24,
-        "h": 57,
+        "h": 4,
         "x": 0,
-        "y": 26
+        "y": 82
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 24,
-        "h": 57,
+        "h": 4,
         "x": 0,
-        "y": 26
+        "y": 82
     },
     "disabled": false,
     "eventMapping": {
