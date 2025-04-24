@@ -1,6 +1,7 @@
 {
     "__dhq_default_formula_Dtype": "string",
     "__dhq_formula_Dtype": "string",
+    "__LiveData_Dtype": "string",
     "allow_options_addition_in_editor": true,
     "background_color": "var(--DHQ-secondary-bg-color)",
     "border_color": "var(--DHQ-border-color)",
@@ -62,13 +63,13 @@
     "dhqEvtConverted": true,
     "dhqGrid": {
         "w": 3,
-        "h": 2,
+        "h": 3,
         "x": 21,
         "y": 1
     },
     "dhqGridDesktop": {
         "w": 3,
-        "h": 2,
+        "h": 3,
         "x": 21,
         "y": 1
     },
