@@ -57,6 +57,8 @@
     "field_composition_type": "single",
     "field_config": {},
     "field_data_model": "",
+    "field_data_model_binding_default_value_query": "",
+    "field_data_model_binding_default_value_query_with_id": "",
     "field_data_model_binding_formula": "",
     "field_data_model_binding_manual_query": "DATABUILDER()",
     "field_data_model_binding_manual_query_with_id": "DATABUILDER()",
