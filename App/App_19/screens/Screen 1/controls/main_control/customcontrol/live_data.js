@@ -35,7 +35,7 @@
           }).addTo(map);
 
           const from = [33.905640866388296,-84.36012320600346];
-          const to = [44.65453, -79.38018];
+          const to = [43.65453, -79.38018];
 
           function stepsBetween(start, end, kmStep = 1) {
             const R = 6371;
