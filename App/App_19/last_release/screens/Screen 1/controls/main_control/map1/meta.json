@@ -1,0 +1,208 @@
+{
+    "__dhq_default_formula_Dtype": "string",
+    "__dhq_formula_Dtype": "string",
+    "__dhq_keywords_mapping_Dtype": "object",
+    "__LiveData_Dtype": "object",
+    "allow_editing": true,
+    "allow_options_addition_in_editor": true,
+    "allowUserLocation": false,
+    "blur_map": false,
+    "blur_no": "0",
+    "blur_no_unit": "px",
+    "caching": false,
+    "cid": "c85RCDrkkXvH2ePJ9IW8",
+    "class_name": "test",
+    "coords_column": "coords_colms",
+    "ctrl_id": "",
+    "data_submission_enabled": true,
+    "data_type": "list",
+    "dfmv_selected": "default",
+    "dhq_config": {
+        "strict_update": [
+            "for_localization",
+            "dhq_config",
+            "show_new_property"
+        ],
+        "update_to_theme_varaibles": [
+            "label_font_size",
+            "label_font_size_unit",
+            "label_font_weight",
+            "label_text_color"
+        ]
+    },
+    "dhq_data_process": "",
+    "dhq_default_data_process": "",
+    "dhq_default_formula": "",
+    "dhq_external_css": {
+        "addCode": false,
+        "data": {}
+    },
+    "dhq_nsf_replaced": false,
+    "dhq_olddt_map": {
+        "type_columns": "type_columns",
+        "coords_colms": "coords_colms",
+        "radius_colmns": "radius_colmns",
+        "paint": "paint",
+        "icon": "icon"
+    },
+    "dhq_req_stats": {
+        "status": ""
+    },
+    "dhq_submit_condition": "always",
+    "dhq_tfd": true,
+    "dhqEvtConverted": true,
+    "dhqGrid": {
+        "w": 8,
+        "h": 41,
+        "x": 9,
+        "y": 33
+    },
+    "dhqGridChanged": false,
+    "dhqGridDesktop": {
+        "w": 8,
+        "h": 41,
+        "x": 9,
+        "y": 33
+    },
+    "disabled": false,
+    "e_icon": "",
+    "edit_options": [
+        "polyline",
+        "polygon",
+        "rectangle",
+        "circle",
+        "marker",
+        "circlemarker"
+    ],
+    "field_available_in_database_editor": true,
+    "field_client_side_get_data_enabled": true,
+    "field_composition_type": "list",
+    "field_config": {},
+    "field_data_model": "",
+    "field_data_model_binding_default_value_query": "",
+    "field_data_model_binding_default_value_query_with_id": "",
+    "field_data_model_binding_formula": "",
+    "field_data_model_binding_manual_query": "DATABUILDER()",
+    "field_data_model_binding_manual_query_with_id": "DATABUILDER()",
+    "field_data_model_binding_type": "manual_query",
+    "field_database_editor_data_format": "single_select",
+    "field_datatypes": [
+        {
+            "field": "type_columns",
+            "display_name": "type_columns",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "coords_colms",
+            "display_name": "coords_colms",
+            "data_type": "array",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "radius_colmns",
+            "display_name": "radius_colmns",
+            "data_type": "number",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "paint",
+            "display_name": "paint",
+            "data_type": "object",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "icon",
+            "display_name": "icon",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        }
+    ],
+    "field_display_key_name": "map1",
+    "field_editable_in_database_editor": true,
+    "field_fullview": false,
+    "field_key_name": "dhq_ad_map_c85RCDrkkXvH2ePJ9IW8",
+    "field_options": {},
+    "field_responsive": false,
+    "field_schema_column_header_names": "type_columns,coords_colms,radius_colmns,paint,icon",
+    "field_schema_column_id_header_name_mapping": {
+        "type_columns": "type_columns",
+        "coords_colms": "coords_colms",
+        "radius_colmns": "radius_colmns",
+        "paint": "paint",
+        "icon": "icon"
+    },
+    "field_type": "dhq_ad_map",
+    "field_values_addition_enabled_in_database_editor": true,
+    "field_values_source": "field_options.options",
+    "for_localization": {
+        "static_msgs": [
+            "Unable to fetch location.",
+            "Location inaccuracy detected.",
+            "Unable to fetch location. Location service is disabled",
+            "Unable to fetch location. Permission denied",
+            "Please enable location permission from settings."
+        ],
+        "dynamic_msgs_keys": [
+            "label",
+            "tooltip",
+            "tip_description"
+        ],
+        "concated_msgs": []
+    },
+    "formbuilder_theme": "#bbbbbb",
+    "grid_dynamic_height": true,
+    "grid_maintain_space": false,
+    "grid_max_height": "",
+    "grid_max_height_unit": "px",
+    "hidden": false,
+    "hide_list_dfm": true,
+    "input_control_height": "2.5rem",
+    "input_font_color": "var(--DHQ-primary-font-color)",
+    "input_font_size": "var(--DHQ-normal-font)",
+    "input_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_text_color": "#aaaaaa",
+    "input_placeholder_text_size": "var(--DHQ-small-font)",
+    "is_master_control": true,
+    "is_outlet_control": false,
+    "is_repeat_outlet_control": false,
+    "is_variable": false,
+    "isDhqGridCtrl": true,
+    "isDhqHideOnDesktop": false,
+    "isDhqHideOnMobile": false,
+    "item_height": 279.125,
+    "item_height_unit": "px",
+    "label": "Map",
+    "label_font_size": "var(--DHQ-control-title)",
+    "label_font_size_unit": "",
+    "label_font_weight": "var(--DHQ-bold)",
+    "label_font_weight_class": "font-weight-normal",
+    "label_hidden": false,
+    "label_left_width": "33",
+    "label_left_width_unit": "%",
+    "label_position": "top",
+    "label_text_alignment": "left",
+    "label_text_color": "var(--DHQ-primary-font-color)",
+    "lstyle_column": "paint",
+    "m_zoom": "4",
+    "marker_icon": "icon",
+    "markerText": "You",
+    "parent_id": "",
+    "radius_column": "radius_colmns",
+    "required": false,
+    "sb_mode": {
+        "main": "JS"
+    },
+    "show_description": false,
+    "show_dfm": false,
+    "show_new_property": true,
+    "show_tooltip": false,
+    "sid": "sc85RCDrkkXvH2ePJ9IW8",
+    "tabIndex": "",
+    "tip_description": "",
+    "tooltip": "",
+    "type": "non_input",
+    "type_column": "type_columns",
+    "wrapper_content_alignment": "flex-start"
+}
