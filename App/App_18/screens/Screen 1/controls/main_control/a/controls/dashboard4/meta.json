@@ -193,7 +193,7 @@
     "formbuilder_theme": "#bbbbbb",
     "grid_dynamic_height": true,
     "grid_maintain_space": false,
-    "grid_max_height": "404",
+    "grid_max_height": "500",
     "grid_max_height_unit": "px",
     "gridDesktopOrigin": null,
     "gridMobileOrigin": 17,
