@@ -123,7 +123,7 @@
     "label_left_width": "33",
     "label_left_width_unit": "%",
     "label_position": "top",
-    "label_size": "h2",
+    "label_size": "h1",
     "label_text_alignment": "left",
     "label_text_color": "var(--DHQ-primary-font-color)",
     "letter_spacing": "1",
