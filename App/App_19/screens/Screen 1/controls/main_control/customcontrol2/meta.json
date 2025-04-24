@@ -1,0 +1,132 @@
+{
+    "__dhq_default_formula_Dtype": "string",
+    "__dhq_formula_Dtype": "string",
+    "__dhq_keywords_mapping_Dtype": "object",
+    "__LiveData_Dtype": "string",
+    "allow_options_addition_in_editor": true,
+    "caching": false,
+    "cid": "c69RrnxtqrVFIuCJJt9T",
+    "class_name": "test",
+    "ctrl_id": "",
+    "currentData": {
+        "from": null
+    },
+    "custom_actions": [],
+    "data_submission_enabled": true,
+    "data_type": "string",
+    "dfmv_selected": "default",
+    "dhq_config": {
+        "strict_update": [
+            "show_new_property",
+            "dhq_config"
+        ],
+        "update_to_theme_varaibles": []
+    },
+    "dhq_data_process": "",
+    "dhq_default_data_process": "",
+    "dhq_default_formula": "",
+    "dhq_external_css": {
+        "addCode": false,
+        "data": {}
+    },
+    "dhq_nsf_replaced": false,
+    "dhq_olddt_map": {},
+    "dhq_req_stats": {
+        "status": ""
+    },
+    "dhq_show_rawdata": true,
+    "dhq_submit_condition": "always",
+    "dhq_tfd": true,
+    "dhqEvtConverted": true,
+    "dhqGrid": {
+        "w": 24,
+        "h": 69,
+        "x": 0,
+        "y": 152
+    },
+    "dhqGridChanged": false,
+    "dhqGridDesktop": {
+        "w": 24,
+        "h": 69,
+        "x": 0,
+        "y": 152
+    },
+    "disabled": false,
+    "eventMapping": {
+        "demo": "action1741618765942"
+    },
+    "field_available_in_database_editor": false,
+    "field_composition_type": "single",
+    "field_config": {},
+    "field_data_model": "",
+    "field_data_model_binding_default_value_query": "",
+    "field_data_model_binding_default_value_query_with_id": "",
+    "field_data_model_binding_formula": "",
+    "field_data_model_binding_manual_query": "DATABUILDER()",
+    "field_data_model_binding_manual_query_with_id": "DATABUILDER()",
+    "field_data_model_binding_type": "manual_query",
+    "field_database_editor_data_format": "single_line_text",
+    "field_display_key_name": "customcontrol2",
+    "field_editable_in_database_editor": false,
+    "field_fullview": false,
+    "field_key_name": "dhq_custom_control_c69RrnxtqrVFIuCJJt9T",
+    "field_options": {
+        "options": [
+            {
+                "code": "demo",
+                "id": "action1741618765942"
+            }
+        ]
+    },
+    "field_responsive": false,
+    "field_type": "dhq_custom_control",
+    "field_values_addition_enabled_in_database_editor": true,
+    "field_values_source": "",
+    "formbuilder_theme": "#bbbbbb",
+    "grid_dynamic_height": true,
+    "grid_maintain_space": false,
+    "grid_max_height": "",
+    "grid_max_height_unit": "px",
+    "hidden": false,
+    "input_control_height": "2.5rem",
+    "input_font_color": "var(--DHQ-primary-font-color)",
+    "input_font_size": "var(--DHQ-normal-font)",
+    "input_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_text_color": "#aaaaaa",
+    "input_placeholder_text_size": "var(--DHQ-small-font)",
+    "input_type": "single",
+    "is_master_control": false,
+    "is_outlet_control": false,
+    "is_repeat_outlet_control": false,
+    "is_variable": false,
+    "isDhqGridCtrl": true,
+    "isDhqHideOnDesktop": false,
+    "isDhqHideOnMobile": false,
+    "label": "Custom Control",
+    "label_font_size": "var(--DHQ-control-title)",
+    "label_font_size_unit": "",
+    "label_font_weight": "var(--DHQ-bold)",
+    "label_font_weight_class": "font-weight-normal",
+    "label_hidden": true,
+    "label_left_width": "33",
+    "label_left_width_unit": "%",
+    "label_position": "top",
+    "label_text_alignment": "left",
+    "label_text_color": "var(--DHQ-primary-font-color)",
+    "parent_id": "",
+    "required": false,
+    "sb_mode": "JS",
+    "show_description": false,
+    "show_dfm": false,
+    "show_new_property": true,
+    "show_tooltip": false,
+    "sid": "sc69RrnxtqrVFIuCJJt9T",
+    "tabIndex": "",
+    "textarea_data": "<html>\n  <head>\n    <link\n      rel=\"stylesheet\"\n      href=\"https://unpkg.com/leaflet@1.9.4/dist/leaflet.css\"\n    />\n    <style>\n      #map {\n        height: 500px;\n        width: 100%;\n        margin-top: 12px;\n        border-radius: 8px;\n      }\n    </style>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n\n    <script src=\"https://unpkg.com/react@17/umd/react.development.js\" crossorigin></script>\n    <script src=\"https://unpkg.com/react-dom@17/umd/react-dom.development.js\" crossorigin></script>\n    <script src=\"https://unpkg.com/leaflet@1.9.4/dist/leaflet.js\"></script>\n    <script src=\"https://unpkg.com/@babel/standalone/babel.min.js\"></script>\n\n    <script type=\"text/babel\">\n      const { useEffect, useRef, useState } = React;\n\n      const App = () => {\n        const mapRef = useRef(null);\n        const [fromCoords, setFromCoords] = useState(null);\n\n        const destination = [43.65453, -79.38018]; // Eaton Centre\n\n        // DronaHQ payload.value handler\n        const callback = (payload) => {\n          if (payload?.type === \"setValue\" && payload?.value?.from) {\n            const from = [\n              parseFloat(payload.value.from.latitude),\n              parseFloat(payload.value.from.longitude)\n            ];\n            setFromCoords(from);\n          }\n\n          if (payload.type === \"getValue\") {\n            CI.returnValue({ from: fromCoords });\n          }\n        };\n\n        useEffect(() => {\n          CI.init(callback);\n        }, []);\n\n        useEffect(() => {\n          if (!fromCoords) return;\n\n          const map = L.map(\"map\").setView(fromCoords, 14);\n\n          L.tileLayer(\"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png\", {\n            attribution: '&copy; OpenStreetMap contributors'\n          }).addTo(map);\n\n          function stepsBetween(start, end, kmStep = 1) {\n            const R = 6371;\n            const dLat = ((end[0] - start[0]) * Math.PI) / 180;\n            const dLon = ((end[1] - start[1]) * Math.PI) / 180;\n            const a =\n              Math.sin(dLat / 2) ** 2 +\n              Math.cos((start[0] * Math.PI) / 180) *\n                Math.cos((end[0] * Math.PI) / 180) *\n                Math.sin(dLon / 2) ** 2;\n            const dist = 2 * R * Math.asin(Math.sqrt(a));\n            const steps = Math.floor(dist / kmStep);\n            const points = [];\n            for (let i = 0; i <= steps; i++) {\n              const lat = start[0] + ((end[0] - start[0]) * i) / steps;\n              const lon = start[1] + ((end[1] - start[1]) * i) / steps;\n              points.push([+lat.toFixed(6), +lon.toFixed(6)]);\n            }\n            return points;\n          }\n\n          const steps = stepsBetween(fromCoords, destination, 1);\n\n          steps.forEach((coord) => {\n            L.marker(coord).addTo(map);\n          });\n\n          L.marker(fromCoords).addTo(map).bindPopup(\"Start\").openPopup();\n          L.marker(destination).addTo(map).bindPopup(\"Eaton Centre\");\n\n          L.circle(destination, {\n            radius: 50,\n            color: \"#00ff00\",\n            fillOpacity: 0.3\n          }).addTo(map);\n        }, [fromCoords]);\n\n        return (\n          <div>\n            <h3>???? Route to Eaton Centre</h3>\n            <div id=\"map\" ref={mapRef}></div>\n          </div>\n        );\n      };\n\n      ReactDOM.render(<App />, document.getElementById(\"root\"));\n    </script>\n  </body>\n</html>",
+    "tip_description": "",
+    "tooltip": "",
+    "type": "input",
+    "validation": [],
+    "wrapper_content_alignment": "flex-start"
+}
