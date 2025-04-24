@@ -99,7 +99,10 @@
     "dhq_default_formula": "",
     "dhq_external_css": {
         "addCode": true,
-        "data": {}
+        "data": {
+            "code": "/* Make sure the container behaves like a flexible row */\n.tag_head_block {\n  display: flex;\n  align-items: center;\n  flex-wrap: nowrap;\n  gap: 0.25rem; /* optional space between icon and text */\n  overflow: hidden;\n  min-width: 0; /* Allow text shrinking when needed */\n}\n\n/* Icon stays fixed and doesn't shrink */\n.tag_head_block .increament_icon {\n  flex-shrink: 0;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n/* Text grows but stays within bounds, doesn't overflow container */\n.tag_head_block .tag_text {\n  flex-grow: 1;\n  min-width: 0;\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n",
+            "compiledCode": ".c1023RtmqDJiA4ebnkhiwb,.sc1023RtmqDJiA4ebnkhiwb {  /* Make sure the container behaves like a flexible row */  /* Icon stays fixed and doesn't shrink */  /* Text grows but stays within bounds, doesn't overflow container */}.c1023RtmqDJiA4ebnkhiwb .tag_head_block,.sc1023RtmqDJiA4ebnkhiwb .tag_head_block {  display: flex;  align-items: center;  flex-wrap: nowrap;  gap: 0.25rem;  /* optional space between icon and text */  overflow: hidden;  min-width: 0;  /* Allow text shrinking when needed */}.c1023RtmqDJiA4ebnkhiwb .tag_head_block .increament_icon,.sc1023RtmqDJiA4ebnkhiwb .tag_head_block .increament_icon {  flex-shrink: 0;  display: flex;  align-items: center;  justify-content: center;}.c1023RtmqDJiA4ebnkhiwb .tag_head_block .tag_text,.sc1023RtmqDJiA4ebnkhiwb .tag_head_block .tag_text {  flex-grow: 1;  min-width: 0;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;}"
+        }
     },
     "dhq_nsf_replaced": false,
     "dhq_olddt_map": {},
