@@ -138,7 +138,7 @@
     "tip_description": "",
     "title_font_size": "var(--DHQ-normal-font)",
     "title_font_size_unit": "",
-    "title_font_weight": "var(--DHQ-regular-weight)",
+    "title_font_weight": "var(--DHQ-normal-weight)",
     "title_text_alignment": "left",
     "title_text_color": "var(--DHQ-primary-font-color)",
     "tooltip": "",
