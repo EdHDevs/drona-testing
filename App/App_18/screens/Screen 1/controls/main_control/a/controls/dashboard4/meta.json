@@ -87,13 +87,13 @@
     "dhqEvtConverted": true,
     "dhqGrid": {
         "w": 6,
-        "h": 14,
+        "h": 16,
         "x": 12,
         "y": 6
     },
     "dhqGridDesktop": {
         "w": 6,
-        "h": 14,
+        "h": 16,
         "x": 12,
         "y": 6
     },
@@ -193,7 +193,7 @@
     "formbuilder_theme": "#bbbbbb",
     "grid_dynamic_height": true,
     "grid_maintain_space": false,
-    "grid_max_height": "500",
+    "grid_max_height": "1999",
     "grid_max_height_unit": "px",
     "gridDesktopOrigin": null,
     "gridMobileOrigin": 17,
