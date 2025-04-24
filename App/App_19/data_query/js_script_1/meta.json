@@ -1,0 +1,29 @@
+{
+    "__dhq_formula_Dtype": "string",
+    "__dhq_keywords_mapping_Dtype": "object",
+    "created_at": 1745507663322,
+    "datatype": "list",
+    "defaultValue": "",
+    "dhq_req_stats": {
+        "status": "resolved"
+    },
+    "dhq_set_value_via_action": false,
+    "display_name": "js_script_1",
+    "evaluate_on_dependency_change": "everytime",
+    "field_composition_type": "variable",
+    "field_data_model_binding_manual_query": "CUSTOMJS()",
+    "field_data_model_binding_manual_query_with_id": "CUSTOMJS()",
+    "field_data_model_binding_type": "manual_query",
+    "formula_binded_to": "CustomJS",
+    "interval": {
+        "instance": null,
+        "timeout": null
+    },
+    "is_dql": false,
+    "is_master_variable": false,
+    "name": "variable_RkJlUMqVS4cfFId5K1745507663322",
+    "sanitize_response_keys": false,
+    "sb_mode": "JS",
+    "state": "success",
+    "type": "non-persistent"
+}
