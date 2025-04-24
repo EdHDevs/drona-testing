@@ -51,13 +51,13 @@
         "w": 24,
         "h": 8,
         "x": 0,
-        "y": 4
+        "y": 3
     },
     "dhqGridDesktop": {
         "w": 24,
         "h": 8,
         "x": 0,
-        "y": 4
+        "y": 3
     },
     "dhqMGridChanged": false,
     "disabled": false,
@@ -95,6 +95,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
+    "gridDesktopOrigin": null,
     "hidden": false,
     "input_control_height": "2.5rem",
     "input_font_color": "var(--DHQ-primary-font-color)",

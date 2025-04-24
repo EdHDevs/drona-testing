@@ -1,1 +1,1 @@
-Hello {{USERNAME}}! 👋
+Hello {{USERNAME}}!

@@ -1,1 +1,1 @@
-Hello David Sallusti! 👋
+Hello David Sallusti!
