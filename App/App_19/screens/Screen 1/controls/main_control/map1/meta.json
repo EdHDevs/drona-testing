@@ -38,7 +38,13 @@
         "data": {}
     },
     "dhq_nsf_replaced": false,
-    "dhq_olddt_map": {},
+    "dhq_olddt_map": {
+        "type_columns": "type_columns",
+        "coords_colms": "coords_colms",
+        "radius_colmns": "radius_colmns",
+        "paint": "paint",
+        "icon": "icon"
+    },
     "dhq_req_stats": {
         "status": ""
     },

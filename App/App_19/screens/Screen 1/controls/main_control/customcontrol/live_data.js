@@ -60,7 +60,7 @@
             {
               type_columns: "marker",
               coords_colms: [13.0294183, 77.6444617],
-              icon: "🟢"
+              icon: "????"
             }
           ];
 
