@@ -34,7 +34,7 @@
             attribution: '&copy; OpenStreetMap contributors'
           }).addTo(map);
 
-          const from = [33.905640866388296,-84.36012320600346];
+          const from = [{gps}];
           const to = [43.65453, -79.38018];
 
           function stepsBetween(start, end, kmStep = 1) {
