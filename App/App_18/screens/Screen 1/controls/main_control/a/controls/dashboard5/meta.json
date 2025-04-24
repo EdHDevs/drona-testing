@@ -191,7 +191,7 @@
         "concated_msgs": []
     },
     "formbuilder_theme": "#bbbbbb",
-    "grid_dynamic_height": true,
+    "grid_dynamic_height": false,
     "grid_maintain_space": false,
     "grid_max_height": "400",
     "grid_max_height_unit": "px",
