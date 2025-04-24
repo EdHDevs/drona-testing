@@ -121,7 +121,12 @@
     "show_tooltip": false,
     "sid": "sc146RALYbDsf2bL8d7i7o",
     "tabIndex": "",
-    "textarea_data": "",
+    "textarea_data": {
+        "from": {
+            "latitude": 43.66092,
+            "longitude": -79.36143
+        }
+    },
     "tip_description": "",
     "tooltip": "",
     "type": "input",
