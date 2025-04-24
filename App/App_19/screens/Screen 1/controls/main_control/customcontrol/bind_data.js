@@ -28,63 +28,65 @@
         const mapRef = useRef(null);
 
         useEffect(() => {
-          const Lmap = L.map("map").setView([20.5937, 78.9629], 5);
+          const map = L.map("map").setView([39.0, -81.0], 6);
 
           L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
             attribution: '&copy; OpenStreetMap contributors'
-          }).addTo(Lmap);
+          }).addTo(map);
 
-          const data = [
-            {
-              type_columns: "circle",
-              coords_colms: [22.43134, 78.837609],
-              radius_colmns: 326838.7435
-            },
-            {
-              type_columns: "marker",
-              coords_colms: [18.88238, 73.380321]
-            },
-            {
-              type_columns: "polygon",
-              coords_colms: [
-                [26.57575, 70.1288],
-                [26.88973, 87.9682],
-                [31.64122, 75.75305]
-              ],
-              paint: {
-                color: "#008000",
-                weight: 3,
-                fillColor: "#ff0000"
-              }
-            },
-            {
-              type_columns: "marker",
-              coords_colms: [13.0294183, 77.6444617],
-              icon: "????"
-            }
-          ];
+          const from = [35.59089, -82.58231];
+          const to = [43.65453, -79.38018];
 
-          // Add shapes
-          data.forEach((item) => {
-            if (item.type_columns === "circle") {
-              L.circle(item.coords_colms, {
-                radius: item.radius_colmns,
-                color: "#0000ff"
-              }).addTo(Lmap);
+          function stepsBetween(start, end, kmStep = 1) {
+            const R = 6371;
+            const dLat = ((end[0] - start[0]) * Math.PI) / 180;
+            const dLon = ((end[1] - start[1]) * Math.PI) / 180;
+            const a =
+              Math.sin(dLat / 2) ** 2 +
+              Math.cos((start[0] * Math.PI) / 180) *
+                Math.cos((end[0] * Math.PI) / 180) *
+                Math.sin(dLon / 2) ** 2;
+            const dist = 2 * R * Math.asin(Math.sqrt(a));
+            const steps = Math.floor(dist / kmStep);
+            const points = [];
+            for (let i = 0; i <= steps; i++) {
+              const lat = start[0] + ((end[0] - start[0]) * i) / steps;
+              const lon = start[1] + ((end[1] - start[1]) * i) / steps;
+              points.push([+lat.toFixed(5), +lon.toFixed(5)]);
             }
-            if (item.type_columns === "marker") {
-              const marker = L.marker(item.coords_colms);
-              if (item.icon) {
-                marker.setIcon(
-                  L.divIcon({
-                    className: "custom-icon",
-                    html: item.icon,
-                    iconSize: [20, 20]
-                  })
-                );
-              }
-              marker.addTo(Lmap);
-            }
-            if (item.type_columns === "polygon") {
-              L.polygon(item.coords_colms, {
-                color:
+            return points;
+          }
+
+          const steps = stepsBetween(from, to, 1);
+
+          // Add all 1km step markers
+          steps.forEach((coord) => {
+            L.marker(coord).addTo(map);
+          });
+
+          // Add start marker
+          L.marker(from).addTo(map).bindPopup("Start (L1AAA)").openPopup();
+
+          // Add destination marker
+          L.marker(to).addTo(map).bindPopup("End (P1AAA)");
+
+          // Add 50m clock-in zone around destination
+          L.circle(to, {
+            radius: 50,
+            color: "#00ff00",
+            fillOpacity: 0.3
+          }).addTo(map);
+        }, []);
+
+        return (
+          <div>
+            <h3>Tracking Route (1km steps)</h3>
+            <div id="map" ref={mapRef}></div>
+          </div>
+        );
+      };
+
+      ReactDOM.render(<App />, document.getElementById("root"));
+    </script>
+  </body>
+</html>
