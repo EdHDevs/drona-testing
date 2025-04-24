@@ -49,14 +49,14 @@
         "w": 8,
         "h": 41,
         "x": 9,
-        "y": 39
+        "y": 33
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 8,
         "h": 41,
         "x": 9,
-        "y": 39
+        "y": 33
     },
     "disabled": false,
     "e_icon": "",
@@ -90,24 +90,24 @@
         {
             "field": "coords_colms",
             "display_name": "coords_colms",
-            "data_type": "string",
+            "data_type": "array",
             "field_database_editor_data_format": "single_line_text"
         },
         {
             "field": "radius_colmns",
             "display_name": "radius_colmns",
-            "data_type": "string",
-            "field_database_editor_data_format": "single_line_text"
-        },
-        {
-            "field": "icon",
-            "display_name": "icon",
-            "data_type": "string",
+            "data_type": "number",
             "field_database_editor_data_format": "single_line_text"
         },
         {
             "field": "paint",
             "display_name": "paint",
+            "data_type": "object",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "icon",
+            "display_name": "icon",
             "data_type": "string",
             "field_database_editor_data_format": "single_line_text"
         }
@@ -118,8 +118,14 @@
     "field_key_name": "dhq_ad_map_c85RCDrkkXvH2ePJ9IW8",
     "field_options": {},
     "field_responsive": false,
-    "field_schema_column_header_names": [],
-    "field_schema_column_id_header_name_mapping": {},
+    "field_schema_column_header_names": "type_columns,coords_colms,radius_colmns,paint,icon",
+    "field_schema_column_id_header_name_mapping": {
+        "type_columns": "type_columns",
+        "coords_colms": "coords_colms",
+        "radius_colmns": "radius_colmns",
+        "paint": "paint",
+        "icon": "icon"
+    },
     "field_type": "dhq_ad_map",
     "field_values_addition_enabled_in_database_editor": true,
     "field_values_source": "field_options.options",
