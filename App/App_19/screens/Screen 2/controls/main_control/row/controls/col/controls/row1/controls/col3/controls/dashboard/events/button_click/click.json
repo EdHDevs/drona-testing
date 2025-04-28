@@ -1,0 +1,14 @@
+{
+    "event_name": "button_click",
+    "selector": "[eventname = 'button_click']",
+    "event_type": "click",
+    "actionflow_id": "af_dhq_dashboard_c653RgvuBJ21Mu4HAtH8E_button_click_click",
+    "next_actions": [
+        "end_action_flow"
+    ],
+    "prev_actions": [],
+    "actions": [],
+    "category": "",
+    "interval": "",
+    "action_label": ""
+}
