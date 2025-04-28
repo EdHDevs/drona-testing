@@ -229,6 +229,13 @@
     "progress_bar_height": 0.75,
     "progress_bar_height_unit": "rem",
     "required": false,
+    "sb_mode": {
+        "header_text": "JS",
+        "tag_text": "JS",
+        "title_text": "JS",
+        "footer_text": "JS",
+        "percentage": "JS"
+    },
     "show_border": false,
     "show_box_shadow": true,
     "show_description": false,
