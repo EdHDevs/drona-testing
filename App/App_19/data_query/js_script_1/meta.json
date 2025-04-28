@@ -1,14 +1,14 @@
 {
     "__dhq_formula_Dtype": "string",
     "__dhq_keywords_mapping_Dtype": "object",
+    "allow_offline_submission": false,
     "created_at": 1745507663322,
     "datatype": "list",
     "defaultValue": "",
-    "dhq_req_stats": {
-        "status": "resolved"
-    },
+    "dhq_req_stats": {},
     "dhq_set_value_via_action": false,
     "display_name": "js_script_1",
+    "download_as_file": false,
     "evaluate_on_dependency_change": "everytime",
     "field_composition_type": "variable",
     "field_data_model_binding_manual_query": "CUSTOMJS()",
@@ -20,10 +20,12 @@
         "timeout": null
     },
     "is_dql": false,
+    "is_from_action_flow": false,
     "is_master_variable": false,
     "name": "variable_RkJlUMqVS4cfFId5K1745507663322",
     "sanitize_response_keys": false,
     "sb_mode": "JS",
     "state": "success",
-    "type": "non-persistent"
+    "type": "non-persistent",
+    "variable_parent_folder_id": null
 }

@@ -117,7 +117,6 @@
     "label_position": "top",
     "label_text_alignment": "left",
     "label_text_color": "var(--DHQ-primary-font-color)",
-    "parent_id": "",
     "required": false,
     "show_description": false,
     "show_dfm": false,
@@ -128,5 +127,7 @@
     "tip_description": "",
     "tooltip": "",
     "type": "input",
+    "unique_name_change": false,
+    "visibility": true,
     "wrapper_content_alignment": "flex-start"
 }
