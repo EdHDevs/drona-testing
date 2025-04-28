@@ -108,6 +108,7 @@
     "label_position": "top",
     "label_text_alignment": "left",
     "label_text_color": "var(--DHQ-primary-font-color)",
+    "parent_id": "",
     "required": false,
     "sb_mode": "JS",
     "show_description": false,
