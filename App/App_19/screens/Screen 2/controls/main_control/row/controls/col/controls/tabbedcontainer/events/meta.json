@@ -1,0 +1,8 @@
+{
+    "tab_change": {
+        "events": [
+            "click"
+        ],
+        "selector": ""
+    }
+}
