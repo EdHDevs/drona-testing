@@ -1,0 +1,15 @@
+{
+    "action_items": {
+        "app": {
+            "events": [
+                "open"
+            ],
+            "selector": ""
+        },
+        "recurring": {
+            "events": [],
+            "selector": ""
+        }
+    },
+    "id": "app_R0aq1p91ZXeFcjvjk"
+}
