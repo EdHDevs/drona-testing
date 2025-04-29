@@ -154,6 +154,7 @@
     "parent_id": "grid_panel_c32Rp6K2yw4vp8YNLTVs",
     "prefix_icon": "fas fa-arrow-circle-right",
     "required": false,
+    "sb_mode": "JS",
     "show_description": false,
     "show_dfm": false,
     "show_new_property": true,
