@@ -128,6 +128,7 @@
     "line_height": "var(--DHQ-line-height)",
     "line_height_unit": "",
     "required": false,
+    "sb_mode": "JS",
     "show_description": false,
     "show_dfm": false,
     "show_new_property": true,
