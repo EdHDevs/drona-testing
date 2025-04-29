@@ -1,0 +1,21 @@
+{
+    "cat_id": 7,
+    "catName": "PDFCreator",
+    "catDesc": "REST API Connector for generating pdf files either as file in base64 encoded string or as public file url uploaded on S3 storage.",
+    "catIcon": "./Images/dblogos/restapi.png",
+    "schemeType": "api_key",
+    "cat_created_on": "2024-03-28T06:56:51.000Z",
+    "cat_modify_on": "2024-07-01T09:17:07.000Z",
+    "cat_created_by": "",
+    "isGlobal": true,
+    "isEditable": false,
+    "isCatPublic": true,
+    "isInstalled": false,
+    "isCatEditable": true,
+    "showAddOption": true,
+    "cat_type": null,
+    "format_id": "5aa66338-ecd0-11ee-aa73-0affc745b639",
+    "permission": "0010",
+    "multistep_auth_steps": {},
+    "channel_id": "2"
+}

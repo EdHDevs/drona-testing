@@ -1,0 +1,91 @@
+{
+    "api_id": 2,
+    "api_name": "variable_RtZTYskgMEdyEsPvV1745957127676",
+    "cat_id": "__REPLACE_CAT_ID_7___",
+    "cat_name": "__REPLACE_CAT_NAME_7___",
+    "sub_cat_id": "__REPLACE_SUB_CAT_ID_1050___",
+    "sub_cat_name": "__REPLACE_SUB_CAT_NAME_1050___",
+    "cat_icon_url": "./Images/dblogos/restapi.png",
+    "method": "post",
+    "query": {},
+    "param": {},
+    "header": {},
+    "body": {
+        "mode": "application/json",
+        "formdata": {},
+        "variables": {
+            "templateId": {
+                "keyName": "templateId",
+                "spanName": null,
+                "isField": true,
+                "keyType": "text",
+                "keyValue": "6801555ef76f8a833a26f705",
+                "testValue": "6801555ef76f8a833a26f705",
+                "preselect": true,
+                "name": "Background Check Request",
+                "label": "Background Check Request",
+                "isDynamic": false,
+                "editor_type": "JSEditor"
+            },
+            "pdfName": {
+                "keyName": "pdfName",
+                "spanName": null,
+                "isField": true,
+                "keyType": "text",
+                "keyValue": "FingerPrint Form",
+                "testValue": "FingerPrint Form",
+                "preselect": false,
+                "name": "",
+                "label": "",
+                "isDynamic": false,
+                "editor_type": "JSEditor"
+            },
+            "password": {
+                "keyName": "password",
+                "spanName": null,
+                "isField": true,
+                "keyType": "text",
+                "keyValue": "",
+                "testValue": "",
+                "preselect": false,
+                "name": "",
+                "isDynamic": false,
+                "editor_type": "JSEditor"
+            }
+        }
+    },
+    "auth": {
+        "environment_config": {
+            "env_1": "__REPLACE_ACCOUNT_ID_7___",
+            "env_2": "",
+            "env_3": ""
+        },
+        "type": "api_key",
+        "account_id": "__REPLACE_ACCOUNT_ID_7___",
+        "whitelist_ip": false
+    },
+    "triggerOnPageload": false,
+    "execution_editor_type": "JSEditor",
+    "execution_condition_variable_with_name": "",
+    "execution_condition_variable": "",
+    "error_msg": "",
+    "filterKeysOptions": {},
+    "scheme_type": "api_key",
+    "account_id": "__REPLACE_ACCOUNT_ID_7___",
+    "filterObjectMapping": [],
+    "sanitizeResponseFlag": false,
+    "allow_offline_submission": false,
+    "download_as_file": false,
+    "secureResponse": false,
+    "rawResponse": {},
+    "processedResp": {},
+    "paginationType": "none",
+    "offsetKeyPath": "",
+    "hasMoreKeyPath": "",
+    "misc": {},
+    "additionalKeywords": {},
+    "formatedSchema": {},
+    "bindedTo": "variable",
+    "autoTransform": false,
+    "cat_type": null
+}

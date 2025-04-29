@@ -5,15 +5,17 @@
     "created_at": 1745957127676,
     "datatype": "string",
     "defaultValue": "",
-    "dhq_req_stats": {},
+    "dhq_req_stats": {
+        "status": "rejected"
+    },
     "dhq_set_value_via_action": false,
-    "display_name": "query_2",
+    "display_name": "GetPDF",
     "download_as_file": false,
     "evaluate_on_dependency_change": "manual",
     "field_composition_type": "variable",
-    "field_data_model_binding_manual_query": "BINDAPI( [])",
-    "field_data_model_binding_manual_query_with_id": "BINDAPI( [])",
-    "field_data_model_binding_type": "manual_query",
+    "field_data_model_binding_manual_query": "BINDAPI([variable_RtZTYskgMEdyEsPvV1745957127676])",
+    "field_data_model_binding_manual_query_with_id": "BINDAPI( [variable_RtZTYskgMEdyEsPvV1745957127676])",
+    "field_data_model_binding_type": "",
     "formula_binded_to": "PDFCreator",
     "interval": {
         "instance": null,
@@ -25,7 +27,7 @@
     "name": "variable_RtZTYskgMEdyEsPvV1745957127676",
     "sanitize_response_keys": false,
     "sb_mode": "JS",
-    "state": "success",
+    "state": "error",
     "type": "non-persistent",
     "variable_parent_folder_id": null
 }

@@ -1,0 +1,14 @@
+{
+    "sub_cat_id": 1050,
+    "sub_catName": "GetPDF",
+    "sub_catIcon": "./Images/dblogos/restapi.png",
+    "sub_cat_created_on": "2024-03-28T07:09:15.000Z",
+    "sub_cat_modify_on": "2024-07-25T13:55:45.000Z",
+    "sub_cat_format_id": "164063e9-ecd2-11ee-aa73-0affc745b639",
+    "sub_cat_created_by": "",
+    "sub_cat_method": "POST",
+    "sub_cat_is_public": true,
+    "plugin_id": 0,
+    "isSubCatInstalled": false,
+    "isSubCatEditable": true
+}
