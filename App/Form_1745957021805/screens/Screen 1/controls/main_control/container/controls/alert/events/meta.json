@@ -1,0 +1,8 @@
+{
+    "Action_Click": {
+        "events": [
+            "click"
+        ],
+        "selector": ""
+    }
+}

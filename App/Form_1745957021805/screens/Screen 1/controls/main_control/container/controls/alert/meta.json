@@ -1,0 +1,173 @@
+{
+    "__dhq_default_formula_Dtype": "string",
+    "__dhq_formula_Dtype": "object",
+    "__dhq_keywords_mapping_Dtype": "object",
+    "__LiveData_Dtype": "object",
+    "alert_action_text": "",
+    "alert_text": "Add your description",
+    "alert_title": "",
+    "alert_type": "info",
+    "allow_options_addition_in_editor": true,
+    "caching": false,
+    "card_height": 3.75,
+    "card_height_unit": "rem",
+    "cid": "c45RMM60yFidSBfhvj5s",
+    "class_name": "test",
+    "ctrl_id": "",
+    "data_submission_enabled": true,
+    "data_type": "string",
+    "dfmv_selected": "default",
+    "dhq_config": {
+        "strict_update": [
+            "for_localization",
+            "dhq_config",
+            "show_new_property"
+        ],
+        "update_to_theme_varaibles": [
+            "card_height",
+            "card_height_unit",
+            "label_font_size",
+            "label_font_size_unit",
+            "label_font_weight",
+            "label_text_color"
+        ]
+    },
+    "dhq_data_process": "",
+    "dhq_default_data_process": "",
+    "dhq_default_formula": "",
+    "dhq_external_css": {
+        "addCode": false,
+        "data": {}
+    },
+    "dhq_nsf_replaced": false,
+    "dhq_olddt_map": {},
+    "dhq_req_stats": {
+        "status": ""
+    },
+    "dhq_submit_condition": "always",
+    "dhq_tfd": true,
+    "dhqEvtConverted": true,
+    "dhqGrid": {
+        "w": 22,
+        "h": 6,
+        "x": 1,
+        "y": 8
+    },
+    "dhqGridChanged": false,
+    "dhqGridDesktop": {
+        "w": 22,
+        "h": 6,
+        "x": 1,
+        "y": 8
+    },
+    "dhqMGridChanged": false,
+    "disabled": false,
+    "field_available_in_database_editor": false,
+    "field_composition_type": "composite",
+    "field_config": {},
+    "field_data_model": "",
+    "field_data_model_binding_formula": "",
+    "field_data_model_binding_manual_query": {
+        "alert_action_text": "DATABUILDER()",
+        "alert_text": "DATABUILDER()",
+        "alert_title": "DATABUILDER()"
+    },
+    "field_data_model_binding_manual_query_with_id": {
+        "alert_action_text": "DATABUILDER()",
+        "alert_text": "DATABUILDER()",
+        "alert_title": "DATABUILDER()"
+    },
+    "field_data_model_binding_type": "manual_query",
+    "field_database_editor_data_format": "single_line_text",
+    "field_datatypes": [
+        {
+            "field": "alert_title",
+            "display_name": "Title",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "alert_text",
+            "display_name": "Description",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "alert_action_text",
+            "display_name": "Action_Text",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        },
+        {
+            "field": "alert_type",
+            "display_name": "Alert_Type",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_line_text"
+        }
+    ],
+    "field_display_key_name": "alert",
+    "field_editable_in_database_editor": false,
+    "field_fullview": false,
+    "field_key_name": "dhq_alert_c45RMM60yFidSBfhvj5s",
+    "field_options": {},
+    "field_responsive": false,
+    "field_type": "dhq_alert",
+    "field_values_addition_enabled_in_database_editor": true,
+    "field_values_source": "",
+    "for_localization": {
+        "static_msgs": [],
+        "dynamic_msgs_keys": [
+            "label",
+            "tooltip",
+            "tip_description"
+        ],
+        "concated_msgs": []
+    },
+    "formbuilder_theme": "#bbbbbb",
+    "grid_dynamic_height": true,
+    "grid_maintain_space": false,
+    "grid_max_height": "",
+    "grid_max_height_unit": "px",
+    "hidden": false,
+    "input_control_height": "2.5rem",
+    "input_font_color": "var(--DHQ-primary-font-color)",
+    "input_font_size": "var(--DHQ-normal-font)",
+    "input_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_font_weight": "var(--DHQ-normal-weight)",
+    "input_placeholder_text_color": "#aaaaaa",
+    "input_placeholder_text_size": "var(--DHQ-small-font)",
+    "is_master_control": false,
+    "is_outlet_control": false,
+    "is_repeat_outlet_control": false,
+    "is_variable": false,
+    "isDhqGridCtrl": true,
+    "isDhqHideOnDesktop": false,
+    "isDhqHideOnMobile": false,
+    "isVisualControl": true,
+    "label": "Alert",
+    "label_font_size": "var(--DHQ-control-title)",
+    "label_font_size_unit": "",
+    "label_font_weight": "var(--DHQ-bold)",
+    "label_font_weight_class": "font-weight-normal",
+    "label_hidden": true,
+    "label_left_width": "33",
+    "label_left_width_unit": "%",
+    "label_position": "top",
+    "label_text_alignment": "left",
+    "label_text_color": "var(--DHQ-primary-font-color)",
+    "label_value": "Alert",
+    "parent_id": "grid_panel_c32Rp6K2yw4vp8YNLTVs",
+    "required": false,
+    "show_description": false,
+    "show_dfm": false,
+    "show_new_property": true,
+    "show_tooltip": false,
+    "sid": "sc45RMM60yFidSBfhvj5s",
+    "tabIndex": "",
+    "tip_description": "",
+    "tooltip": "",
+    "type": "non_input",
+    "unique_name_change": false,
+    "visibility": true,
+    "wrapper_content_alignment": "flex-start"
+}
