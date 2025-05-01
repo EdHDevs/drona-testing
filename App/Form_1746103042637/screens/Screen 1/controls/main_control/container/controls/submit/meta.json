@@ -155,6 +155,7 @@
     "parent_id": "grid_panel_c31RNexaUkuLUBXJLpTO",
     "prefix_icon": "fas fa-arrow-circle-right",
     "required": false,
+    "sb_mode": "JS",
     "show_description": false,
     "show_dfm": false,
     "show_new_property": true,
@@ -163,7 +164,7 @@
     "show_tooltip": false,
     "sid": "sc48RfDaGHOOG0BPlPfbJ",
     "side_to_display": "right",
-    "state_dropdown": "disable",
+    "state_dropdown": "enable",
     "statesObj": {
         "Button": {
             "Enable": {
