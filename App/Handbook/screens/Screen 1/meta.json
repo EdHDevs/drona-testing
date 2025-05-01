@@ -45,24 +45,25 @@
         "nameKeywordMapping": [],
         "nameKeywordMappingScratch": [
             {
-                "alias": "name",
+                "alias": "fullname",
+                "name": "Full Name",
                 "id": "name_c121RpQY9BYc9KvNoaQ60",
-                "name": "Name"
-            },
-            {
-                "alias": "signaturepad",
-                "id": "signature_pad_c217RQhR7b6GRolPp5qbv",
-                "name": "Signature Pad"
+                "testValue": "''",
+                "testValueType": {}
             },
             {
                 "alias": "datepicker",
+                "name": "Date Picker",
                 "id": "datepicker_c239RwpZoG58Z7cXODxHQ",
-                "name": "Date Picker"
+                "testValue": "''",
+                "testValueType": {}
             },
             {
-                "alias": "textinput",
-                "id": "text_c403R56m16uYvuuFoG4yl",
-                "name": "Text Input"
+                "alias": "signaturepad",
+                "name": "Signature Pad",
+                "id": "signature_pad_c217RQhR7b6GRolPp5qbv",
+                "testValue": "''",
+                "testValueType": {}
             }
         ],
         "actionFlowParams": {},
@@ -70,20 +71,16 @@
         "columnDatatypeObj": {},
         "currentActiveGenerateMode": "Scratch",
         "controlNameIDMapping": {
-            "name": {
-                "rf": "name",
-                "isNewField": false
-            },
-            "signaturepad": {
-                "rf": "signaturepad",
+            "fullname": {
+                "rf": "fullname",
                 "isNewField": false
             },
             "datepicker": {
                 "rf": "datepicker",
                 "isNewField": false
             },
-            "textinput": {
-                "rf": "textinput",
+            "signaturepad": {
+                "rf": "signaturepad",
                 "isNewField": false
             }
         },
