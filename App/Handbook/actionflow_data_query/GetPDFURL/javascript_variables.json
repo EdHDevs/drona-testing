@@ -3,12 +3,12 @@
         "alias": "pulse",
         "name": "MondayId",
         "id": "MondayId",
-        "testValue": "pulse"
+        "testValue": "pulse2"
     },
     {
         "alias": "alaya",
         "name": "alayacareId",
         "id": "alayacareId",
-        "testValue": "alaya"
+        "testValue": "alaya2"
     }
 ]
