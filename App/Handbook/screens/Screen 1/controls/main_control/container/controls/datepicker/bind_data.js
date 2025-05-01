@@ -1,1 +1,1 @@
-{{dates? dates ; Date()}}
+{{dates != NULL ? dates ; Date()}}
