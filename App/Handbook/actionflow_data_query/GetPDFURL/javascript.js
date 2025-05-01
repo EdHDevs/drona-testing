@@ -4,6 +4,7 @@
 let pulseId = "{{pulse}}";
 let mondayId = "{{alaya}}";
 
+
 // Append new fields
 data.pulseId = pulseId;
 data.mondayId = mondayId;
