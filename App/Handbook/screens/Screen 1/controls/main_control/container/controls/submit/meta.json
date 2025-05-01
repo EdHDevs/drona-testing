@@ -58,14 +58,14 @@
         "w": 22,
         "h": 5,
         "x": 1,
-        "y": 102
+        "y": 93
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 22,
         "h": 5,
         "x": 1,
-        "y": 104
+        "y": 93
     },
     "dhqMGridChanged": false,
     "disable_card_background_color": "var(--DHQ-border-color)",
