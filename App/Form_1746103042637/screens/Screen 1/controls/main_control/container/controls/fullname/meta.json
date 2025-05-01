@@ -193,7 +193,7 @@
     "max_text_length": "",
     "parent_id": "grid_panel_c31RNexaUkuLUBXJLpTO",
     "prefix": "Mr.",
-    "required": false,
+    "required": true,
     "show_description": false,
     "show_dfm": false,
     "show_new_property": true,
