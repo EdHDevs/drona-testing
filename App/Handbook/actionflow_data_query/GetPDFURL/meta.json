@@ -3,9 +3,11 @@
     "__dhq_keywords_mapping_Dtype": "object",
     "allow_offline_submission": false,
     "created_at": 1746105616026,
-    "datatype": "string",
+    "datatype": "composite_list",
     "defaultValue": "",
-    "dhq_req_stats": {},
+    "dhq_req_stats": {
+        "status": "resolved"
+    },
     "dhq_set_value_via_action": false,
     "display_name": "GetPDFURL",
     "download_as_file": false,
@@ -21,7 +23,7 @@
     },
     "is_dql": false,
     "is_from_action_flow": true,
-    "is_master_variable": false,
+    "is_master_variable": true,
     "name": "variable_RGHzpjT8ltqLZXlfL1746105616026",
     "sanitize_response_keys": false,
     "sb_mode": "JS",
