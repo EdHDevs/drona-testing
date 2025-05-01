@@ -1,21 +1,17 @@
 {
     "__dhq_default_formula_Dtype": "string",
-    "__dhq_formula_Dtype": "object",
-    "__dhq_keywords_mapping_Dtype": "object",
-    "__LiveData_Dtype": "object",
-    "alert_action_text": "",
-    "alert_text": "This is Sample Description",
-    "alert_title": "",
-    "alert_type": "info",
+    "__dhq_formula_Dtype": "string",
     "allow_options_addition_in_editor": true,
     "caching": false,
-    "card_height": 3.75,
-    "card_height_unit": "rem",
-    "cid": "c44RTN6SDNqsubTDO3fc",
+    "cid": "c121RpQY9BYc9KvNoaQ60",
     "class_name": "test",
     "ctrl_id": "",
     "data_submission_enabled": true,
-    "data_type": "string",
+    "data_type": "",
+    "debounceEventTime": 1500,
+    "default_field_options_structure": {
+        "prefix": "Dr."
+    },
     "dfmv_selected": "default",
     "dhq_config": {
         "strict_update": [
@@ -24,12 +20,18 @@
             "show_new_property"
         ],
         "update_to_theme_varaibles": [
-            "card_height",
-            "card_height_unit",
+            "formbuilder_theme",
             "label_font_size",
             "label_font_size_unit",
             "label_font_weight",
-            "label_text_color"
+            "label_text_color",
+            "input_font_weight",
+            "input_font_color",
+            "input_font_size",
+            "input_control_height",
+            "input_placeholder_font_weight",
+            "input_placeholder_text_color",
+            "input_placeholder_text_size"
         ]
     },
     "dhq_data_process": "",
@@ -49,16 +51,16 @@
     "dhqEvtConverted": true,
     "dhqGrid": {
         "w": 22,
-        "h": 6,
+        "h": 8,
         "x": 1,
-        "y": 8
+        "y": 15
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 22,
-        "h": 6,
+        "h": 8,
         "x": 1,
-        "y": 8
+        "y": 15
     },
     "dhqMGridChanged": false,
     "disabled": false,
@@ -67,68 +69,97 @@
     "field_config": {},
     "field_data_model": "",
     "field_data_model_binding_formula": "",
-    "field_data_model_binding_manual_query": {
-        "alert_action_text": "DATABUILDER()",
-        "alert_text": "DATABUILDER()",
-        "alert_title": "DATABUILDER()"
-    },
-    "field_data_model_binding_manual_query_with_id": {
-        "alert_action_text": "DATABUILDER()",
-        "alert_text": "DATABUILDER()",
-        "alert_title": "DATABUILDER()"
-    },
-    "field_data_model_binding_type": "manual_query",
-    "field_database_editor_data_format": "single_line_text",
+    "field_data_model_binding_manual_query": "",
+    "field_data_model_binding_manual_query_with_id": "",
+    "field_data_model_binding_type": "",
+    "field_database_editor_data_format": "range",
     "field_datatypes": [
         {
-            "field": "alert_title",
-            "display_name": "Title",
+            "field": "prefix",
+            "display_name": "prefix",
+            "data_type": "string",
+            "field_database_editor_data_format": "single_select",
+            "field_values_source": "field_options.options"
+        },
+        {
+            "field": "first_name",
+            "display_name": "first_name",
             "data_type": "string",
             "field_database_editor_data_format": "single_line_text"
         },
         {
-            "field": "alert_text",
-            "display_name": "Description",
-            "data_type": "string",
-            "field_database_editor_data_format": "single_line_text"
-        },
-        {
-            "field": "alert_action_text",
-            "display_name": "Action_Text",
-            "data_type": "string",
-            "field_database_editor_data_format": "single_line_text"
-        },
-        {
-            "field": "alert_type",
-            "display_name": "Alert_Type",
+            "field": "last_name",
+            "display_name": "last_name",
             "data_type": "string",
             "field_database_editor_data_format": "single_line_text"
         }
     ],
-    "field_display_key_name": "alert",
-    "field_editable_in_database_editor": false,
+    "field_display_key_name": "name",
+    "field_editable_in_database_editor": true,
     "field_fullview": false,
-    "field_key_name": "dhq_alert_c44RTN6SDNqsubTDO3fc",
-    "field_options": {},
-    "field_responsive": false,
-    "field_type": "dhq_alert",
+    "field_key_name": "name_c121RpQY9BYc9KvNoaQ60",
+    "field_options": {
+        "options": [
+            {
+                "value": "Mr.",
+                "name": ""
+            },
+            {
+                "value": "Mrs.",
+                "name": ""
+            },
+            {
+                "value": "Miss",
+                "name": ""
+            },
+            {
+                "value": "Dr.",
+                "name": ""
+            },
+            {
+                "value": "Ms.",
+                "name": ""
+            },
+            {
+                "value": "Prof.",
+                "name": ""
+            },
+            {
+                "value": "Sir",
+                "name": ""
+            }
+        ]
+    },
+    "field_responsive": true,
+    "field_type": "name",
     "field_values_addition_enabled_in_database_editor": true,
     "field_values_source": "",
+    "first_name": "",
+    "first_name_placeholder": "First Name",
+    "first_name_tooltip": "",
     "for_localization": {
-        "static_msgs": [],
+        "static_msgs": [
+            "Please select prefix",
+            "First name is mandatory",
+            "Last name is mandatory"
+        ],
         "dynamic_msgs_keys": [
             "label",
+            "first_name_placeholder",
+            "last_name_placeholder",
             "tooltip",
             "tip_description"
         ],
         "concated_msgs": []
     },
-    "formbuilder_theme": "#bbbbbb",
+    "formbuilder_theme": "var(--DHQ-border-color)",
     "grid_dynamic_height": true,
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
     "hidden": false,
+    "hide_last_name": false,
+    "hide_prefix": false,
     "input_control_height": "2.5rem",
     "input_font_color": "var(--DHQ-primary-font-color)",
     "input_font_size": "var(--DHQ-normal-font)",
@@ -143,35 +174,35 @@
     "isDhqGridCtrl": true,
     "isDhqHideOnDesktop": false,
     "isDhqHideOnMobile": false,
-    "isVisualControl": true,
-    "label": "Alert",
+    "isVisualControl": false,
+    "label": "Name",
     "label_font_size": "var(--DHQ-control-title)",
     "label_font_size_unit": "",
     "label_font_weight": "var(--DHQ-bold)",
     "label_font_weight_class": "font-weight-normal",
-    "label_hidden": true,
+    "label_hidden": false,
     "label_left_width": "33",
     "label_left_width_unit": "%",
     "label_position": "top",
     "label_text_alignment": "left",
     "label_text_color": "var(--DHQ-primary-font-color)",
-    "label_value": "Alert",
+    "last_name": "",
+    "last_name_placeholder": "Last Name",
+    "last_name_tooltip": "",
+    "max_text_length": "",
     "parent_id": "grid_panel_c31RNexaUkuLUBXJLpTO",
+    "prefix": "Mr.",
     "required": false,
-    "sb_mode": {
-        "alert_title": "JS",
-        "alert_text": "JS",
-        "alert_action_text": "JS"
-    },
     "show_description": false,
     "show_dfm": false,
     "show_new_property": true,
     "show_tooltip": false,
-    "sid": "sc44RTN6SDNqsubTDO3fc",
+    "sid": "sc121RpQY9BYc9KvNoaQ60",
     "tabIndex": "",
     "tip_description": "",
+    "title": "My Component",
     "tooltip": "",
-    "type": "non_input",
+    "type": "input",
     "unique_name_change": false,
     "visibility": true,
     "wrapper_content_alignment": "flex-start"

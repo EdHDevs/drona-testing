@@ -29,16 +29,33 @@
     "dhqEvtConverted": true,
     "id": "c5REM1PZIo7aeiv0zQG",
     "formAppData": {
-        "adjustedHeightCtrlListForForms": [],
+        "adjustedHeightCtrlListForForms": [
+            "Header",
+            "dhq_alert",
+            "Button1",
+            "Button1",
+            "name"
+        ],
         "currentTableMap": {},
         "columnMappingWithControls": {},
         "nameKeywordMapping": [],
-        "nameKeywordMappingScratch": [],
+        "nameKeywordMappingScratch": [
+            {
+                "alias": "name",
+                "id": "name_c121RpQY9BYc9KvNoaQ60",
+                "name": "Name"
+            }
+        ],
         "actionFlowParams": {},
         "catSchemeInfo": {},
         "columnDatatypeObj": {},
         "currentActiveGenerateMode": "Scratch",
-        "controlNameIDMapping": {},
+        "controlNameIDMapping": {
+            "name": {
+                "rf": "name",
+                "isNewField": false
+            }
+        },
         "containerRF": "grid_panel_c31RNexaUkuLUBXJLpTO",
         "submitRF": "Button1_c48RfDaGHOOG0BPlPfbJ"
     },
