@@ -34,7 +34,9 @@
             "dhq_alert",
             "Button1",
             "Button1",
-            "name"
+            "name",
+            "signature_pad",
+            "datepicker"
         ],
         "currentTableMap": {},
         "columnMappingWithControls": {},
@@ -44,6 +46,16 @@
                 "alias": "name",
                 "id": "name_c121RpQY9BYc9KvNoaQ60",
                 "name": "Name"
+            },
+            {
+                "alias": "signaturepad",
+                "id": "signature_pad_c217RQhR7b6GRolPp5qbv",
+                "name": "Signature Pad"
+            },
+            {
+                "alias": "datepicker",
+                "id": "datepicker_c239RwpZoG58Z7cXODxHQ",
+                "name": "Date Picker"
             }
         ],
         "actionFlowParams": {},
@@ -53,6 +65,14 @@
         "controlNameIDMapping": {
             "name": {
                 "rf": "name",
+                "isNewField": false
+            },
+            "signaturepad": {
+                "rf": "signaturepad",
+                "isNewField": false
+            },
+            "datepicker": {
+                "rf": "datepicker",
                 "isNewField": false
             }
         },
