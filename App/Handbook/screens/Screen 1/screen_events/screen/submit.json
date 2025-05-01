@@ -60,10 +60,10 @@
             "wait_till_completion": true,
             "offline_submission": false,
             "downloadas_file": false,
-            "next_actions": [],
-            "prev_actions": [],
+            "actions_on_positive": [],
             "actions_on_negative": [],
-            "actions_on_positive": []
+            "next_actions": [],
+            "prev_actions": []
         }
     ],
     "category": "",
