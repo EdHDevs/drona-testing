@@ -1,8 +1,8 @@
 
 
 // New data to append
-let pulseId = "{{pulseId}}";
-let mondayId = "{{mondayId}}";
+let pulseId = "{{pulse}}";
+let mondayId = "{{alaya}}";
 
 // Append new fields
 data.pulseId = pulseId;

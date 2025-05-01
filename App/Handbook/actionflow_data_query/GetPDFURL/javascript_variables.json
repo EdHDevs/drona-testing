@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "alias": "pulse",
+        "name": "MondayId",
+        "id": "MondayId",
+        "testValue": "pulse"
+    },
+    {
+        "alias": "alaya",
+        "name": "alayacareId",
+        "id": "alayacareId",
+        "testValue": "alaya"
+    }
+]
