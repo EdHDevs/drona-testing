@@ -2,6 +2,7 @@
     "__dhq_default_formula_Dtype": "string",
     "__dhq_formula_Dtype": "string",
     "__dhq_keywords_mapping_Dtype": "object",
+    "__LiveData_Dtype": "string",
     "after_dates": 0,
     "allow_options_addition_in_editor": true,
     "before_dates": 0,
