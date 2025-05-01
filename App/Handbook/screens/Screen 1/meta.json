@@ -38,7 +38,8 @@
             "signature_pad",
             "datepicker",
             "text",
-            "Paragraph"
+            "Paragraph",
+            "numeric"
         ],
         "currentTableMap": {},
         "columnMappingWithControls": {},
@@ -64,6 +65,11 @@
                 "id": "signature_pad_c217RQhR7b6GRolPp5qbv",
                 "testValue": "''",
                 "testValueType": {}
+            },
+            {
+                "alias": "numeric",
+                "id": "numeric_c121R6wg9C2ro9mwUBwSV",
+                "name": "Numeric"
             }
         ],
         "actionFlowParams": {},
@@ -81,6 +87,10 @@
             },
             "signaturepad": {
                 "rf": "signaturepad",
+                "isNewField": false
+            },
+            "numeric": {
+                "rf": "numeric",
                 "isNewField": false
             }
         },
