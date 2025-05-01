@@ -152,7 +152,7 @@
     "label_text_color": "var(--DHQ-primary-font-color)",
     "parent_id": "grid_panel_c31RNexaUkuLUBXJLpTO",
     "placeholder": "Date",
-    "required": false,
+    "required": true,
     "sb_mode": "JS",
     "show_description": false,
     "show_dfm": false,
