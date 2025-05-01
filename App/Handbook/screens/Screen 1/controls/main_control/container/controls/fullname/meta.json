@@ -1,6 +1,8 @@
 {
     "__dhq_default_formula_Dtype": "string",
-    "__dhq_formula_Dtype": "string",
+    "__dhq_formula_Dtype": "object",
+    "__dhq_keywords_mapping_Dtype": "object",
+    "__LiveData_Dtype": "object",
     "allow_options_addition_in_editor": true,
     "caching": false,
     "cid": "c121RpQY9BYc9KvNoaQ60",
@@ -69,9 +71,13 @@
     "field_config": {},
     "field_data_model": "",
     "field_data_model_binding_formula": "",
-    "field_data_model_binding_manual_query": "",
-    "field_data_model_binding_manual_query_with_id": "",
-    "field_data_model_binding_type": "",
+    "field_data_model_binding_manual_query": {
+        "first_name": ""
+    },
+    "field_data_model_binding_manual_query_with_id": {
+        "first_name": ""
+    },
+    "field_data_model_binding_type": "manual_query",
     "field_database_editor_data_format": "range",
     "field_datatypes": [
         {
