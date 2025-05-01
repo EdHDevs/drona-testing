@@ -74,7 +74,7 @@
     "disable_previous": false,
     "disabled": false,
     "disabled_weekdays": [],
-    "display_format": "DD/MM/YYYY",
+    "display_format": "MM/DD/YYYY",
     "enable_after_dates": 0,
     "enable_before_dates": 0,
     "field_available_in_database_editor": true,
