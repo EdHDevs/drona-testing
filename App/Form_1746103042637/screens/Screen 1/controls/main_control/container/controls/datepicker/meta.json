@@ -13,7 +13,7 @@
     "ctrl_id": "",
     "data_submission_enabled": true,
     "data_type": "date",
-    "date_format": "UTC",
+    "date_format": "LOCAL",
     "datepicker_theme": "var(--DHQ-primary-color)",
     "default_value": "",
     "dfmv_selected": "default",
