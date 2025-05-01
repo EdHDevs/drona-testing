@@ -5,9 +5,7 @@
     "created_at": 1745957127676,
     "datatype": "string",
     "defaultValue": "",
-    "dhq_req_stats": {
-        "status": "rejected"
-    },
+    "dhq_req_stats": {},
     "dhq_set_value_via_action": false,
     "display_name": "GetPDF",
     "download_as_file": false,
