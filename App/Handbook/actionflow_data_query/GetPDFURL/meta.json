@@ -5,9 +5,7 @@
     "created_at": 1746105616026,
     "datatype": "composite_list",
     "defaultValue": "",
-    "dhq_req_stats": {
-        "status": "resolved"
-    },
+    "dhq_req_stats": {},
     "dhq_set_value_via_action": false,
     "display_name": "GetPDFURL",
     "download_as_file": false,
