@@ -65,7 +65,7 @@
         "w": 22,
         "h": 5,
         "x": 1,
-        "y": 102
+        "y": 104
     },
     "dhqMGridChanged": false,
     "disable_card_background_color": "var(--DHQ-border-color)",
@@ -116,7 +116,7 @@
     "grid_maintain_space": false,
     "grid_max_height": "",
     "grid_max_height_unit": "px",
-    "gridDesktopOrigin": null,
+    "gridDesktopOrigin": 2,
     "hidden": false,
     "icon_visible": true,
     "input_control_height": "2.5rem",

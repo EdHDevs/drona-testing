@@ -55,14 +55,14 @@
     "dhqEvtConverted": true,
     "dhqGrid": {
         "w": 22,
-        "h": 7,
+        "h": 9,
         "x": 1,
         "y": 93
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
         "w": 22,
-        "h": 3,
+        "h": 9,
         "x": 1,
         "y": 93
     },
@@ -132,7 +132,7 @@
     "label_hidden": false,
     "label_left_width": "33",
     "label_left_width_unit": "%",
-    "label_position": "left",
+    "label_position": "top",
     "label_text_alignment": "left",
     "label_text_color": "var(--DHQ-primary-font-color)",
     "parent_id": "grid_panel_c31RNexaUkuLUBXJLpTO",
