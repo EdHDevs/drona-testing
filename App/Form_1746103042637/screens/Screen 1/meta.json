@@ -37,8 +37,10 @@
         "actionFlowParams": {},
         "catSchemeInfo": {},
         "columnDatatypeObj": {},
-        "currentActiveGenerateMode": "Connector",
-        "controlNameIDMapping": {}
+        "currentActiveGenerateMode": "Scratch",
+        "controlNameIDMapping": {},
+        "containerRF": "grid_panel_c31RNexaUkuLUBXJLpTO",
+        "submitRF": "Button1_c48RfDaGHOOG0BPlPfbJ"
     },
     "orderIndex": 0
 }
