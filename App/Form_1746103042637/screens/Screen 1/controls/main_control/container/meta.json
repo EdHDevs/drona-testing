@@ -110,16 +110,16 @@
     "dhq_tfd": true,
     "dhqEvtConverted": true,
     "dhqGrid": {
-        "w": 10,
-        "h": 33,
-        "x": 1,
-        "y": 3
+        "w": 16,
+        "h": 72,
+        "x": 3,
+        "y": 6
     },
     "dhqGridDesktop": {
-        "w": 13,
-        "h": 33,
-        "x": 6,
-        "y": 3
+        "w": 16,
+        "h": 72,
+        "x": 3,
+        "y": 6
     },
     "disabled": false,
     "field_available_in_database_editor": false,
