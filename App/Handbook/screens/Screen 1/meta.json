@@ -86,7 +86,8 @@
             }
         },
         "containerRF": "grid_panel_c31RNexaUkuLUBXJLpTO",
-        "submitRF": "Button1_c48RfDaGHOOG0BPlPfbJ"
+        "submitRF": "Button1_c48RfDaGHOOG0BPlPfbJ",
+        "variableModelInsertName": "variable_RWKfSJWcljilaJ7kH1746107656042"
     },
     "orderIndex": 0
 }

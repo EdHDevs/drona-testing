@@ -1,0 +1,11 @@
+{
+    "channel_id": "2",
+    "catDesc": "",
+    "catIcon": "/static/images/dhq-db-icon.svg",
+    "catName": "DronaHQ Database",
+    "cat_id": 7318,
+    "cat_type": "postgres",
+    "schemeType": "db_connector",
+    "cat_created_by": "",
+    "multistep_auth_steps": {}
+}
