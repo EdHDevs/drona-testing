@@ -5,9 +5,7 @@
     "created_at": 1746105616026,
     "datatype": "string",
     "defaultValue": "",
-    "dhq_req_stats": {
-        "status": "rejected"
-    },
+    "dhq_req_stats": {},
     "dhq_set_value_via_action": false,
     "display_name": "GetPDFURL",
     "download_as_file": false,
@@ -27,7 +25,7 @@
     "name": "variable_RGHzpjT8ltqLZXlfL1746105616026",
     "sanitize_response_keys": false,
     "sb_mode": "JS",
-    "state": "error",
+    "state": "success",
     "type": "non-persistent",
     "variable_parent_folder_id": null
 }
