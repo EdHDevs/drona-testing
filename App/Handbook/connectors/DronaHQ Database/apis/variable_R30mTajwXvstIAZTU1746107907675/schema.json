@@ -1,0 +1,96 @@
+{
+    "channel_id": 2,
+    "category_id": 7318,
+    "sub_category_id": 100023,
+    "bindable": true,
+    "display_name": "",
+    "failure": {
+        "Header": [],
+        "StatusCode": 0,
+        "StatusDescription": "",
+        "content": "",
+        "success": false
+    },
+    "failureCondition": [],
+    "name": "variable_R30mTajwXvstIAZTU1746107907675",
+    "plugin_id": 23,
+    "preselectfields": [
+        {
+            "field_key": "body.fullname",
+            "field_name": "fullname",
+            "field_default_value": "",
+            "field_mandatory": false,
+            "field_hidden": false,
+            "helptext": "",
+            "preselect_formula": ""
+        },
+        {
+            "field_key": "body.datepicker",
+            "field_name": "datepicker",
+            "field_default_value": "",
+            "field_mandatory": false,
+            "field_hidden": false,
+            "helptext": "",
+            "preselect_formula": ""
+        },
+        {
+            "field_key": "body.signaturepad",
+            "field_name": "signaturepad",
+            "field_default_value": "",
+            "field_mandatory": false,
+            "field_hidden": false,
+            "helptext": "",
+            "preselect_formula": ""
+        }
+    ],
+    "preselectvariables": [],
+    "proxy": false,
+    "request": {
+        "method": "DB_QUERY",
+        "body": {
+            "raw": "INSERT INTO \"handbook\" ( \"fullname\",\"datepicker\",\"signaturepad\" ) VALUES( '{{fullname}}','{{datepicker}}','{{signaturepad}}' );",
+            "variables": [
+                {
+                    "keyName": "fullname",
+                    "keyValue": "",
+                    "keyType": "string",
+                    "keyIsDynamic": true
+                },
+                {
+                    "keyName": "datepicker",
+                    "keyValue": "",
+                    "keyType": "string",
+                    "keyIsDynamic": true
+                },
+                {
+                    "keyName": "signaturepad",
+                    "keyValue": "",
+                    "keyType": "string",
+                    "keyIsDynamic": true
+                }
+            ],
+            "mode": "db_query",
+            "queryEditor": "sql"
+        },
+        "header": [],
+        "url": {
+            "raw": "",
+            "protocol": "",
+            "query": [],
+            "param": []
+        },
+        "account_id": "",
+        "description": "",
+        "remove_empty_keys": false,
+        "skip_uri_component_encoding": false,
+        "request_timeout": 0
+    },
+    "response": {
+        "success": "true",
+        "content": [],
+        "ContentType": "application/json; charset=utf-8",
+        "StatusCode": 200,
+        "StatusDescription": "OK"
+    },
+    "is_deleted": 0
+}
