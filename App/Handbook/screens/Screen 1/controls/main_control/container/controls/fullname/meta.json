@@ -72,10 +72,10 @@
     "field_data_model": "",
     "field_data_model_binding_formula": "",
     "field_data_model_binding_manual_query": {
-        "first_name": ""
+        "first_name": "DATABUILDER()"
     },
     "field_data_model_binding_manual_query_with_id": {
-        "first_name": ""
+        "first_name": "DATABUILDER()"
     },
     "field_data_model_binding_type": "manual_query",
     "field_database_editor_data_format": "range",
@@ -201,6 +201,9 @@
     "parent_id": "grid_panel_c31RNexaUkuLUBXJLpTO",
     "prefix": "Mr.",
     "required": true,
+    "sb_mode": {
+        "first_name": "JS"
+    },
     "show_description": false,
     "show_dfm": false,
     "show_new_property": true,
