@@ -72,10 +72,12 @@
     "field_data_model": "",
     "field_data_model_binding_formula": "",
     "field_data_model_binding_manual_query": {
-        "first_name": "DATABUILDER()"
+        "first_name": "DATABUILDER()",
+        "last_name": "DATABUILDER()"
     },
     "field_data_model_binding_manual_query_with_id": {
-        "first_name": "DATABUILDER()"
+        "first_name": "DATABUILDER()",
+        "last_name": "DATABUILDER()"
     },
     "field_data_model_binding_type": "manual_query",
     "field_database_editor_data_format": "range",
@@ -202,7 +204,8 @@
     "prefix": "Mr.",
     "required": true,
     "sb_mode": {
-        "first_name": "JS"
+        "first_name": "JS",
+        "last_name": "JS"
     },
     "show_description": false,
     "show_dfm": false,
