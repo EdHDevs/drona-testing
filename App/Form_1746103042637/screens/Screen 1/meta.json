@@ -36,7 +36,9 @@
             "Button1",
             "name",
             "signature_pad",
-            "datepicker"
+            "datepicker",
+            "text",
+            "Paragraph"
         ],
         "currentTableMap": {},
         "columnMappingWithControls": {},
@@ -56,6 +58,11 @@
                 "alias": "datepicker",
                 "id": "datepicker_c239RwpZoG58Z7cXODxHQ",
                 "name": "Date Picker"
+            },
+            {
+                "alias": "textinput",
+                "id": "text_c403R56m16uYvuuFoG4yl",
+                "name": "Text Input"
             }
         ],
         "actionFlowParams": {},
@@ -73,6 +80,10 @@
             },
             "datepicker": {
                 "rf": "datepicker",
+                "isNewField": false
+            },
+            "textinput": {
+                "rf": "textinput",
                 "isNewField": false
             }
         },
