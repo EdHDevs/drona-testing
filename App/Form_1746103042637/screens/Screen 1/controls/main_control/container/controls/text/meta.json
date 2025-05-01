@@ -51,7 +51,7 @@
         "w": 23,
         "h": 74,
         "x": 1,
-        "y": 7
+        "y": 4
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
@@ -94,7 +94,7 @@
     "formbuilder_theme": "#bbbbbb",
     "grid_dynamic_height": true,
     "grid_maintain_space": false,
-    "grid_max_height": "",
+    "grid_max_height": "9999",
     "grid_max_height_unit": "px",
     "gridDesktopOrigin": null,
     "hidden": false,
