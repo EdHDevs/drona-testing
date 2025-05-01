@@ -18,13 +18,13 @@
                 "beta",
                 "prod"
             ],
-            "unique_name": "query_1",
-            "label": "query_1",
+            "unique_name": "GetPDFURL",
+            "label": "GetPDFURL",
             "fields": {
                 "name": {
                     "key": "name",
                     "value": "variable_RGHzpjT8ltqLZXlfL1746105616026",
-                    "name": "query_1",
+                    "name": "GetPDFURL",
                     "label": "Select Variable\n   Select Variable",
                     "isField": false,
                     "isPreselect": false,
@@ -36,8 +36,8 @@
                 },
                 "custom_parameters": {
                     "key": "custom_parameters",
-                    "value": "{}",
-                    "name": "{}",
+                    "value": "{\"templateId\":\"68136b84ffcfeebba8fb6a78\",\"pdfName\":\"Handbook_{{name_c121RpQY9BYc9KvNoaQ60.first_name}}_{{name_c121RpQY9BYc9KvNoaQ60.last_name}},\"password\":\"\",\"date_1746103651506\":{{formatDate(datepicker_c239RwpZoG58Z7cXODxHQ)}},\"fullName_1746103853051\":{{name_c121RpQY9BYc9KvNoaQ60.first_name}},\"lastName_1746103874653\":{{name_c121RpQY9BYc9KvNoaQ60.last_name}},\"mondayId_1746107465960\":{{MondayId}},\"alayacareId_1746107484877\":{{}},\"sign_1746103502523\":\"\"}",
+                    "name": "{\"templateId\":\"68136b84ffcfeebba8fb6a78\",\"pdfName\":\"Handbook_{{fullname.first_name}}_{{fullname.last_name}},\"password\":\"\",\"date_1746103651506\":{{formatDate(datepicker)}},\"fullName_1746103853051\":{{fullname.first_name}},\"lastName_1746103874653\":{{fullname.last_name}},\"mondayId_1746107465960\":{{MondayId}},\"alayacareId_1746107484877\":{{alaya}},\"sign_1746103502523\":\"\"}",
                     "label": "Custom parameters\n    Custom parameters",
                     "isField": false,
                     "isPreselect": false,
@@ -60,10 +60,10 @@
             "wait_till_completion": true,
             "offline_submission": false,
             "downloadas_file": false,
-            "next_actions": [],
-            "prev_actions": [],
+            "actions_on_positive": [],
             "actions_on_negative": [],
-            "actions_on_positive": []
+            "next_actions": [],
+            "prev_actions": []
         }
     ],
     "category": "",

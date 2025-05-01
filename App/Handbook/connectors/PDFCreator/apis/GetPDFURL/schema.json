@@ -1,0 +1,139 @@
+{
+    "channel_id": 1,
+    "category_id": 7,
+    "sub_category_id": 1188,
+    "response": {
+        "Headers": [
+            {
+                "Name": "x-powered-by",
+                "Value": ""
+            },
+            {
+                "Name": "access-control-allow-origin",
+                "Value": ""
+            },
+            {
+                "Name": "content-type",
+                "Value": "application/json; charset=utf-8"
+            },
+            {
+                "Name": "content-length",
+                "Value": ""
+            },
+            {
+                "Name": "etag",
+                "Value": ""
+            },
+            {
+                "Name": "vary",
+                "Value": ""
+            },
+            {
+                "Name": "date",
+                "Value": ""
+            },
+            {
+                "Name": "connection",
+                "Value": ""
+            }
+        ],
+        "success": "true",
+        "ContentType": "application/json; charset=utf-8",
+        "content": {
+            "pdfFile": "string"
+        },
+        "StatusCode": 200,
+        "StatusDescription": "OK"
+    },
+    "failure": {},
+    "failureCondition": [],
+    "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+            "mode": "application/json",
+            "raw": "{\n\t\"templateId\": \"{{templateId}}\",\n\t\"pdfName\": \"{{pdfName}}\",\n\t\"password\": \"{{password}}\"\n}",
+            "variables": [
+                {
+                    "keyName": "templateId",
+                    "keyType": "String",
+                    "keyValue": "",
+                    "keyDValue": "",
+                    "keyIsDynamic": true,
+                    "keyIsMandatory": true,
+                    "keyIsTooltip": "",
+                    "keyPreselectValues": ""
+                },
+                {
+                    "keyName": "pdfName",
+                    "keyType": "String",
+                    "keyValue": "",
+                    "keyDValue": "",
+                    "keyIsDynamic": true,
+                    "keyIsMandatory": false,
+                    "keyIsTooltip": "",
+                    "keyPreselectValues": ""
+                },
+                {
+                    "keyName": "password",
+                    "keyType": "String",
+                    "keyValue": "",
+                    "keyDValue": "",
+                    "keyIsDynamic": true,
+                    "keyIsMandatory": false,
+                    "keyIsTooltip": "",
+                    "keyPreselectValues": ""
+                }
+            ]
+        },
+        "url": {
+            "raw": "http://localhost:8080/pdfCreator/generate/getPDFURL",
+            "protocol": "https",
+            "query": [],
+            "param": []
+        },
+        "account_id": "",
+        "description": "",
+        "remove_empty_keys": false,
+        "skip_uri_component_encoding": false
+    },
+    "name": "GetPDFURL",
+    "proxy": true,
+    "bindable": true,
+    "preselectfields": [
+        {
+            "field_key": "body.templateId",
+            "field_name": "Template ID",
+            "field_default_value": "",
+            "field_mandatory": true,
+            "field_hidden": false,
+            "helptext": "Select the template you wish to print/generate.",
+            "preselect_formula": "SHOWDYNAMICPRESELECTFORPDFTEMPLATESONPREM()"
+        },
+        {
+            "field_key": "body.pdfName",
+            "field_name": "PDF Name",
+            "field_default_value": "",
+            "field_mandatory": false,
+            "field_hidden": false,
+            "helptext": "This is what your generated PDF will be named. Leave blank for an automatically generated name.",
+            "preselect_formula": ""
+        },
+        {
+            "field_key": "body.password",
+            "field_name": "Password",
+            "field_default_value": "",
+            "field_mandatory": false,
+            "field_hidden": false,
+            "helptext": "Enter a value if you want your PDF to be encrypted, leave empty otherwise.",
+            "preselect_formula": ""
+        }
+    ],
+    "preselectvariables": [],
+    "plugin_id": 0,
+    "instructions": null,
+    "includeBodyHash": false,
+    "cat_format_id": "5aa66338-ecd0-11ee-aa73-0affc745b639",
+    "format_id": "a40d10cd-ecd2-11ee-aa73-0affc745b639",
+    "is_deleted": 0
+}
