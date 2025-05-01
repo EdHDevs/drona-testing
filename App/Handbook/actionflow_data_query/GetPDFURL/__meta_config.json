@@ -1,5 +1,16 @@
 {
-    "TIMESTAMP": {
-        "dataquery_preparation_arrival": 1746108398978
-    }
+    "HEADERS": {
+        "x_powered_by": "Express",
+        "access_control_allow_origin": "*",
+        "content_type": "application/json; charset=utf-8",
+        "content_length": "123",
+        "etag": "W/\"7b-f0UcKZeuBNwP9zOSSfR3hEIUCyI\"",
+        "vary": "Accept-Encoding",
+        "date": "Thu, 01 May 2025 14:06:50 GMT",
+        "connection": "close"
+    },
+    "RESPONSE_CODE": 200,
+    "RESPONSE_MESSAGE": "OK",
+    "FAILURE_CODE": "",
+    "FAILURE_MESSAGE": ""
 }
