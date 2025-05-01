@@ -36,8 +36,8 @@
                 },
                 "custom_parameters": {
                     "key": "custom_parameters",
-                    "value": "{\"templateId\":\"68136b84ffcfeebba8fb6a78\",\"pdfName\":\"Handbook_{{name_c121RpQY9BYc9KvNoaQ60.first_name}}_{{name_c121RpQY9BYc9KvNoaQ60.last_name}},\"password\":\"\",\"date_1746103651506\":{{formatDate(datepicker_c239RwpZoG58Z7cXODxHQ)}},\"fullName_1746103853051\":{{name_c121RpQY9BYc9KvNoaQ60.first_name}},\"lastName_1746103874653\":{{name_c121RpQY9BYc9KvNoaQ60.last_name}},\"mondayId_1746107465960\":{{MondayId}},\"alayacareId_1746107484877\":{{}},\"sign_1746103502523\":\"\"}",
-                    "name": "{\"templateId\":\"68136b84ffcfeebba8fb6a78\",\"pdfName\":\"Handbook_{{fullname.first_name}}_{{fullname.last_name}},\"password\":\"\",\"date_1746103651506\":{{formatDate(datepicker)}},\"fullName_1746103853051\":{{fullname.first_name}},\"lastName_1746103874653\":{{fullname.last_name}},\"mondayId_1746107465960\":{{MondayId}},\"alayacareId_1746107484877\":{{alaya}},\"sign_1746103502523\":\"\"}",
+                    "value": "{\"templateId\":\"68136b84ffcfeebba8fb6a78\",\"pdfName\":\"Handbook_{{name_c121RpQY9BYc9KvNoaQ60.first_name}}_{{name_c121RpQY9BYc9KvNoaQ60.last_name}},\"password\":\"\",\"date_1746103651506\":{{formatDate(datepicker_c239RwpZoG58Z7cXODxHQ)}},\"fullName_1746103853051\":{{name_c121RpQY9BYc9KvNoaQ60.first_name}},\"lastName_1746103874653\":{{name_c121RpQY9BYc9KvNoaQ60.last_name}},\"mondayId_1746107465960\":{{MondayId}},\"alayacareId_1746107484877\":{{alayacareId}}}",
+                    "name": "{\"templateId\":\"68136b84ffcfeebba8fb6a78\",\"pdfName\":\"Handbook_{{fullname.first_name}}_{{fullname.last_name}},\"password\":\"\",\"date_1746103651506\":{{formatDate(datepicker)}},\"fullName_1746103853051\":{{fullname.first_name}},\"lastName_1746103874653\":{{fullname.last_name}},\"mondayId_1746107465960\":{{MondayId}},\"alayacareId_1746107484877\":{{alayacareId}}}",
                     "label": "Custom parameters\n    Custom parameters",
                     "isField": false,
                     "isPreselect": false,
