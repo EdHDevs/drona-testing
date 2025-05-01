@@ -63,7 +63,67 @@
             "next_actions": [],
             "prev_actions": [],
             "actions_on_negative": [],
-            "actions_on_positive": []
+            "actions_on_positive": [
+                {
+                    "id": "Rc00tjrqGs4FoLO53",
+                    "execution_editor_type": "JSEditor",
+                    "execution_condition_variable_with_name": "",
+                    "execution_condition_variable": "",
+                    "execution_environments": [
+                        "dev",
+                        "beta",
+                        "prod"
+                    ],
+                    "unique_name": "query_2",
+                    "label": "query_2",
+                    "fields": {
+                        "name": {
+                            "key": "name",
+                            "value": "variable_RqPHgckuo9alpj9j91746105905230",
+                            "name": "query_2",
+                            "label": "Select Variable\n   Select Variable",
+                            "isField": false,
+                            "isPreselect": false,
+                            "fieldValueType": "manual",
+                            "data_type": "text",
+                            "isDynamic": false,
+                            "editor_type": "",
+                            "evaluateValue": true
+                        },
+                        "custom_parameters": {
+                            "key": "custom_parameters",
+                            "value": "{}",
+                            "name": "{}",
+                            "label": "Custom parameters\n    Custom parameters",
+                            "isField": false,
+                            "isPreselect": false,
+                            "fieldValueType": "manual",
+                            "data_type": "object",
+                            "isDynamic": false,
+                            "editor_type": "JSEditor",
+                            "evaluateValue": true
+                        }
+                    },
+                    "type": "TRIGGERDATAQUERY",
+                    "outputs": [
+                        {
+                            "key": "output",
+                            "value": "output",
+                            "isDefault": true
+                        }
+                    ],
+                    "dual_output_action": true,
+                    "wait_till_completion": true,
+                    "offline_submission": false,
+                    "downloadas_file": false,
+                    "next_actions": [],
+                    "prev_actions": [
+                        "RzgUKPEckgCNdTgZo"
+                    ],
+                    "actions_on_negative": [],
+                    "actions_on_positive": []
+                }
+            ]
         }
     ],
     "category": "",
