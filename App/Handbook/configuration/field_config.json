@@ -1,4 +1,4 @@
 {
-    "config_field_spacing_value": 1.25,
+    "config_field_spacing_value": "1.25",
     "config_field_spacing_unit": "rem"
 }
