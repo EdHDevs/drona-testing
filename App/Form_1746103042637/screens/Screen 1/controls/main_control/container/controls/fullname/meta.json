@@ -53,7 +53,7 @@
         "w": 22,
         "h": 8,
         "x": 1,
-        "y": 15
+        "y": 83
     },
     "dhqGridChanged": false,
     "dhqGridDesktop": {
@@ -94,7 +94,7 @@
             "field_database_editor_data_format": "single_line_text"
         }
     ],
-    "field_display_key_name": "name",
+    "field_display_key_name": "fullname",
     "field_editable_in_database_editor": true,
     "field_fullview": false,
     "field_key_name": "name_c121RpQY9BYc9KvNoaQ60",
@@ -176,7 +176,7 @@
     "isDhqHideOnDesktop": false,
     "isDhqHideOnMobile": false,
     "isVisualControl": false,
-    "label": "Name",
+    "label": "Full Name",
     "label_font_size": "var(--DHQ-control-title)",
     "label_font_size_unit": "",
     "label_font_weight": "var(--DHQ-bold)",
